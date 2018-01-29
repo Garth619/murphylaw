@@ -30,6 +30,19 @@
 		"oAP": "\/category.php",
 		"oF": 0
 		},
+	"\/css\/scss\/_fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_global.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -39,6 +52,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/scss\/_global.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_header.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -82,6 +108,163 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/fonts\/AbhayaLibre-Bold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/AbhayaLibre-Bold.woff",
+		"oF": 0
+		},
+	"\/fonts\/AbhayaLibre-Bold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/AbhayaLibre-Bold.woff2",
+		"oF": 0
+		},
+	"\/fonts\/AbhayaLibre-ExtraBold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/AbhayaLibre-ExtraBold.woff",
+		"oF": 0
+		},
+	"\/fonts\/AbhayaLibre-ExtraBold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/AbhayaLibre-ExtraBold.woff2",
+		"oF": 0
+		},
+	"\/fonts\/AbhayaLibre-Medium.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/AbhayaLibre-Medium.woff",
+		"oF": 0
+		},
+	"\/fonts\/AbhayaLibre-Medium.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/AbhayaLibre-Medium.woff2",
+		"oF": 0
+		},
+	"\/fonts\/AbhayaLibre-Regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/AbhayaLibre-Regular.woff",
+		"oF": 0
+		},
+	"\/fonts\/AbhayaLibre-Regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/AbhayaLibre-Regular.woff2",
+		"oF": 0
+		},
+	"\/fonts\/AbhayaLibre-SemiBold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/AbhayaLibre-SemiBold.woff",
+		"oF": 0
+		},
+	"\/fonts\/AbhayaLibre-SemiBold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/AbhayaLibre-SemiBold.woff2",
+		"oF": 0
+		},
+	"\/fonts\/Blanch-CondensedLight.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/Blanch-CondensedLight.woff",
+		"oF": 0
+		},
+	"\/fonts\/Blanch-CondensedLight.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/Blanch-CondensedLight.woff2",
+		"oF": 0
+		},
+	"\/fonts\/demo.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/demo.html",
+		"oF": 0
+		},
+	"\/fonts\/ProximaNova-Black.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/ProximaNova-Black.woff",
+		"oF": 0
+		},
+	"\/fonts\/ProximaNova-Black.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/ProximaNova-Black.woff2",
+		"oF": 0
+		},
+	"\/fonts\/ProximaNova-Bold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/ProximaNova-Bold.woff",
+		"oF": 0
+		},
+	"\/fonts\/ProximaNova-Bold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/ProximaNova-Bold.woff2",
+		"oF": 0
+		},
+	"\/fonts\/ProximaNova-Extrabld.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/ProximaNova-Extrabld.woff",
+		"oF": 0
+		},
+	"\/fonts\/ProximaNova-Extrabld.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/ProximaNova-Extrabld.woff2",
+		"oF": 0
+		},
+	"\/fonts\/ProximaNova-Regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/ProximaNova-Regular.woff",
+		"oF": 0
+		},
+	"\/fonts\/ProximaNova-Regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/ProximaNova-Regular.woff2",
+		"oF": 0
+		},
+	"\/fonts\/stylesheet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/stylesheet-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -109,17 +292,6 @@
 		"oA": 0,
 		"oAP": "\/homepage_template_parts\/section-1.php",
 		"oF": 0
-		},
-	"\/images\/screenshot.png": {
-		"ft": 32768,
-		"iS": 57403,
-		"oA": 0,
-		"oAP": "\/images\/screenshot.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
 		},
 	"\/index.php": {
 		"cB": 0,
@@ -179,8 +351,8 @@
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
