@@ -33,20 +33,25 @@ header {
 	}
 }
 
-
-a.header_center {
-	display: block;
-	width:225px;
-	margin-left:35px;
+.header_center {
 	flex-grow:1;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+a.logo {
+	
+	margin-left:28px;
 	img {
-		width:225px;
+		width:222px;
 		height:auto;	
 	}
 }
 
 .phone {
 	text-align: right;
+	margin-right:27px;
 	a,span {
 		display: block;
 		color:#2e6773;
@@ -67,23 +72,28 @@ a.header_center {
 
 
 .header_right {
-	flex-basis: 300px;
+	flex-basis: 265px;
 	flex-shrink: 0;
-	svg {
-		width:60px;
-		display: block;
-		height: 46px;
-	}
-	span.free_consultation {
-		display: block;
-	}
+	margin-right:20px;
 }
 
 
 .email_wrapper {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-between;
 	border:2px solid $brown;
-	padding:10px;
+	padding:5px 15px 5px 12px;
+	svg {
+		width:52px;
+		display: block;
+		height: 46px;
+	}
+	span.free_consultation {
+		color:$brown;
+		text-transform: lowercase;
+		font-family: $proximaextrabold;
+		font-size: 18px;
+		letter-spacing: 0.085em;
+	}
 }

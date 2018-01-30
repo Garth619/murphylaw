@@ -52,9 +52,13 @@
 		
 	</div><!-- header_left -->
 	
-	<a class="header_center" href="<?php bloginfo('url');?>">
+	<div class="header_center" href="<?php bloginfo('url');?>">
 			
-		<img src="<?php bloginfo('template_directory');?>/images/murphy-law-logo.svg"/>
+		<a class="logo" href="">
+		
+			<img src="<?php bloginfo('template_directory');?>/images/murphy-law-logo.svg"/>
+		
+		</a><!-- logo -->
 		
 		<div class="phone">
 			
@@ -64,7 +68,7 @@
 			
 		</div><!-- phone -->
 			
-	</a><!-- header_center -->
+	</div><!-- header_center -->
 	
 	<div class="header_right">
 		
