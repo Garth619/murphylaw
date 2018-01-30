@@ -2,7 +2,7 @@
 	
 	<div class="sec_one_inner">
 		
-		<span class="large_header">Don't Be A Victim Twice</span><!-- large_header -->
+		<span class="large_header">Don't Be<br/> A Victim Twice</span><!-- large_header -->
 		
 		<a class="consultation_button" href="">Free Case Consultation</a><!-- consultation_button -->
 		
@@ -22,9 +22,13 @@
 				
 				<span class="sp_small_title">record results</span><!-- sp_small_title -->
 				
-				<span class="green_dots"></span><!-- green_dots -->
-				<span class="green_dots"></span><!-- green_dots -->
-				<span class="green_dots"></span><!-- green_dots -->
+				<div class="green_dots">
+				
+					<span class="green_dots"></span><!-- green_dots -->
+					<span class="green_dots"></span><!-- green_dots -->
+					<span class="green_dots"></span><!-- green_dots -->
+				
+				</div><!-- green_dots -->
 				
 			</div><!-- sp_box_two -->
 			
@@ -34,9 +38,13 @@
 				
 				<span class="sp_small_title">Decades of Experience</span><!-- sp_small_title -->
 				
-				<span class="green_dots"></span><!-- green_dots -->
-				<span class="green_dots"></span><!-- green_dots -->
-				<span class="green_dots"></span><!-- green_dots -->
+				<div class="green_dots">
+				
+					<span class="green_dots"></span><!-- green_dots -->
+					<span class="green_dots"></span><!-- green_dots -->
+					<span class="green_dots"></span><!-- green_dots -->
+				
+				</div><!-- green_dots -->
 				
 			</div><!-- sp_box_three -->
 			
