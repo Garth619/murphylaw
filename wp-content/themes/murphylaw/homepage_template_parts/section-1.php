@@ -10,6 +10,8 @@
 			
 			<div class="sp_box_one">
 				
+				<?php echo file_get_contents("wp-content/themes/murphylaw/images/sword.svg"); ?>
+				
 				<span class="sp_header">We Will Fight For You</span><!-- sp_header -->
 				
 				<p>When facing Murphy Law Firm, LLC insurance companies know they have to make a fair offer that fully compensates you for all damages, or they will have to fight a battle-tested trial lawyer.</p>

@@ -52,6 +52,9 @@ a.consultation_button {
 	background: #fff;
 	flex-grow:1;
 	padding:63px 7% 75px 60px;
+	svg {
+		display: none;
+	}
 	span.sp_header {
 		color:$brown;
 		text-transform: uppercase;
@@ -378,6 +381,93 @@ a.consultation_button {
 		background-size: 915px auto;
 		background-position-y: -105px;
 	}
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+	
+	#section_one {
+		background: url(#{$themePath}images/hero-mobile.jpg) top right no-repeat;
+		background-size:767px auto;
+		text-align: center;
+		padding: 77px 0px 0;
+	}
+	
+	
+	.sec_one_inner {
+		
+		span.large_header {
+			max-width: 342px;
+			font-size: 69px;
+			line-height: 65px;
+			margin-left:auto;
+			margin-right:auto;
+			padding-left:20px;
+			padding-right:20px;
+		}
+	}
+	
+	
+	 a.consultation_button {
+		 margin-left: 0px;
+		 font-size: 16px;
+		 padding: 21px 27px;
+	 }
+	 
+	 
+	 .sec_one_sp_wrapper {
+    	margin: 56px 0 0;
+    }
+    
+    
+    
+    .header_left {
+	    flex-basis: 84px;
+	    padding: 23px 20px 20px;
+    }
+    
+    
+    .sp_box_two {
+	    display: none;
+    }
+    
+    .sp_box_one {
+	    background: $greendark;
+	    padding: 57px 25px 70px;
+	    svg {
+		    display: block;
+		    width:90px;
+		    height: 88px;
+		    margin-left:auto;
+		    margin-right:auto;
+		    margin-bottom:30px;
+	    }
+	    span.sp_header {
+		    color:#fff;
+		    font-size: 16px;
+		    letter-spacing: 0.2em;
+		    &:after {
+			    margin-left:auto;
+			    margin-right:auto;
+			    margin-bottom:30px;
+		    }
+	    }
+	    p {
+		    color:#fff;
+		    font-size: 21px;
+		    line-height: 27px;
+	    }
+    }
+    
+    
+	
+	
 	
 	
 	
