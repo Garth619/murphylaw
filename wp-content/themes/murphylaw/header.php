@@ -34,6 +34,17 @@
 
 <body <?php body_class(); ?>>
 	
+
+		
+		<a class="mobile_logo" href="<?php bloginfo('url');?>">
+		
+			<img src="<?php bloginfo('template_directory');?>/images/murphy-law-logo.svg"/>
+		
+		</a><!-- logo -->
+		
+	
+
+
 <header>
 	
 	<div class="header_left">
@@ -54,7 +65,7 @@
 	
 	<div class="header_center" href="<?php bloginfo('url');?>">
 			
-		<a class="logo" href="">
+		<a class="logo" href="<?php bloginfo('url');?>">
 		
 			<img src="<?php bloginfo('template_directory');?>/images/murphy-law-logo.svg"/>
 		
