@@ -1,8 +1,8 @@
 #section_one {
 	width:100%;
 	background: url(#{$themePath}images/hero-desktop.jpg) top center no-repeat;
-	height:2000px;
-	padding:185px 103px;
+	background-size: cover;
+	padding:185px 103px 200px;
 }
 
 
@@ -79,16 +79,54 @@ a.consultation_button {
 .sp_box {
 	flex-basis: 28%;
 	flex-shrink: 0;
-	
+	text-align: center;
+	color:#fff;
+	svg {
+		display: inline-block;
+	}
+	span.sp_small_title {
+		display: block;
+		font-family: $proximabold;
+		font-size: 22px;
+		letter-spacing: .1em;
+		margin-bottom:22px;
+		text-transform: lowercase;
+	}
+	span.green_dots {
+		width:4px;
+		height:4px;
+		display: inline-block;
+		border-radius: 50%;
+		margin:0 3px;
+	}
 }
 
 .sp_box_two {
 	background:$greendark;
+	svg {
+		width:110px;
+		margin-top:90px;
+		margin-bottom:45px;
+	}
+	span.green_dots {
+		background: $greenlight;
+	}
 }
 
 .sp_box_three {
 	background:$greenlight;
+	svg {
+		width:120px;
+		margin-top:100px;
+		margin-bottom:53px;
+	}
+	span.green_dots {
+		background: $greendark;
+	}
 }
+
+
+
 
 
 

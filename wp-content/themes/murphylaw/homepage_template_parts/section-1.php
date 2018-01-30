@@ -18,11 +18,27 @@
 			
 			<div class="sp_box_two sp_box">
 				
+				<?php echo file_get_contents("wp-content/themes/murphylaw/images/sword.svg"); ?>
+				
 				<span class="sp_small_title">record results</span><!-- sp_small_title -->
+				
+				<span class="green_dots"></span><!-- green_dots -->
+				<span class="green_dots"></span><!-- green_dots -->
+				<span class="green_dots"></span><!-- green_dots -->
 				
 			</div><!-- sp_box_two -->
 			
-			<div class="sp_box_three sp_box"></div><!-- sp_box_three -->
+			<div class="sp_box_three sp_box">
+				
+				<?php echo file_get_contents("wp-content/themes/murphylaw/images/shield.svg"); ?>
+				
+				<span class="sp_small_title">Decades of Experience</span><!-- sp_small_title -->
+				
+				<span class="green_dots"></span><!-- green_dots -->
+				<span class="green_dots"></span><!-- green_dots -->
+				<span class="green_dots"></span><!-- green_dots -->
+				
+			</div><!-- sp_box_three -->
 			
 		</div><!-- sec_one_sp_wrapper -->
 		
