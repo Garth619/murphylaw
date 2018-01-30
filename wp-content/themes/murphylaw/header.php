@@ -34,7 +34,51 @@
 
 <body <?php body_class(); ?>>
 	
-
+<header>
+	
+	<div class="header_left">
+		
+		<div class="menu_wrapper">
+			
+			<span class="menu_bars"></span><!-- menu_bars -->
+			<span class="menu_bars"></span><!-- menu_bars -->
+			<span class="menu_bars"></span><!-- menu_bars -->
+			
+			<span class="menu_title">Menu</span><!-- menu_title -->
+			
+		</div><!-- menu_wrapper -->
+		
+		
+		
+	</div><!-- header_left -->
+	
+	<a class="header_center" href="<?php bloginfo('url');?>">
+			
+		<img src="<?php bloginfo('template_directory');?>/images/murphy-law-logo.svg"/>
+		
+		<div class="phone">
+			
+			<a class="tel" href="">(225) 928-8800</a><!-- tel -->
+			
+			<span class="espanol">Se Habla Espanol</span><!-- espanol -->
+			
+		</div><!-- phone -->
+			
+	</a><!-- header_center -->
+	
+	<div class="header_right">
+		
+		<div class="email_wrapper">
+			
+			<?php echo file_get_contents("wp-content/themes/murphylaw/images/new-email.svg"); ?>
+			
+			<span class="free_consultation">Free Consultation</span><!-- free_consultation -->
+			
+		</div><!-- email_wrapper -->
+		
+	</div><!-- header_right -->
+	
+</header>
 				
 
 <?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>

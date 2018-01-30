@@ -1,0 +1,89 @@
+header {
+	display: flex;
+	align-items: center;
+}
+
+.header_left {
+	flex-basis: 90px;
+	flex-shrink: 0;
+	background: $purple;
+	padding:23px 28px 20px;
+}
+
+
+.menu_wrapper {
+	color:#fff;
+	span.menu_bars {
+		width:100%;
+		height:3px;
+		background: #fff;
+		display: block;
+		margin-bottom: 8px;
+		
+	}
+	span.menu_title {
+		text-transform: uppercase;
+		font-family:$proximaextrabold;
+		font-size:13px;
+		letter-spacing: .25em;
+		padding-left:.25em;
+		display: block;
+		padding-top:6px;
+		text-align: center;
+	}
+}
+
+
+a.header_center {
+	display: block;
+	width:225px;
+	margin-left:35px;
+	flex-grow:1;
+	img {
+		width:225px;
+		height:auto;	
+	}
+}
+
+.phone {
+	text-align: right;
+	a,span {
+		display: block;
+		color:#2e6773;
+		text-decoration: none;
+	}
+	a {
+		font-size: 35px;
+		font-family: $abhayabold;
+	}
+	span {
+		font-family: $proximaextrabold;
+		text-transform: uppercase;
+		font-size:13px;
+		letter-spacing: .25em;
+		margin-top:2px;
+	}
+}
+
+
+.header_right {
+	flex-basis: 300px;
+	flex-shrink: 0;
+	svg {
+		width:60px;
+		display: block;
+		height: 46px;
+	}
+	span.free_consultation {
+		display: block;
+	}
+}
+
+
+.email_wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border:2px solid $brown;
+	padding:10px;
+}
