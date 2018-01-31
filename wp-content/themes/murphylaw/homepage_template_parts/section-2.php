@@ -106,11 +106,10 @@ Etiam in nibh mollis, suscipit elit quis.</p>
 				
 				
 			</div><!-- col -->
-				
-			</div><!-- sec_two_content -->
-			
-			
-			<div class="sec_two_slideshow">
+
+		</div><!-- sec_two_content -->
+		
+		<div class="sec_two_slideshow">
 				
 				<div class="sec_two_single_slide">
 					
@@ -156,12 +155,10 @@ Etiam in nibh mollis, suscipit elit quis.</p>
 				
 				
 			</div><!-- sec_two_slideshow -->
-			
-			
-		</div><!-- sec_two_content -->
 		
 		
 	</div><!-- sec_two_inner -->
 	
 	
 </section><!-- section_two -->
+

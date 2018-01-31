@@ -2,6 +2,7 @@
 
 #section_two {
 	position: relative;
+	padding-bottom:170px;
 	&:after {
 		content:"";
 		display: block;
@@ -236,6 +237,52 @@ span.video_caption {
 	display: block;
 	text-align: right;
 	margin:19px 0 30px;
+}
+
+
+
+.sec_two_slideshow {
+	max-width:1150px;
+	margin:0 auto 0px;
+	
+	.sec_two_single_slide {
+		
+		img {
+			display: block;
+			margin-left:auto;
+			margin-right:auto;
+		}
+	}
+	.slick-dots {
+		bottom: -68px;
+		li.slick-active {
+			button {
+				&:before {
+					color:$brown;
+				}
+			}
+		}
+		li:hover {
+			button {
+				&:before {
+					color:$brown;
+				}
+			}
+		}
+		li {
+			margin:0;
+			width:19px;
+			button {
+				width:19px;
+				&:before {
+					width:16px;
+					opacity: 1;
+					color: #471046;
+					font-size:23px;
+				}
+			}
+		}
+	}
 }
 
 

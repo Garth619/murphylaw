@@ -4,5 +4,20 @@
 
 
 jQuery(document).ready(function($){
+	
+	
+	// section two logos
+	
+	$('.sec_two_slideshow').slick({
+  	infinite: true,
+		slidesToShow: 3,
+		slidesToScroll: 3,
+		arrows:false,
+		dots:true,
+		slide:".sec_two_single_slide"
+	});
+	
+	
+	
   
 }); // document ready
