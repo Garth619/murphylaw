@@ -1,0 +1,158 @@
+#section_two {
+	position: relative;
+	&:after {
+		content:"";
+		display: block;
+		clear:both;
+	}
+}
+
+
+.sec_two_inner {
+	
+}
+
+.intro_wrapper {
+	width:66.5%;
+	background: url(#{$themePath}images/bg-pattern-01.jpg) top left repeat;
+	float:right;
+	padding: 70px 0 150px 12%;
+	.intro_inner_wrapper {
+		width:100%;
+		margin-top:-100px;
+		padding-left:95px;
+		padding-right: 15%;
+		h1 {
+			span.large_header {
+				position: absolute;
+				top:145px;
+				left:115px;
+				font-size:426px;
+				font-family: $blanchlight;
+				font-weight: 300;
+				font-style: normal;
+				color:$red;
+				line-height: 297px;
+				span.lower_large_header {
+					display: block;
+					margin-left:215px;
+					margin-top:18px;
+					position: relative;
+					z-index:5;
+					
+				}
+			}
+			span.small_header {
+				color:#a97c50;
+				font-family: $proximablack;
+				text-transform: uppercase;
+				letter-spacing: 0.2em;
+				font-size:30px;
+			}
+		}
+	}
+}
+
+img.baton_rouge_svg {
+	width:175px;
+  height: 215px;
+//   margin-top:-22px;
+}
+
+
+.intro_inner_content {
+	font-family: $abhayabold;
+	font-size:30px;
+	color:#0e4c5a;
+	line-height: 50px;
+	margin-top:55px;
+	padding-left:95px;
+	p {
+		margin-bottom:30px;
+	}
+}
+
+
+a.download_button {
+	background: #471046;
+	font-family: $proximaextrabold;
+	text-transform: uppercase;
+	display: inline-block;
+	color:#fff;
+	text-decoration: none;
+	font-size:16px;
+	letter-spacing: 0.2em;
+	padding:11px 40px;
+	box-shadow: 5px 7px 10px 0px rgba(10, 21, 42, 0.58);
+	transition: all .2s ease-in-out;
+	&:hover {
+		background: #a8874d;
+	}
+}
+
+
+
+.sec_two_content {
+	clear: both;
+	max-width:1615px;
+	margin:0 auto;
+	padding:162px 0;
+	display: flex;
+	justify-content: space-between;
+	.col {
+		flex-basis:30%;
+		
+	}
+}
+
+
+
+
+.content {
+	font-family:$proximareg;
+	font-size: 18px;
+	line-height: 34px;
+	color:#031517;
+	h2 {
+		font-family: $abhayamedium;
+		font-size: 32px;
+		color:$red;
+		font-weight: 300;
+		font-style: normal;
+		line-height: 38px;
+		margin-bottom: 13px;
+	}
+	p,ul {
+		margin-bottom:13px;
+	}
+	blockquote {
+		font-family: $proximareg;
+		color:$brown;
+		font-size: 28px;
+		line-height: 40px;
+		text-align: center;
+		padding-left:5%;
+		padding-right:5%;
+		margin:60px 0;
+		
+		&:before {
+			content:"";
+			display: block;
+			width:100px;
+			height:1px;
+			background: $brown;
+			margin:0 auto 40px;
+		}
+		&:after {
+			content:"";
+			display: block;
+			width:100px;
+			height:1px;
+			background: $brown;
+			margin:40px auto 00px;
+		}
+	}
+}
+
+
+
