@@ -46,13 +46,47 @@
 
 
 				<p>Sed suscipit pretium sodales. Pellentesque venenatis neque turpis, ac porttitor ex tristique eu. Curabitur laoreet arcu quis ultricies sollicitudin. Maecenas in est ex. Pellentesque sem felis, convallis in massa id, posuere rhoncus tellus. Maecenas tempor convallis diam et ultrices. Praesent gravida convallis nisi eget pharetra.
-Etiam in nibh mollis, suscipit elit quis, elementum diam. Quisque varius faucibus neque, ac maximus leo dictum quis. Aliquam sagittis ante mi, quis semper ante condimentum id. Vivamus malesuada eget ante vitae auctor. In ut orci ante. Quisque nulla ligula, congue eu accumsan quis, aliquet at orci. Maecenas varius urna et metus ultrices, bibendum malesuada odio venenatis. Vivamus scelerisque dignissim magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. mentum id. Vivamus malesuada eget ante vitae auctor. In ut orci ante. Quisque nulla ligula, congue eu accumsan quis, aliquet at orci. Maecenas varius urna et metus ultrices, bibendum malesuada odio venenatis. Vivamus scelerisque dignissim magna. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+Etiam in nibh mollis, suscipit elit quis.</p>
 			
 			</div><!-- col -->
 
 			<div class="col">
 				
 				<p>Quisque non egestas justo, ac pellentesque dolor. In et diam sagittis, semper lorem id, blandit velit. Integer mattis metus vel nisi commodo porttitor. Aenean commodo commodo facilisis. Nam arcu erat, lacinia sed lacinia quis, pretium eget enim.</p>
+				
+				
+				<div class="video_wrapper">
+					
+					<div class="video_inner_wrapper">
+						
+						<div class="play_button">
+										
+							<div class="play_button_inner">
+										
+								<span class="tri"></span><!-- tri -->
+								
+							</div><!-- play_button_inner -->
+							
+							<span class="white_square"></span><!-- white_square -->
+										
+						</div><!-- play_button -->
+					
+						<div class="video_wistia_wrapper wistia_embed wistia_async_waichudc62 popover=true popoverContent=thumbnail">
+						
+						
+						
+						</div><!-- video_wistia_wrapper -->
+						
+						
+					
+					</div><!-- video_inner_wrapper -->
+					
+					
+					
+					<span class="video_caption wistia_embed wistia_async_waichudc62 popover=true popoverContent=html">// Hear From Clients</span><!-- video_caption -->
+					
+				</div><!-- video_wrapper -->
+				
 				
 				<h2>Lorem ipsum dolor sit amet, consectetur adipiscing</h2>
 				
@@ -76,7 +110,52 @@ Etiam in nibh mollis, suscipit elit quis, elementum diam. Quisque varius faucibu
 			</div><!-- sec_two_content -->
 			
 			
-			
+			<div class="sec_two_slideshow">
+				
+				<div class="sec_two_single_slide">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/awards-01.png"/>
+					
+				</div><!-- sec_two_single_slide -->
+				
+				<div class="sec_two_single_slide">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/awards-02.png"/>
+					
+				</div><!-- sec_two_single_slide -->
+				
+				<div class="sec_two_single_slide">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/awards-03.png"/>
+					
+				</div><!-- sec_two_single_slide -->
+				
+				<div class="sec_two_single_slide">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/awards-04.png"/>
+					
+				</div><!-- sec_two_single_slide -->
+				
+				<div class="sec_two_single_slide">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/awards-05.png"/>
+					
+				</div><!-- sec_two_single_slide -->
+				
+				<div class="sec_two_single_slide">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/awards-06.png"/>
+					
+				</div><!-- sec_two_single_slide -->
+				
+				<div class="sec_two_single_slide">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/awards-07.png"/>
+					
+				</div><!-- sec_two_single_slide -->
+				
+				
+			</div><!-- sec_two_slideshow -->
 			
 			
 		</div><!-- sec_two_content -->
