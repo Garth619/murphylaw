@@ -333,6 +333,20 @@
 		"oAP": "\/fonts\/ProximaNova-Regular.woff2",
 		"oF": 0
 		},
+	"\/fonts\/ProximaNova-Semibold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/ProximaNova-Semibold.woff",
+		"oF": 0
+		},
+	"\/fonts\/ProximaNova-Semibold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/ProximaNova-Semibold.woff2",
+		"oF": 0
+		},
 	"\/fonts\/stylesheet.css": {
 		"aP": 1,
 		"bl": 0,

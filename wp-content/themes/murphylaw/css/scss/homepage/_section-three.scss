@@ -15,6 +15,7 @@
 .hover_box {
 	background: $greendark;
 	overflow: hidden;
+	position: relative;
 	a {
 		text-decoration: none;
 	}
@@ -26,6 +27,7 @@
 		flex-direction: column;
 		height: 547px;
 		transition: all 600ms cubic-bezier(.17,.66,.34,.98);
+		
 		.flex_center {
 			padding-top:30px;
 			span.amount {
@@ -35,7 +37,7 @@
 				color:$brown;
 			}
 			span.case_type, svg {
-				transition: all 300ms cubic-bezier(.17,.66,.34,.98);
+				transition: all 200ms cubic-bezier(.17,.66,.34,.98);
 				opacity: 1;
 				visibility: visible;
 			}
@@ -100,13 +102,16 @@
 
 .hover_excerpt {
 	background: #fff;
-	transform: translateY(0px);
-	font-family: $proximareg;
+	transform: translateY(243px);
+	font-family: $proxisemibold;
 	font-weight: 600;
-	height:239px;
-	position: relative;
+	min-height:239px;
+	position: absolute;
+	width:100%;
+	bottom:0;
+	left:0;
 	z-index:5;
-	padding:65px 45px 0;
+	padding:55px 45px 60px;
 	color:#09343d;
 	font-size: 17px;
 	line-height: 32px;

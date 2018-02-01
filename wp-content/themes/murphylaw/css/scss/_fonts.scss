@@ -79,3 +79,13 @@
 }
 
 
+@font-face {
+    font-family: 'ProximaNova-Semibold';
+    src: url('#{$themePath}fonts/ProximaNova-Semibold.woff2') format('woff2'),
+        url('#{$themePath}fonts/ProximaNova-Semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
