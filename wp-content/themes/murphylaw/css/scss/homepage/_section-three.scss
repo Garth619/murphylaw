@@ -1,0 +1,125 @@
+#section_three {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+
+.sec_three_box {
+	flex-basis: 33.33333%;
+	flex-shrink: 0;
+	height:662px;
+}
+
+
+.hover_box {
+	background: $greendark;
+	overflow: hidden;
+	a {
+		text-decoration: none;
+	}
+	.hover_inner {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		flex-direction: column;
+		height: 547px;
+		transition: all 600ms cubic-bezier(.17,.66,.34,.98);
+		.flex_center {
+			padding-top:30px;
+			span.amount {
+				display: block;
+				font-family: $blanchlight;
+				font-size: 200px;
+				color:$brown;
+			}
+			span.case_type, svg {
+				transition: all 300ms cubic-bezier(.17,.66,.34,.98);
+				opacity: 1;
+				visibility: visible;
+			}
+			span.case_type {
+				font-family: $proximaextrabold;
+				color:#fff;
+				font-size:17px;
+				text-transform: uppercase;
+				letter-spacing: 0.25em;
+				position: relative;
+				z-index: 1;
+				margin-top: 74px;
+				display: block;
+			}
+			svg {
+				width:80px;
+				height: 106px;
+				display: block;
+				margin-left:auto;
+				margin-right:auto;
+				margin-top:-80px;
+				.saints-cls-1{
+
+				}
+				.saints-cls-2 {
+					fill:$greenlight;
+				}
+			}
+		}
+	}
+}
+
+
+.hover_read_more {
+	background: #fff;
+	height: 115px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:0 48px;
+	span.read_more_title {
+		color:#58082b;
+		text-transform: lowercase;
+		font-family: $proximabold;
+		font-size: 18px;
+		letter-spacing: 0.085em;
+	}
+}
+
+
+
+.red_dots_wrapper {
+	.red_dots {
+		width:6px;
+		height:6px;
+		margin:0 3px;
+		border-radius: 50%;
+		background: #58082b;
+		display: inline-block;
+	}
+}
+
+.hover_excerpt {
+	background: #fff;
+	transform: translateY(0px);
+	font-family: $proximareg;
+	font-weight: 600;
+	height:239px;
+	position: relative;
+	z-index:5;
+	padding:65px 45px 0;
+	color:#09343d;
+	font-size: 17px;
+	line-height: 32px;
+	transition: all 600ms cubic-bezier(.17,.66,.34,.98);
+
+	// opacity: 0;
+	// visibility: hidden;
+	span {
+		max-width: 490px;
+		display: block;
+		margin-left:auto;
+		margin-right:auto;
+	}
+}
+
+

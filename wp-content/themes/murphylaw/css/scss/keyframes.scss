@@ -1,0 +1,13 @@
+	
+	// Keyframes are separate because they need to be outside of media queires in order to work in I.E. 11
+	
+	
+	@keyframes excerpt_move {
+	  from {
+	    transform: translateY(0px);
+	 	}
+	
+	  to {
+	    transform: translateY(-238px);
+	   }
+	}

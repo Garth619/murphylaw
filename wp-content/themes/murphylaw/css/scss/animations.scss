@@ -1,0 +1,31 @@
+@media screen and (min-width: 1060px) {
+	
+	
+	
+	.hover_box:hover {
+		.hover_inner {
+			background: #3e0e3d;
+		}
+		.hover_excerpt {
+			transform: translateY(-238px);
+		}
+		.flex_center {
+			span.case_type, svg {
+				opacity: 0;
+				visibility: hidden;
+			}
+		}
+	}
+	
+	
+
+	
+	
+
+
+
+
+
+
+
+} /* Media Query */
