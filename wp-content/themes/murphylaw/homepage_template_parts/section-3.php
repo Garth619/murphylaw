@@ -151,5 +151,27 @@
 	</div><!-- sec_three_box -->
 	
 	
+		
 	
 </section><!-- section_three -->
+
+<div class="sec_three_view">
+		
+		<a href="">
+			
+			
+			<span class="view">View More</span><!-- view -->
+			
+			
+			<div class="red_dots_wrapper">
+				
+					<span class="red_dots"></span>
+					<span class="red_dots"></span>
+					<span class="red_dots"></span>
+				
+				</div><!-- red_dots -->
+			
+			
+		</a>
+		
+	</div><!-- sec_three_view -->
