@@ -14,8 +14,21 @@ jQuery(document).ready(function($){
 		slidesToScroll: 3,
 		arrows:false,
 		dots:true,
-		slide:".sec_two_single_slide"
+		slide:".sec_two_single_slide",
+		responsive: [
+    {
+      breakpoint: 1060,
+      settings: {
+        arrows: false,
+        slidesToShow: 1,
+				slidesToScroll: 1,
+      }
+    }
+  ]
 	});
+	
+	
+	
 	
 	
 	
