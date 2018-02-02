@@ -4,10 +4,18 @@
 	
 	<div class="prev_next_wrapper prev">
 		
+		<div class="flex_mobile">
+		
 		<div class="prev_next_square">
 			
 			
+			
 		</div><!-- prev_next_square -->
+		
+		<?php echo file_get_contents("wp-content/themes/murphylaw/images/new-arrow-left.svg"); ?>
+		
+		
+		</div><!-- flex_mobile -->
 		
 	</div><!-- prev_next_wrapper -->
 	
@@ -97,10 +105,16 @@
 	
 	<div class="prev_next_wrapper next">
 		
-		<div class="prev_next_square">
+		<div class="flex_mobile">
+		
+			<div class="prev_next_square">
 			
 			
-		</div><!-- prev_next_square -->
+			</div><!-- prev_next_square -->
+		
+			<?php echo file_get_contents("wp-content/themes/murphylaw/images/new-arrow-right.svg"); ?>
+		
+		</div><!-- flex_mobile -->
 		
 	</div><!-- prev_next_wrapper -->
 	

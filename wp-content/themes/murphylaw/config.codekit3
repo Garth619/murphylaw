@@ -108,6 +108,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/homepage\/_section-five.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/homepage\/_section-five.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/homepage\/_section-four.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -417,6 +430,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/homepage_template_parts\/section-4.php",
+		"oF": 0
+		},
+	"\/homepage_template_parts\/section-5.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/homepage_template_parts\/section-5.php",
 		"oF": 0
 		},
 	"\/images\/_attorneys\/att-01.jpg": {
@@ -1007,11 +1027,41 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/new-arrow-left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new-arrow-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new-arrow-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new-arrow-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/new-email.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/new-email.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new-louis.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new-louis.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,

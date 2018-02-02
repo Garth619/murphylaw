@@ -9,8 +9,10 @@
 .sec_four_inner {
 	display: flex;
 	width:100%;
-	max-width:1608px;
+	max-width:1754px;
 	margin:0 auto;
+	padding-left:73px;
+	padding-right:73px;
 	justify-content: space-between;
 }
 
@@ -78,13 +80,195 @@
 
 
 .prev_next_wrapper {
-	width:58px;
-	height:58px;
-	border:2px solid #fff;
+	width:65px;
 	margin-top:268px;
-	.prev_next_square {
-		
+	.flex_mobile {
+		position: relative;
+		.prev_next_square {
+			width:65px;
+			height:63px;
+			border:1.5px solid #fff;
+			position: relative;
+			z-index:1;
+		}
+		svg {
+			margin:0px 0 0 0;
+			position: absolute;
+			top: 25px;
+			width:67px;
+			left:0;
+		}
 	}
 }
+
+
+.prev_next_wrapper.prev {
+	.flex_mobile {
+		float:right;
+		.prev_next_square {
+			
+		}
+		svg {
+			transform: translateX(30px);
+		}
+	}
+}
+
+.prev_next_wrapper.next {
+	.flex_mobile {
+		float:right;
+		.prev_next_square {
+			
+		}
+		svg {
+			transform: translateX(-30px);
+		}
+	}
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1490px) {
+	
+	
+	.sec_four_slideshow {
+		max-width:935px;
+	}
+	
+	.sec_four_slide {
+		.slide_content {
+			font-size: 51px;
+			line-height: 64px;
+		}
+		span.name {
+			margin-top: 53px;
+		}
+	}
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1330px) {
+	
+	
+	
+	#section_four {
+		padding-bottom:110px;
+	}
+	
+	
+	
+	.sec_four_inner {
+		width:100%;
+		max-width:942px;
+		flex-wrap: wrap;
+	}
+	
+	
+	.prev_next_wrapper {
+		flex-basis: 50%;
+		margin-top: 92px;
+		display: flex !important; // override slick slider
+		.flex_mobile {
+			flex-basis: 80px;
+		}
+	}
+	
+	.prev_next_wrapper.prev {
+		order:2;
+		justify-content: flex-end;
+		padding-right:45px;
+		.flex_mobile {
+			
+		}
+	}
+	
+	
+	.prev_next_wrapper.next {
+		order:3;
+		justify-content: flex-start;
+		padding-left:45px;
+	}
+	
+	.sec_four_slideshow {
+		order:1;
+		width:100%;
+	}
+	
+	
+	.sec_four_slide {
+		.slide_content {
+			font-size: 44px;
+			line-height: 57px;
+		}
+		span.name {
+			margin-top: 53px;
+		}
+	}
+
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	#section_four {
+    padding: 89px 0 76px;
+   }
+   
+   
+   .sec_four_inner {
+	   padding-left: 28px;
+	   padding-right: 28px;
+   }
+	
+	
+	.ratings_wrapper {
+		span.ratings_title {
+			font-size: 35px;
+			&:after {
+				margin: 22px auto 29px;
+			}
+		}
+		span.review_source {
+			font-size: 22px;
+			letter-spacing: 0.085em;
+		}
+	}
+	
+	
+	.sec_four_slide {
+		.slide_content {
+			font-size: 29px;
+			line-height: 38px;
+		}
+		span.name {
+			font-size: 20px;
+		}
+	} 
+	
+	
+	.prev_next_wrapper {
+		margin-top: 81px;
+	}
+	
+	    
+	
+	
+	
+} /* Media Query */
 
 
