@@ -41,8 +41,8 @@ jQuery(document).ready(function($){
 		fade:true,
 		arrows:true,
 		dots:false,
-		prevSlide:"",
-		nextSlide:"",
+		prevArrow:".prev",
+		nextArrow:".next",
 		slide:".sec_four_slide"
 	});
 	

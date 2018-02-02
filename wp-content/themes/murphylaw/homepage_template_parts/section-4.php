@@ -1,5 +1,17 @@
 <section id="section_four">
 	
+	<div class="sec_four_inner">
+	
+	<div class="prev_next_wrapper prev">
+		
+		<div class="prev_next_square">
+			
+			
+		</div><!-- prev_next_square -->
+		
+	</div><!-- prev_next_wrapper -->
+	
+
 	
 	<div class="sec_four_slideshow">
 		
@@ -74,8 +86,25 @@
 		</div><!-- sec_four_slide -->
 		
 		
+	
+		
+	
+		
 	</div><!-- sec_four_slideshow -->
 	
+	
+	
+	
+	<div class="prev_next_wrapper next">
+		
+		<div class="prev_next_square">
+			
+			
+		</div><!-- prev_next_square -->
+		
+	</div><!-- prev_next_wrapper -->
+	
+		</div><!-- sec_four_inner -->
 	
 	
 </section><!-- section_four -->

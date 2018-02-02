@@ -6,6 +6,15 @@
 }
 
 
+.sec_four_inner {
+	display: flex;
+	width:100%;
+	max-width:1608px;
+	margin:0 auto;
+	justify-content: space-between;
+}
+
+
 
 .sec_four_slideshow {
 	max-width:1155px;
@@ -65,3 +74,17 @@
 		letter-spacing: 0.05em;
 	}
 }
+
+
+
+.prev_next_wrapper {
+	width:58px;
+	height:58px;
+	border:2px solid #fff;
+	margin-top:268px;
+	.prev_next_square {
+		
+	}
+}
+
+
