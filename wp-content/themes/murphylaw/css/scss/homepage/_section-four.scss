@@ -1,0 +1,67 @@
+#section_four {
+	width:100%;
+	background: url(#{$themePath}images/bg-pattern-02.jpg) top left repeat;
+	text-align: center;
+	padding:163px 0 185px;
+}
+
+
+
+.sec_four_slideshow {
+	max-width:1155px;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+.sec_four_slide {
+	.slide_content {
+		font-size:60px;
+		font-family: $abhayareg;
+		color:#ad7d45;
+		line-height: 70px;
+		margin-top:57px;
+		display: block;
+	}
+	span.name {
+		color:#fff;
+		text-transform: uppercase;
+		font-family: $proximaextrabold;
+		font-size:22px;
+		letter-spacing: 0.2em;
+		display: block;
+		margin-top:43px;
+	}
+}
+
+
+.ratings_wrapper {
+	
+	span.ratings_title {
+		font-size: 45px;
+		color:#fff;
+		font-family: $proximareg;
+		letter-spacing: 0.05em;
+		&:after {
+			content:"";
+			display: block;
+			width:47px;
+			margin:23px auto 18px;
+			height:2px;
+			background: $brown;
+		}
+		span.bold {
+			font-family:$proximablack;
+		}
+	}
+	span.review_source {
+		display: block;
+		margin:0px 0 0;
+		color:#fff;
+		text-transform: lowercase;
+		font-size: 25px;
+		font-family: $proximareg;
+		letter-spacing: 0.05em;
+	}
+}

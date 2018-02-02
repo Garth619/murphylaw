@@ -29,6 +29,22 @@ jQuery(document).ready(function($){
 	
 	
 	
+	// section four testimonials
+	
+	
+	
+	
+	$('.sec_four_slideshow').slick({
+  	infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		fade:true,
+		arrows:true,
+		dots:false,
+		prevSlide:"",
+		nextSlide:"",
+		slide:".sec_four_slide"
+	});
 	
 	
 	
