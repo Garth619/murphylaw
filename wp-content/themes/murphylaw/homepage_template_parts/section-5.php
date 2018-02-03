@@ -34,6 +34,31 @@
 	<div class="community_posts">
 		
 		
+		<div class="comm_slideshow">
+			
+			<div class="single_comm">
+				
+				<div class="comm_logo_wrapper">
+					
+					<img src="<?php bloginfo('template_directory');?>/images/logo-example.png"/>
+					
+				</div><!-- comm_logo_wrapper -->
+				
+				<div class="comm_content">
+					
+					<span class="comm_title">Organization Name</span>
+					
+					
+					<span class="comm_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultrices odio sit amet neque porttitor, eu semper lacus interdum. Morbi vel egestas enim. </span><!-- comm_content -->
+					
+					
+				</div><!-- comm_content -->
+				
+				
+			</div><!-- single_comm -->
+			
+		</div><!-- comm_slideshow -->
+		
 		
 	</div><!-- community_posts -->
 	
