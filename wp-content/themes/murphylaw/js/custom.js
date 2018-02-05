@@ -48,5 +48,35 @@ jQuery(document).ready(function($){
 	
 	
 	
+	// section five community
+	
+	
+	
+	
+	$('.comm_slideshow').slick({
+  	infinite: true,
+		slidesToShow: 2,
+		slidesToScroll: 2,
+		arrows:true,
+		dots:false,
+		//fade:true,
+		slide:".single_comm",
+		prevArrow:".comm_prev",
+		nextArrow:".comm_next",
+		responsive: [
+    {
+      breakpoint: 1785,
+      settings: {
+        arrows: false,
+        slidesToShow: 1,
+				slidesToScroll: 1,
+      }
+    }
+  ]
+	});
+
+	
+	
+	
   
 }); // document ready

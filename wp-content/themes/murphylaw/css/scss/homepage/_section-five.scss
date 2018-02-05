@@ -1,14 +1,23 @@
 #section_five {
-	height:3000px;
-	display: flex;
+	overflow: hidden;
+	position: relative;
+	padding-bottom:170px;
+	// display: flex;
+	&:after {
+		content:"";
+		clear:both;
+		display: block;
+	}
+	
 }
 
 
 
 .sec_five_intro_wrapper {
 	margin:80px 0 0 85px;
-	flex-basis: 803px;
+	width: 803px;
 	position: relative;
+	float:left;
 	svg {
 		width:303px;
 		float:right;
@@ -43,7 +52,6 @@ span.sec_five_header {
 	display: block;
 	max-width:515px;
 	margin:35px 0 0 110px;
-	
 	a.read_more {
 		text-transform: uppercase;
 		text-decoration: none;
@@ -68,19 +76,25 @@ span.sec_five_header {
 
 
 .community_posts {
-	margin:202px 0 0 -80px;
-	position: relative;
+	margin:202px 0 0 0px;
 	z-index: 1;
+	width: calc(100% - 746px);
+	position: absolute;
+	top:0;
+	right:-53px;
 	.comm_slideshow {
+		width:100%;
 		
 	}
 }
 
 
+
 .single_comm {
 	box-shadow: 0px 0px 17px 0px rgba(199,199,199,1);
-	width:600px;
 	background: #fff;
+	width:545px;
+	margin:15px 25px 15px;
 	.comm_logo_wrapper {
 		height:210px;
 		display: flex;
@@ -94,26 +108,215 @@ span.sec_five_header {
 	.comm_content {
 		height:405px;
 		background: $greendark;
-		padding:90px 35px;
+		padding: 97px 50px 90px;
 		span.comm_title {
 			color:$brown;
 			text-transform: uppercase;
 			font-size: 18px;
 			font-family: $proximablack;
 			letter-spacing: 0.35em;
+			line-height: 20px;
 			&:after {
 				content:"";
 				width:60px;
 				height:1px;
 				background: $brown;
 				display: block;
-				margin-top:35px;
+				margin-top: 32px;
 			}
+		}
+		span.comm_description {
+			color:#fff;
+			font-size: 20px;
+			font-family:$proximareg;
+			line-height: 42px;
+			display: block;
+			margin-top:23px;
+			
 		}
 	}
 }
 
 
+.comm_buttons {
+	margin-top:35px;
+	float:right;
+	margin-right:105px;
+	cursor: pointer;
+	span {
+		text-transform: lowercase;
+		font-family: $proximabold;
+		font-size:17px;
+		color:$brown;
+		letter-spacing: 0.35em;
+		transition: all .2s ease-in-out;
+		&:hover {
+			color:$red;
+		}
+	}
+	span.comm_prev {
+		&:after {
+			content:"|";
+			display: inline-block;
+			padding-left:10px;
+			color:$brown;
+			
+		}
+		&:hover {
+			&:after {
+				color:$brown;
+			}
+		}
+	}
+	span.comm_next {
+		padding-left:5px;
+	}
+}
+
+
+@media screen and (max-width: 1785px) {
+	
+	
+.community_posts {
+	width:600px;
+	.comm_slideshow {
+		
+	}
+}
+	
+	
+	.sec_five_intro_wrapper {
+		width: 893px;
+	}
+	
+	.sec_five_content {
+		 max-width: 645px;
+	}
+	
+	
+	.single_comm {
+		width:100%;
+	}
+	
+	
+	.comm_buttons {
+		clear:both;
+		float:none;
+		position: relative;
+		top:680px;
+		text-align: right;
+	}
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1530px) {
+	
+	.community_posts {
+		 margin: 129px 0 0 0px;
+		 right: -25px;
+	}
+	
+	
+	.comm_buttons {
+		top: 701px;
+	}
+	    
+	   
+	
+	.sec_five_intro_wrapper {
+    width: 869px;
+	}
+	
+	.sec_five_content {
+		 max-width: 545px;
+	}
+	
+	.single_comm {
+		.comm_content {
+			padding: 97px 63px 90px;
+		}
+	} 
+	    
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 1315px) {
+	
+	
+	#section_five {
+		padding-bottom: 125px;
+	}
+	
+	
+	.sec_five_intro_wrapper {
+		width:860px;
+		margin-left:auto;
+		margin-right:auto;
+		float:none;
+	}
+	
+	.community_posts {
+		display: none;
+	}
+	
+	span.sec_five_header {
+		 margin: 126px 0 0;
+	}
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1200px) {
+	
+	
+	
+	span.sec_five_header {
+		font-size: 86px;
+		line-height: 73px;
+		 margin: 115px 0 0;
+		span.sec_five_lower_header {
+			 margin-left: 59px;
+		}
+	}
+	
+	.sec_five_intro_wrapper {
+		width:554px;
+		svg {
+			width:208px;
+			top: -140px;
+		}
+	}
+	
+	.sec_five_content {
+		font-size:25px;
+		line-height: 42px;
+		 margin: 20px 0 0 110px;
+	}
+	
+	
+	.sec_five_content {
+		margin: 20px 0 0 66px;
+		max-width: 455px;
+		a.read_more {
+			 margin-top: 33px;
+			 font-size:14px;
+			 padding: 22px 33px;
+		}
+	} 
+	 
+	
+	
+	
+} /* Media Query */
 
 
 
