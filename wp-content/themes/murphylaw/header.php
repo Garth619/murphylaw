@@ -35,16 +35,12 @@
 <body <?php body_class(); ?>>
 	
 
+<a class="mobile_logo" href="<?php bloginfo('url');?>">
 		
-		<a class="mobile_logo" href="<?php bloginfo('url');?>">
+	<img src="<?php bloginfo('template_directory');?>/images/murphy-law-logo.svg"/>
 		
-			<img src="<?php bloginfo('template_directory');?>/images/murphy-law-logo.svg"/>
+</a><!-- logo -->
 		
-		</a><!-- logo -->
-		
-	
-
-
 <header>
 	
 	<div class="header_left">
@@ -94,6 +90,22 @@
 	</div><!-- header_right -->
 	
 </header>
+
+<div class="nav_wrapper">
+	
+	<div class="close">
+		
+	</div><!-- close -->
+	
+	<div class="nav_col_one"></div><!-- nav_col_one -->
+	
+	<div class="nav_col_two"></div><!-- nav_col_two -->
+	
+	<div class="nav_col_three"></div><!-- nav_col_three -->
+	
+	
+	
+</div><!-- nav_wrapper -->
 				
 
 <?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
