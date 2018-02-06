@@ -5,6 +5,8 @@
 		<div class="footer_pic_wrapper">
 		
 			<img class="footer_pic" src="<?php bloginfo('template_directory');?>/images/footer-image-desktop.jpg"/><!-- footer_pic -->
+			
+			<img class="footer_pic_mobile" src="<?php bloginfo('template_directory');?>/images/footer-image-mobile.jpg"/><!-- footer_pic -->
 		
 		</div><!-- footer_pic_wrapper -->
 		
