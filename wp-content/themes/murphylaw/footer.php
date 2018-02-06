@@ -36,7 +36,7 @@
 				
 				<span class="footer_title">Office</span>
 				
-				<a class="footer_address_link" href="" target="_blank">2354 South Acadian Thruway Baton Rouge, LA 70808</a><!-- footer_address_link -->
+				<a class="footer_address_link" href="" target="_blank">2354 South Acadian Thruway<br/> Baton Rouge, LA 70808</a><!-- footer_address_link -->
 				
 				<span class="footer_title">Call Us</span>
 				
@@ -71,8 +71,8 @@
 			<div class="copyright_inner">
 			
 				<ul>
-					<li>&copy;2018 Murphy Law Firm, LLC. All Rights Reserved.</li>
-					<li><a href="">Disclaimer</a></li>
+					<li>&copy;2018 Murphy Law Firm, LLC.<br/> All Rights Reserved.</li>
+					<li><a href="">Disclaimer</a></li><br/>
 					<li><a href="">Privacy Policy</a></li>
 				</ul>
 				
