@@ -6,6 +6,32 @@
 jQuery(document).ready(function($){
 	
 	
+	
+	
+	
+	$('.nav_wrapper ul#menu-menu-1 > li.menu-item-has-children > a').on('click', function(e) {
+	  
+
+		 $(".sub_menu_container").empty();
+		
+		 $(this).next('ul.sub-menu').clone().appendTo('.sub_menu_container').addClass('open');
+		 
+		 $(this).addClass('active');
+	
+		// current $('ul#menu-menu-1 > li.current-menu-parent > a').next('ul.sub-menu').clone().appendTo('.sub_menu_container').show();
+	
+	
+	});
+	
+	
+	
+	
+	
+	$('.nav_wrapper ul#menu-menu-1 > li.menu-item-has-children').append('<div class="dots_wrapper"><span></span><span></span><span></span></div>')
+	
+	
+	
+	
 	// section two logos
 	
 	$('.sec_two_slideshow').slick({
@@ -74,6 +100,14 @@ jQuery(document).ready(function($){
     }
   ]
 	});
+	
+	
+	
+	
+	
+	
+	
+	
 
 	
 	

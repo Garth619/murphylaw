@@ -95,18 +95,43 @@
 	
 	<div class="close">
 		
+		<div class="close_inner">
+		
+			<span class="close_left"></span><!-- close_left -->
+		
+			<span class="close_right"></span><!-- close_right -->
+		
+		</div><!-- close_inner -->
+		
 	</div><!-- close -->
 	
-	<div class="nav_col_one"></div><!-- nav_col_one -->
+	<div class="nav_col_one nav_col">
+		
+		<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+		
+	</div><!-- nav_col_one -->
 	
-	<div class="nav_col_two"></div><!-- nav_col_two -->
+	<div class="nav_col_two nav_col">
+		
+		<div class="sub_menu_container">
+			
+			
+			
+		</div><!-- sub_container -->
+		
+		
+		
+	</div><!-- nav_col_two -->
 	
-	<div class="nav_col_three"></div><!-- nav_col_three -->
+	<div class="nav_col_three nav_col">
+		
+		form
+	</div><!-- nav_col_three -->
 	
 	
 	
 </div><!-- nav_wrapper -->
 				
 
-<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+
 			
