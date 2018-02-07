@@ -27,7 +27,7 @@ jQuery(document).ready(function($){
 	
 	
 	
-	$('.nav_wrapper ul#menu-menu-1 > li.menu-item-has-children').append('<div class="dots_wrapper"><span></span><span></span><span></span></div>')
+	$('.nav_wrapper ul#menu-menu-1 > li.menu-item-has-children > a').append('<div class="dots_wrapper"><span></span><span></span><span></span></div>')
 	
 	
 	

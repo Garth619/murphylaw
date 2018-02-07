@@ -14,7 +14,7 @@
 			
 			<span class="large_header">Contact</span><!-- large_header-->
 			
-			<?php gravity_form(1, false, false, false, '', true, 12); ?>
+			<?php gravity_form(1, false, false, false, '', true, 112); ?>
 			
 			<span class="required_title">*required</span><!-- required_title -->
 

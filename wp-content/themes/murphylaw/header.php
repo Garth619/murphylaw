@@ -123,9 +123,20 @@
 		
 	</div><!-- nav_col_two -->
 	
-	<div class="nav_col_three nav_col">
+	<div class="nav_col_three">
 		
-		form
+		
+		<div class="form_inner">
+		
+			<span class="large_header">Free Case Consultation</span><!-- large_header -->
+		
+			<?php gravity_form(1, false, false, false, '', true, 312); ?>
+			
+			<span class="nav_required">*Required</span><!-- nav_required -->
+		
+		</div><!-- form_inner -->
+		
+		
 	</div><!-- nav_col_three -->
 	
 	
