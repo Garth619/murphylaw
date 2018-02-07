@@ -23,6 +23,13 @@
 		"oAP": "\/archive.php",
 		"oF": 0
 		},
+	"\/banner-internal.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/banner-internal.php",
+		"oF": 0
+		},
 	"\/category.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -91,6 +98,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/scss\/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_page_default.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page_default.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

@@ -12,6 +12,25 @@ jQuery(document).ready(function($){
 	
 	
 	
+
+	$('.header_left').on('click', function(e) {
+	  
+	
+		$('.nav_wrapper').addClass('open');
+	
+	
+	
+	});
+	
+	
+		$('.close').on('click', function(e) {
+	  
+	
+			$('.nav_wrapper').removeClass('open');
+	
+		});
+	
+	
 		
 		var windowWidth = $(window).width();
 	
@@ -70,19 +89,12 @@ jQuery(document).ready(function($){
 	
 	checkWidth();
 	
-	
-	
-	
-	
-	
-	
-	
-		
-	
-	
-	
+
 	
 	$('.nav_wrapper ul#menu-menu-1 > li.menu-item-has-children > a').append('<div class="dots_wrapper"><span></span><span></span><span></span></div>')
+	
+	
+	$('.sidebar ul#menu-pa-sidebar > li.menu-item-has-children > a').append('<div class="dots_wrapper"><span></span><span></span><span></span></div>')
 	
 	
 	
@@ -158,9 +170,28 @@ jQuery(document).ready(function($){
 	
 	
 	
+	// sidebar 
+	
+
+
+	
+$("ul#menu-pa-sidebar > li").hover(
+	
+	function() {
+	
+		$(this).addClass('hover');
+	
+	},
+	function() {
+	
+		$(this).removeClass('hover');
+		
+	}
+
+);
 	
 	
-	
+
 	
 	
 

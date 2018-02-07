@@ -6,7 +6,15 @@
 	left:0;
 	z-index: 200;
 	display: flex;
-	
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+}
+
+.nav_wrapper.open {
+	opacity: 1;
+	visibility: visible;
+	pointer-events:visible;
 }
 
 
