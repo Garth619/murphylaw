@@ -102,6 +102,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/_page-case-results.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-case-results.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_page-testimonials.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1562,6 +1575,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/loop.php",
+		"oF": 0
+		},
+	"\/page-caseresults.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-caseresults.php",
 		"oF": 0
 		},
 	"\/page-home.php": {

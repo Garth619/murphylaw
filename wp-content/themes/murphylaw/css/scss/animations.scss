@@ -7,6 +7,10 @@
 	
 	
 	
+
+	
+	
+
 	
 	
 	
@@ -14,7 +18,29 @@
 } /* Media Query */
 
 
-
+@media screen and (min-width: 1450px) {
+	
+	
+	
+	.single_case_results_page {
+		&:hover {
+			&:after {
+				height:590px;
+				top:0px;
+				
+				animation-name: fade, cr_grow;
+				animation-duration: 300ms, 700ms;
+				animation-fill-mode: both;
+				animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+			}
+		}
+	}
+	
+	
+	
+	
+	
+} /* Media Query */
 
 
 
