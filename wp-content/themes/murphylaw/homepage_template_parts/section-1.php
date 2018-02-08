@@ -4,7 +4,7 @@
 		
 		<span class="large_header">Don't Be<br/> A Victim Twice</span><!-- large_header -->
 		
-		<a class="consultation_button" href="">Free Case Consultation</a><!-- consultation_button -->
+		<a class="consultation_button" href="#scroll">Free Case Consultation</a><!-- consultation_button -->
 		
 		<div class="sec_one_sp_wrapper">
 			

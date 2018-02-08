@@ -95,12 +95,13 @@ a.logo {
 		display: block;
 		height: 46px;
 	}
-	span.free_consultation {
+	a.free_consultation {
 		color:$brown;
 		text-transform: lowercase;
 		font-family: $proximaextrabold;
 		font-size: 18px;
 		letter-spacing: 0.085em;
+		text-decoration: none;
 	}
 }
 

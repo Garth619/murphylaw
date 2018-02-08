@@ -69,7 +69,7 @@
 		
 		<div class="phone">
 			
-			<a class="tel" href="">(225) 928-8800</a><!-- tel -->
+			<a class="tel" href="tel:(225) 928-8800">(225) 928-8800</a><!-- tel -->
 			
 			<span class="espanol">Se Habla Espanol</span><!-- espanol -->
 			
@@ -83,7 +83,7 @@
 			
 			<?php echo file_get_contents("wp-content/themes/murphylaw/images/new-email.svg"); ?>
 			
-			<span class="free_consultation">Free Consultation</span><!-- free_consultation -->
+			<a class="free_consultation" href="#scroll">Free Consultation</a><!-- free_consultation -->
 			
 		</div><!-- email_wrapper -->
 		

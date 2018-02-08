@@ -2,7 +2,7 @@
 
 <footer id="footer_section">
 	
-	<div class="footer_inner">
+	<div id="scroll" class="footer_inner">
 		
 		<div class="footer_pic_wrapper">
 		
@@ -22,8 +22,6 @@
 
 		</div><!-- footer_form_wrapper -->
 		
-		
-	
 	</div><!-- footer_inner -->
 	
 	<div class="lower_footer">
