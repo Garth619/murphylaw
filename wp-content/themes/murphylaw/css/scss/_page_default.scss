@@ -110,7 +110,7 @@ a.internal_free_case_button {
 				padding:31px 50px 31px 0;
 				display: block;
 				cursor:pointer;
-				transition: all .2s ease-in-out;
+				transition: all 350ms ease-in-out;
 				
 				&:hover {
 					background: #471046;
@@ -139,7 +139,7 @@ a.internal_free_case_button {
 				 	font-size: 18px;
 				 	padding:15px 0;
 				 	display: block;
-				 	transition: all .2s ease-in-out;
+				 	transition: all 350ms ease-in-out;
 				 	&:hover {
 					 	background: #471046;
 					 	box-shadow: 6px 7px 10px 0px rgba(10, 21, 42, 0.58);
