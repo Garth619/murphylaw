@@ -130,52 +130,6 @@ a.download_button {
 
 
 
-.content {
-	font-family:$proximareg;
-	font-size: 18px;
-	line-height: 34px;
-	color:#031517;
-	h2 {
-		font-family: $abhayamedium;
-		font-size: 32px;
-		color:$red;
-		font-weight: 300;
-		font-style: normal;
-		line-height: 38px;
-		margin-bottom: 13px;
-		
-	}
-	p,ul {
-		margin-bottom:13px;
-	}
-	blockquote {
-		font-family: $proximareg;
-		color:$brown;
-		font-size: 28px;
-		line-height: 40px;
-		text-align: center;
-		padding-left:5%;
-		padding-right:5%;
-		margin:60px 0;
-		
-		&:before {
-			content:"";
-			display: block;
-			width:100px;
-			height:1px;
-			background: $brown;
-			margin:0 auto 40px;
-		}
-		&:after {
-			content:"";
-			display: block;
-			width:100px;
-			height:1px;
-			background: $brown;
-			margin:40px auto 00px;
-		}
-	}
-}
 
 
 
@@ -670,13 +624,7 @@ span.video_caption {
 	
 	
 	
-.content {
-	blockquote {
-			max-width:550px;
-			margin-left:auto;
-			margin-right:auto;
-		}
-	}
+
 	
 	
 	
@@ -754,13 +702,6 @@ span.video_caption {
 		padding: 56px 33px 16px;
 	}
 	
-	
-	.content {
-		blockquote {
-			font-size: 24px;
-			line-height: 34px;
-		}
-	}
 	
 	
 	

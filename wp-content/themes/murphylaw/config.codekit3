@@ -853,6 +853,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/dots.png": {
+		"ft": 32768,
+		"iS": 999,
+		"oA": 0,
+		"oAP": "\/images\/dots.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/footer-image-desktop.jpg": {
 		"ft": 16384,
 		"iS": 0,
