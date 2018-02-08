@@ -1,0 +1,164 @@
+
+
+.testimonials_page_wrapper {
+	margin-bottom:20px;
+	.single_testi:not(:first-of-type) {
+		margin-top:138px;
+	}
+	.single_testi {
+		text-align: center;
+		padding-bottom:140px;
+		border-bottom: 1px solid #dbe1df;
+		max-width:1099px;
+		margin:0 auto;
+		&:last-of-type {
+			border: none;
+		}
+		.rating_wrapper {
+			font-size: 34px;
+			color:#471046;
+			&:after {
+				content:"";
+				display: block;
+				margin:22px auto 27px;
+				width:45px;
+				height:2px;
+				background: $brown;
+			}
+			span.rating {
+				font-family: $proximareg;
+				letter-spacing: 0.05em;
+				span.bold_rating {
+					font-family: $proximablack;
+				}
+			}
+		}
+		span.testi_type {
+			font-size: 22px;
+			font-family: $proximareg;
+			color:#471046;
+			letter-spacing: 0.085em;
+			display: block;
+		}
+		span.testi_description {
+			font-family: $abhayareg;
+			color:#12414a;
+			line-height: 50px;
+			font-size: 40px;
+			max-width:935px;
+			display: block;
+			margin:50px auto 50px;
+		}
+		span.testi_name {
+			color:$brown;
+			text-transform: uppercase;
+			font-size: 18px;
+			font-family: $proximaextrabold;
+			letter-spacing: 0.2em;
+		}
+	}
+}
+
+
+@media screen and (max-width: 1060px) {
+	
+	
+	
+	
+	
+
+.testimonials_page_wrapper {
+	
+	.single_testi:not(:first-of-type) {
+	   margin-top: 110px;
+	}
+	.single_testi {
+		padding-bottom: 105px;
+		&:last-of-type {
+			
+		}
+		.rating_wrapper {
+			
+			&:after {
+				
+			}
+			span.rating {
+				
+				span.bold_rating {
+					
+				}
+			}
+		}
+		span.testi_type {
+			
+		}
+		span.testi_description {
+			 max-width: 675px;
+			 font-size: 36px;
+			 line-height: 47px;
+		}
+		span.testi_name {
+			
+		}
+	}
+}
+	
+	
+
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+	
+	
+	
+.testimonials_page_wrapper {
+	
+	.single_testi:not(:first-of-type) {
+	  margin-top: 70px;
+	}
+	.single_testi {
+		padding-bottom: 66px;
+		&:last-of-type {
+			
+		}
+		.rating_wrapper {
+			font-size: 30px;
+			&:after {
+				
+			}
+			span.rating {
+				
+				span.bold_rating {
+					
+				}
+			}
+		}
+		span.testi_type {
+			
+		}
+		span.testi_description {
+			font-size: 31px;
+			line-height: 41px; 
+			margin: 45px auto;
+		}
+		span.testi_name {
+			
+		}
+	}
+}
+	
+	
+	
+	
+	
+	
+} /* Media Query */
