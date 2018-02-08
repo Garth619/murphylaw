@@ -94,7 +94,7 @@ jQuery(document).ready(function($){
 	$('.nav_wrapper ul#menu-menu-1 > li.menu-item-has-children > a').append('<div class="dots_wrapper"><span></span><span></span><span></span></div>')
 	
 	
-	$('.sidebar ul#menu-pa-sidebar > li.menu-item-has-children > a').append('<div class="dots_wrapper"><span></span><span></span><span></span></div>')
+	
 	
 	
 	
@@ -174,21 +174,43 @@ jQuery(document).ready(function($){
 	
 
 
+$('.sidebar ul#menu-pa-sidebar > li.menu-item-has-children > a').append('<div class="dots_wrapper"><span></span><span></span><span></span></div>')
+
 	
-$("ul#menu-pa-sidebar > li").hover(
+$(".sidebar ul#menu-pa-sidebar > li > a").hover(
 	
 	function() {
 	
-		$(this).addClass('hover');
+		$(this).parent('li').addClass('hover');
+		
+		$(this).parent('li').prev().addClass('remove_border');
 	
 	},
+	
 	function() {
 	
-		$(this).removeClass('hover');
+		$(this).parent('li').removeClass('hover');
+		
+		$(this).parent('li').prev().removeClass('remove_border');
 		
 	}
 
 );
+
+
+$('.sidebar ul#menu-pa-sidebar > li > a').on('click', function(e) {
+  
+
+	// $(this).next('ul.sub-menu').toggleClass('active');
+	
+	$(this).next('ul.sub-menu').slideToggle(200);
+	
+	$(this).toggleClass('active');
+	
+	$(this).parent('li').prev().toggleClass('active');
+
+
+});
 	
 	
 
