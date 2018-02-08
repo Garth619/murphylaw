@@ -270,6 +270,12 @@ span.footer_title {
 }
 
 
+
+img.mobile_building_pic {
+	display: none;
+}
+
+
 @media screen and (max-width: 1590px) {
 	
 	
@@ -538,7 +544,14 @@ span.footer_title {
 	
 	
 	footer {
-    padding: 50px 16px;
+    padding: 50px 24px;
+	}
+	
+	
+	img.mobile_building_pic {
+		display: block;
+		width: 100%;
+		height:auto;
 	}
 	
 	
@@ -608,6 +621,9 @@ span.footer_title {
 .gfield_description, .validation_message {
 	text-align: left;
 }
+
+
+
 
 	
 	

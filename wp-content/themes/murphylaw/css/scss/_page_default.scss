@@ -259,14 +259,111 @@ a.internal_free_case_button {
 		float:none;
 		width:100%;
 		order:2;
+		padding: 40px 45px;
+		margin-bottom: -51px;
+		.menu-header {
+			max-width: 635px;
+		}
 	}
+	
+	
+	
+	
+	
+	
+.sidebar {
+	
+	.menu-header {
+		
+	}
+	ul {
+		
+	}
+	ul#menu-pa-sidebar {
+		>li.remove_border {
+			
+		}
+		>li.remove_border.active {
+			
+		}
+		>li.hover {
+			>a {
+				.dots_wrapper {
+					
+				}
+			}
+			>a.active {
+				.dots_wrapper {
+					
+				}
+			}
+			
+		}
+		>li {
+			
+			>a.active {
+				
+				
+				&:hover {
+					
+					
+				}
+			}
+			>a {
+				
+				
+				&:hover {
+					margin-left: -24px;
+					width:104%;
+				}
+			}
+		}
+	}
+	ul.sub-menu {
+		
+		>li:first-of-type {
+			
+		}
+		> li {
+			
+			 > a {
+				 	
+				 	&:hover {
+					 	margin-left: -24px;
+					 	width:104%;
+				 	}
+			 }
+		}
+	}
+	.dots_wrapper {
+		
+		span {
+			
+		}
+	}
+}
+
+
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	.page_container {
 		float:none;
 		width:100%;
 		order:1;
+		padding-bottom: 63px;
 	}
+	
+	
+	
+	   
 	
 	
 	
@@ -280,6 +377,112 @@ a.internal_free_case_button {
 	.banner_wrapper {
 		display: none;
 	}
+	
+	.page_container {
+		padding-left: 45px;
+    padding-right: 45px;
+	}
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+	
+	
+	
+.sidebar {
+	margin-bottom: 0px;
+	padding-bottom: 70px;
+	.menu-header {
+		
+	}
+	ul {
+		
+	}
+	ul#menu-pa-sidebar {
+		>li.remove_border {
+			
+		}
+		>li.remove_border.active {
+			
+		}
+		>li.hover {
+			>a {
+				.dots_wrapper {
+					
+				}
+			}
+			>a.active {
+				.dots_wrapper {
+					
+				}
+			}
+			
+		}
+		>li {
+			
+			>a.active {
+				
+				
+				&:hover {
+					
+					
+				}
+			}
+			>a {
+				
+				
+				&:hover {
+					margin-left: 0px;
+					width:100%;
+					padding-left: 12px;
+				}
+			}
+		}
+	}
+	ul.sub-menu {
+		
+		>li:first-of-type {
+			
+		}
+		> li {
+			
+			 > a {
+				 	
+				 	&:hover {
+					 	
+					 	margin-left: 0px;
+					width:100%;
+					padding-left: 12px;
+/*
+					 	margin-left: -24px;
+					 	width:104%;
+*/
+				 	}
+			 }
+		}
+	}
+	.dots_wrapper {
+		
+		span {
+			
+		}
+	}
+}
+	
+	
+	
+	.page_container {
+		padding:43px 32px;
+	}
+	
 	
 	
 	

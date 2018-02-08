@@ -168,11 +168,33 @@ img.aligncenter {
 } /* Media Query */
 
 
+@media screen and (max-width: 1320px) {
+	
+	
+	.content {
+		h1.intro_header {
+			font-size: 135px;
+			margin-bottom: 43px;
+			line-height: 118px;
+		}
+	}
+	
+	
+	
+	
+} /* Media Query */
+
+
 
 @media screen and (max-width: 1060px) {
 	
 	
 .content {
+	h1.intro_header {
+		font-size: 110px;
+		margin-bottom: 43px;
+		line-height: 100px;
+	}
 	blockquote {
 			max-width:550px;
 			margin-left:auto;
@@ -202,6 +224,11 @@ img.aligncenter {
 
 
 	.content {
+		h1.intro_header {
+			font-size: 95px;
+			line-height: 80px;
+			margin-bottom: 36px;
+		}
 		blockquote {
 			font-size: 24px;
 			line-height: 34px;

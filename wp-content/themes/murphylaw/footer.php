@@ -1,3 +1,5 @@
+<img class="mobile_building_pic" src="<?php bloginfo('template_directory');?>/images/new-mobile.jpg"/>
+
 <footer id="footer_section">
 	
 	<div class="footer_inner">
