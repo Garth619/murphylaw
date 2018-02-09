@@ -115,6 +115,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/_page-meettheteam.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-meettheteam.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_page-practiceareas.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -537,186 +550,6 @@
 		"oAP": "\/homepage_template_parts\/section-5.php",
 		"oF": 0
 		},
-	"\/images\/_attorneys\/att-01.jpg": {
-		"ft": 16384,
-		"iS": 0,
-		"oA": 0,
-		"oAP": "\/images\/_attorneys\/att-01.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/_attorneys\/att-02.jpg": {
-		"ft": 16384,
-		"iS": 23604,
-		"oA": 0,
-		"oAP": "\/images\/_attorneys\/att-02.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/_attorneys\/att-03.jpg": {
-		"ft": 16384,
-		"iS": 26772,
-		"oA": 0,
-		"oAP": "\/images\/_attorneys\/att-03.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/_attorneys\/att-04.jpg": {
-		"ft": 16384,
-		"iS": 27055,
-		"oA": 0,
-		"oAP": "\/images\/_attorneys\/att-04.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/_attorneys\/att-05.jpg": {
-		"ft": 16384,
-		"iS": 25389,
-		"oA": 0,
-		"oAP": "\/images\/_attorneys\/att-05.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/_attorneys\/staff-01.jpg": {
-		"ft": 16384,
-		"iS": 33975,
-		"oA": 0,
-		"oAP": "\/images\/_attorneys\/staff-01.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/_attorneys\/staff-02.jpg": {
-		"ft": 16384,
-		"iS": 21230,
-		"oA": 0,
-		"oAP": "\/images\/_attorneys\/staff-02.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/_attorneys\/staff-03.jpg": {
-		"ft": 16384,
-		"iS": 29578,
-		"oA": 0,
-		"oAP": "\/images\/_attorneys\/staff-03.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/_attorneys\/staff-04.jpg": {
-		"ft": 16384,
-		"iS": 32232,
-		"oA": 0,
-		"oAP": "\/images\/_attorneys\/staff-04.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/_attorneys\/staff-05.jpg": {
-		"ft": 16384,
-		"iS": 27701,
-		"oA": 0,
-		"oAP": "\/images\/_attorneys\/staff-05.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/_attorneys\/staff-06.jpg": {
-		"ft": 16384,
-		"iS": 28921,
-		"oA": 0,
-		"oAP": "\/images\/_attorneys\/staff-06.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/_attorneys\/staff-07.jpg": {
-		"ft": 16384,
-		"iS": 26734,
-		"oA": 0,
-		"oAP": "\/images\/_attorneys\/staff-07.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/_attorneys\/staff-08.jpg": {
-		"ft": 16384,
-		"iS": 36321,
-		"oA": 0,
-		"oAP": "\/images\/_attorneys\/staff-08.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/_attorneys\/staff-09.jpg": {
-		"ft": 16384,
-		"iS": 45642,
-		"oA": 0,
-		"oAP": "\/images\/_attorneys\/staff-09.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/_attorneys\/staff-10.jpg": {
-		"ft": 16384,
-		"iS": 33746,
-		"oA": 0,
-		"oAP": "\/images\/_attorneys\/staff-10.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/_attorneys\/staff-11.jpg": {
-		"ft": 16384,
-		"iS": 31933,
-		"oA": 0,
-		"oAP": "\/images\/_attorneys\/staff-11.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/_attorneys\/staff-12.jpg": {
-		"ft": 16384,
-		"iS": 51218,
-		"oA": 0,
-		"oAP": "\/images\/_attorneys\/staff-12.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/_attorneys\/staff-13.jpg": {
-		"ft": 16384,
-		"iS": 29494,
-		"oA": 0,
-		"oAP": "\/images\/_attorneys\/staff-13.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/images\/arrow-left-hover.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -792,6 +625,186 @@
 		"iS": 0,
 		"oA": 0,
 		"oAP": "\/images\/attorney-bio-01-tablet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/att-01.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/att-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/att-02.jpg": {
+		"ft": 16384,
+		"iS": 23604,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/att-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/att-03.jpg": {
+		"ft": 16384,
+		"iS": 26772,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/att-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/att-04.jpg": {
+		"ft": 16384,
+		"iS": 27055,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/att-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/att-05.jpg": {
+		"ft": 16384,
+		"iS": 25389,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/att-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/staff-01.jpg": {
+		"ft": 16384,
+		"iS": 33975,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/staff-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/staff-02.jpg": {
+		"ft": 16384,
+		"iS": 21230,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/staff-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/staff-03.jpg": {
+		"ft": 16384,
+		"iS": 29578,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/staff-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/staff-04.jpg": {
+		"ft": 16384,
+		"iS": 32232,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/staff-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/staff-05.jpg": {
+		"ft": 16384,
+		"iS": 27701,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/staff-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/staff-06.jpg": {
+		"ft": 16384,
+		"iS": 28921,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/staff-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/staff-07.jpg": {
+		"ft": 16384,
+		"iS": 26734,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/staff-07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/staff-08.jpg": {
+		"ft": 16384,
+		"iS": 36321,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/staff-08.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/staff-09.jpg": {
+		"ft": 16384,
+		"iS": 45642,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/staff-09.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/staff-10.jpg": {
+		"ft": 16384,
+		"iS": 33746,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/staff-10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/staff-11.jpg": {
+		"ft": 16384,
+		"iS": 31933,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/staff-11.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/staff-12.jpg": {
+		"ft": 16384,
+		"iS": 51218,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/staff-12.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/staff-13.jpg": {
+		"ft": 16384,
+		"iS": 29494,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/staff-13.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1166,6 +1179,16 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/new-att.jpg": {
+		"ft": 16384,
+		"iS": 84904,
+		"oA": 0,
+		"oAP": "\/images\/new-att.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/new-email.svg": {
 		"ft": 2097152,
@@ -1625,6 +1648,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-home.php",
+		"oF": 0
+		},
+	"\/page-meetteam.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-meetteam.php",
 		"oF": 0
 		},
 	"\/page-practiceareas.php": {

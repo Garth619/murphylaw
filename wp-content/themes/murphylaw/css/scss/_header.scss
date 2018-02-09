@@ -3,6 +3,8 @@ header {
 	align-items: center;
 	background: #fff;
 	box-shadow: 0px 7px 10px 0px rgba(10, 21, 42, 0.17);
+	position: relative;
+	z-index:100;
 }
 
 
@@ -16,7 +18,6 @@ header {
 
 .menu_wrapper {
 	color:#fff;
-	
 	span.menu_bars {
 		width: 96%;
 		margin-left:auto;
@@ -25,7 +26,6 @@ header {
 		background: #fff;
 		display: block;
 		margin-bottom: 8px;
-		
 	}
 	span.menu_title {
 		text-transform: uppercase;

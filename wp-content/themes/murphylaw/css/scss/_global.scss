@@ -157,7 +157,7 @@ img.aligncenter {
 }
 
 
-h1.page_title {
+h1.page_title, span.page_title  {
 	text-align: center;
 	font-weight: 300;
 	font-style: normal;
@@ -198,7 +198,7 @@ h1.page_title {
 	}
 	
 	
-	h1.page_title {
+	h1.page_title, span.page_title  {
 		
 		font-size: 135px;
 		line-height: 118px;
@@ -230,7 +230,7 @@ h1.page_title {
 	
 
 	
-	h1.page_title {
+	h1.page_title, span.page_title  {
 		line-height: 93px;
 		font-size: 110px;
 		 margin: 81px 0 74px;
@@ -272,7 +272,7 @@ img.aligncenter {
 	
 	
 	
-	h1.page_title {
+	h1.page_title, span.page_title  {
 		font-size: 100px;
 		line-height: 90px;
 		margin: 58px 0 50px;
@@ -293,7 +293,7 @@ img.aligncenter {
 @media screen and (max-width: 400px) {
 	
 	
-	h1.page_title {
+	h1.page_title, span.page_title  {
 		font-size: 89px;
 		line-height: 80px;
 	}
