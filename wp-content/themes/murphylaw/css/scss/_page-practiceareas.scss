@@ -1,0 +1,65 @@
+.practice_areas_directory {
+	max-width:1555px;
+	margin:0 auto;
+	// background:red;
+	ul {
+		list-style: none;
+		margin:0;
+		li {
+			a {
+				display: block;
+			}
+		}
+	}
+	ul#menu-pa-sidebar {
+		
+		> li {
+				
+				> a {
+						color:$red;
+						font-size: 43px;
+						line-height: 45px;
+						font-family: $abhayasemibold;
+						margin-bottom:33px;
+						margin-left:3%;
+						
+				}
+		}
+	}
+	ul.sub-menu {
+		display: flex;
+// 		justify-content: space-between;
+		flex-wrap:wrap;
+		margin-bottom:165px;
+		>li:hover {
+			border-bottom:1px solid transparent;
+		}
+		> li {
+			flex-basis: 27%;
+			flex-shrink:0;
+			margin:0 3%;
+			border-bottom:1px solid $brown;
+			transition: all 350ms ease-in-out;
+			
+				> a {
+						text-transform: uppercase;
+						text-decoration: none;
+						color:#12414a;
+						font-family:$proximaextrabold;
+						letter-spacing: 0.15em;
+						padding:34px 0;
+						
+						transition: all 350ms ease-in-out;
+						&:hover {
+							background: #471046;
+							color:#fff;
+							width:calc(100% + 25px);
+							margin-left:-25px;
+							padding-left:25px;
+							// border-bottom:1px solid transparent;
+							box-shadow: 6px 7px 10px 0px rgba(10, 21, 42, 0.58);
+						}
+					}
+				}
+			}
+		}

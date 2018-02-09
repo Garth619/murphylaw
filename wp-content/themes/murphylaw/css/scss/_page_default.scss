@@ -141,12 +141,15 @@ a.internal_free_case_button {
 				 	display: block;
 				 	transition: all 350ms ease-in-out;
 				 	&:hover {
+					 	color:$brown;
+/*
 					 	background: #471046;
 					 	box-shadow: 6px 7px 10px 0px rgba(10, 21, 42, 0.58);
 					 	width:107%;
 					 	margin-left:-25px;
 					 	padding-left:27px;
 					 	color:#fff;
+*/
 				 	}
 			 }
 		}
