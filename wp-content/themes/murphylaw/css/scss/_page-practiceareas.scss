@@ -1,7 +1,7 @@
 .practice_areas_directory {
 	max-width:1555px;
 	margin:0 auto;
-	// background:red;
+	padding-bottom:20px;
 	ul {
 		list-style: none;
 		margin:0;
@@ -22,13 +22,22 @@
 						font-family: $abhayasemibold;
 						margin-bottom:33px;
 						margin-left:3%;
-						
+						position: relative;
+						padding-left:80px;
+						&:before {
+							content:url(#{$themePath}images/new-saints2.svg);
+							width:60px;
+							height:75px;
+							display: block;
+							position: absolute;
+							top:-23px;
+							left:-10px;
+						}
 				}
 		}
 	}
 	ul.sub-menu {
 		display: flex;
-// 		justify-content: space-between;
 		flex-wrap:wrap;
 		margin-bottom:165px;
 		>li:hover {
@@ -47,19 +56,195 @@
 						color:#12414a;
 						font-family:$proximaextrabold;
 						letter-spacing: 0.15em;
-						padding:34px 0;
-						
+						// padding:34px 0;
+						height:81px;
+						font-size:16px;
 						transition: all 350ms ease-in-out;
+						display: flex;align-items: center;
 						&:hover {
 							background: #471046;
 							color:#fff;
 							width:calc(100% + 25px);
 							margin-left:-25px;
 							padding-left:25px;
-							// border-bottom:1px solid transparent;
 							box-shadow: 6px 7px 10px 0px rgba(10, 21, 42, 0.58);
 						}
 					}
 				}
 			}
 		}
+		
+		
+
+
+
+@media screen and (max-width: 1390px) {
+			
+			
+			
+			
+.practice_areas_directory {
+	
+	ul {
+		
+		li {
+			a {
+				
+			}
+		}
+	}
+	ul#menu-pa-sidebar {
+		
+		> li {
+				
+				> a {
+						
+						&:before {
+							
+						}
+				}
+		}
+	}
+	ul.sub-menu {
+		margin-bottom: 135px;
+		>li:hover {
+			
+		}
+		> li {
+				flex-basis: 44%;
+					margin:0 3%;
+				> a {
+						
+						&:hover {
+							
+						}
+					}
+				}
+			}
+		}
+		
+		
+			
+			
+			
+			
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 1060px) {
+	
+	
+	
+.practice_areas_directory {
+	
+	ul {
+		
+		li {
+			a {
+				
+			}
+		}
+	}
+	ul#menu-pa-sidebar {
+		
+		> li {
+				
+				> a {
+						font-size: 39px;
+						padding-left: 60px;
+						margin-left:0;
+						&:before {
+							width:50px;
+							top: -16px;
+						}
+				}
+		}
+	}
+	ul.sub-menu {
+		margin-bottom: 118px;
+		>li:hover {
+			
+		}
+		> li {
+				flex-basis: 100%;
+				margin:0;
+				> a {
+						
+						&:hover {
+							
+						}
+					}
+				}
+			}
+		}
+		
+		
+		
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+	
+.practice_areas_directory {
+	max-width:550px;
+	ul {
+		
+		li {
+			a {
+				
+			}
+		}
+	}
+	ul#menu-pa-sidebar {
+		
+		> li {
+				
+				> a {
+						font-size: 36px;
+						padding-left: 60px;
+						margin-bottom: 17px;
+						line-height: 36px;
+						&:before {
+							width:50px;
+							top: -16px;
+						}
+				}
+		}
+	}
+	ul.sub-menu {
+		margin-bottom: 72px;
+		>li:hover {
+			
+		}
+		> li {
+				
+				> a {
+						height: 68px;
+						font-size: 15px;
+						&:hover {
+							
+						}
+					}
+				}
+			}
+		}
+		
+		
+	
+	
+	
+	
+	
+	
+} /* Media Query */
