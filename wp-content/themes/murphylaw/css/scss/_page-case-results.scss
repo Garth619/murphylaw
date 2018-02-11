@@ -185,6 +185,7 @@ body.page-template-page-caseresults {
 	
 	.case_results_page_wrapper {
 		display: block;
+		margin-bottom:50px;
 	}
 	
 .single_case_results_page {
@@ -266,6 +267,22 @@ body.page-template-page-caseresults {
 
 
 @media screen and (max-width: 767px) {
+	
+	
+	
+	body.page-template-page-caseresults {
+		.container {
+			padding-right:0;
+			padding-left:0;
+		}
+	}
+	
+	
+	
+	.case_results_page_wrapper {
+		margin-bottom:30px
+	}
+	
 	
 	
 .single_case_results_page {
