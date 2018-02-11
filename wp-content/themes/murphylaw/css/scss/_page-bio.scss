@@ -1,0 +1,140 @@
+.profile_top_wrapper {
+	width:100%;
+	position: relative;
+	&:after {
+		content:"";
+		width:100%;
+		max-width:1412px;
+		height:830px;
+		position: absolute;
+		top:0;
+		display: block;
+		right:0;
+		background: url(#{$themePath}images/bg-pattern-01.jpg) top left repeat;
+	}
+}
+
+.profile_inner {
+	max-width:1745px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:120px;
+	padding-left:70px;
+	padding-right:70px;
+	width:100%;
+	position: relative;
+	z-index: 5;
+	display: flex;
+	justify-content: space-between;
+}
+
+.profile_header_wrapper {
+
+	h1.bio_header {
+		color:$brown;
+		font-family: $blanchlight;
+		font-size:325px;
+		font-weight: 300;
+		font-style: normal;
+		line-height: 270px;
+		span {
+			display: block;
+		}
+		span.upper_header {
+		
+		}
+		span.lower_header {
+		
+		}
+	}
+}
+
+
+span.bio_position {
+	display: block;
+	color:#780c3d;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-family: $proximaextrabold;
+	letter-spacing: 0.3em;
+	margin-left:195px;
+	&:before {
+		content:url(#{$themePath}images/new-saints2.svg);
+		width:55px;
+		height: 71px;
+		display: inline-block;
+		position: relative;
+		top:20px;	
+		margin-right:13px;
+	}
+}
+
+
+.profile_image_wrapper {
+	img {
+		max-width: 100%;
+		height:auto;
+	}
+}
+
+
+.profile_container {
+	max-width:1745px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:110px;
+	padding-left:70px;
+	padding-right:70px;
+	width:100%;
+	display: flex;
+}
+
+
+.profile_content {
+	flex-grow: 1;
+}
+
+.profile_sidebar {
+	flex-basis: 595px;
+	flex-shrink: 0;
+	span.profile_sidebar_title {
+		text-transform: uppercase;
+		font-family: $proximaextrabold;
+		font-size: 16px;
+		line-height: 20px;
+		letter-spacing: 0.15em;
+		display: block;
+		margin-bottom: 33px;
+		color:#780c3d;
+	}
+	ul {
+		margin-bottom:57px;
+		li {
+			margin-bottom:25px;
+			font-size: 18px;
+			line-height: 20px;
+			background-position-y:6px;
+		}
+	}
+}
+
+
+
+
+@media screen and (min-width: 1950px) {
+	
+	
+.profile_top_wrapper {
+	
+	&:after {
+		
+		width:70%;
+		max-width:100%;
+	}
+}
+
+	
+	
+	
+	
+} /* Media Query */

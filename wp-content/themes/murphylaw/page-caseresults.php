@@ -7,8 +7,6 @@
 	get_header(); ?>
 
 
-<?php get_template_part( 'banner', 'internal' );?>
-
 <div class="main">
 	
 	<div class="container">
