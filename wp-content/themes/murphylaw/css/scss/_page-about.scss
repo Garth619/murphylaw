@@ -1,0 +1,333 @@
+// Since this template is similiar to the Attorney Bio Page, I am using the same styles and classes where I can
+
+
+
+body.page-template-page-about {
+	
+
+
+.profile_top_wrapper:after {
+   
+    height: 775px;
+    
+}
+
+
+.profile_header_wrapper {
+   margin-right: 23px;
+   width: 725px;
+   margin-bottom: 358px;
+   h1.bio_header {
+	   line-height: 250px;
+   }
+ }
+ 
+
+ 
+ 
+ .profile_image_wrapper {
+	 width:calc(100% - 697px);
+	 img {
+		 float:right;
+	 }
+ }
+
+
+
+
+
+.profile_inner {
+	padding-top: 142px;
+}
+
+
+
+
+
+.profile_content {
+	max-width: 100%;
+	column-count: 3;
+	column-gap: 88px;
+}
+
+
+
+
+
+
+
+} // End of body.page-template-page-about, for using Attorney Bio Page where I can
+
+
+
+
+.learn_more_play_wrapper {
+	display: inline-block;
+	width:100%;
+	cursor: pointer;
+	padding-bottom:50px;
+	position: relative;
+	&:after {
+		content:"";
+		clear:both;
+		display: block;
+	}
+	&:hover {
+		.about_play_button {
+			.about_play_button_inner {
+				background: $brown;
+			}
+		}
+	}
+	
+	.play_hack {
+		width: 93px;
+		height:145px;
+		position: absolute;
+		top:0;
+		left:0;
+		z-index: 1;
+	}
+	
+	.about_play_button {
+		padding-top: 15px;
+		width: 93px;
+		float:left;
+		.about_play_button_inner {
+			background: #471046;
+			height:125px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			width:78px;
+			box-shadow: 4px 4px 10px 0px rgba(10, 21, 42, 0.31);
+			transition: all .2s ease-in-out;
+			&:after {
+				content:"";
+				width:100%;
+				height:100%;
+				display: block;
+				border:1px solid $brown;
+				top:-12px;
+				right:-12px;
+				position: absolute;
+				z-index: -1;
+			}
+			span.about_tri {
+				width: 0; 
+				height: 0; 
+				display: block;
+				border-top: 17px solid transparent;
+				border-bottom: 17px solid transparent;
+				border-left: 17px solid #fff;
+				margin-left:7px;
+			}
+		}
+	}
+	.learn_play_title {
+		font-family:$abhayareg;
+		color:$brown;
+		font-size: 72px;
+		line-height: 60px;
+		padding-left: 13px;
+		float:right;
+		width:calc(100% - 93px);
+	}
+}
+
+
+
+
+
+
+@media screen and (max-width: 1583px) {
+	
+	
+	
+body.page-template-page-about {
+	
+
+
+.profile_top_wrapper:after {
+   
+   
+    
+}
+
+
+.profile_header_wrapper {
+     margin-bottom: 257px;
+   h1.bio_header {
+	   
+   }
+ }
+ 
+
+ 
+ 
+ .profile_image_wrapper {
+	 
+	 img {
+		
+	 }
+ }
+
+
+
+
+
+.profile_inner {
+	padding-top: 142px;
+}
+
+
+
+} // End of body.page-template-page-about, for using Attorney Bio Page where I can
+
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 1390px) {
+	
+
+
+
+
+body.page-template-page-about {
+
+
+
+.profile_top_wrapper:after {
+   
+    height: 650px;
+    
+}
+
+.profile_header_wrapper {
+   
+   h1.bio_header {
+	   line-height: 220px;
+   }
+ }
+ 
+
+
+
+
+} // End of body.page-template-page-about, for using Attorney Bio Page where I can
+
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 1295px) {
+	
+	
+	
+	
+	
+	
+body.page-template-page-about {
+
+
+
+	.profile_top_wrapper:after {
+   
+    
+    
+	}
+
+	.profile_header_wrapper {
+   	width:100%;
+	 	h1.bio_header {
+	   line-height: 150px;
+   	}
+ 	}
+ 
+ 	.profile_image_wrapper {
+	 	width:100%;
+	 	img {
+		 	float:none;
+	 	}
+ 	}
+ 
+ 
+ 	.profile_inner {
+	 	padding-top:66px;
+ 	}
+ 
+
+
+
+
+} // End of body.page-template-page-about, for using Attorney Bio Page where I can
+
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+	
+		
+body.page-template-page-about {
+
+
+
+	.profile_top_wrapper:after {
+   
+    
+    height: 470px;
+	}
+
+	.profile_header_wrapper {
+   	
+	 	h1.bio_header {
+	   line-height: 90px;
+   	}
+ 	}
+ 
+ 	.profile_image_wrapper {
+	 	margin-top: 38px;
+	 	img {
+		 	
+	 	}
+ 	}
+ 
+ 
+ 	.profile_inner {
+	 	
+ 	}
+ 
+
+
+
+
+} // End of body.page-template-page-about, for using Attorney Bio Page where I can
+
+	
+	
+	
+	
+	
+} /* Media Query */
+
