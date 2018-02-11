@@ -36,7 +36,7 @@
 				
 				<span class="footer_title">Office</span>
 				
-				<a class="footer_address_link" href="" target="_blank">2354 South Acadian Thruway<br/> Baton Rouge, LA 70808</a><!-- footer_address_link -->
+				<a class="footer_address_link" href="https://www.google.com/maps/place/Murphy+Law+Firm+LLC/@30.4251744,-91.1535728,17z/data=!4m13!1m7!3m6!1s0x8626a6b42656cd47:0x9ac80ff5c84256de!2s2354+S+Acadian+Thruway,+Baton+Rouge,+LA+70808!3b1!8m2!3d30.4251744!4d-91.1513841!3m4!1s0x8626a3f4d0c4378d:0xd7ee33e80783fe34!8m2!3d30.4250646!4d-91.1513124" target="_blank">2354 South Acadian Thruway<br/> Baton Rouge, LA 70808</a><!-- footer_address_link -->
 				
 				<span class="footer_title">Call Us</span>
 				
