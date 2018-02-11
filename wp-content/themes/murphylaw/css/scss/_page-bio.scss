@@ -310,6 +310,8 @@ span.bio_position {
 .profile_inner {
 	display: block;
 	padding-top: 66px;
+	padding-left:75px;
+	padding-right:75px
 }
 
 
@@ -325,7 +327,16 @@ span.bio_position {
 	
 	span.bio_position {
 		text-align: center;
-		margin-top: 3px;
+		text-align: center;
+		margin-top: -16px;
+		&:before {
+			content:url(#{$themePath}images/new-saints3.svg);
+			margin-left:auto;
+			margin-right:auto;
+			display: block;
+			z-index: -1;
+			top:37px;
+		}
 	}
 	
 	
@@ -337,6 +348,82 @@ span.bio_position {
 	    margin-right:auto;
     }
 	}
+	
+	.profile_container {
+		margin:60px 0 0;
+		padding-left:75px;
+		padding-right:75px;
+		display: block;
+		
+    padding-bottom: 63px;
+	}
+	
+	
+	.profile_content {
+		max-width:100%;
+		padding-right:0;
+	}
+	
+	
+	.profile_sidebar {
+		margin:105px 0 0;
+		span.profile_sidebar_title {
+			max-width: 100%;
+			margin-bottom: 30px;
+		}
+		ul {
+			max-width: 100%;
+		}
+	}
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+	.profile_top_wrapper {
+		&:after {
+		height:600px;
+	}
+	}
+	
+	.profile_inner {
+		padding-left:25px;
+		padding-right:25px;
+	}
+	
+	
+	.profile_header_wrapper {
+		 h1.bio_header {
+			 font-size:100px;
+			 line-height: 90px;
+		 }
+	}
+	
+	
+	span.bio_position {
+		font-size: 18px;
+		letter-spacing: 0.15em;
+	}
+	
+	
+	.profile_container {
+		padding-left:25px;
+		padding-right:25px;
+		margin: 48px 0 0;
+		padding-bottom: 25px;
+	}
+	
+	
+	.profile_sidebar {
+		margin: 57px 0 0;
+	}
+	
 	
 	
 	
