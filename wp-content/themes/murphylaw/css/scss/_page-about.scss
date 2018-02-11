@@ -48,10 +48,21 @@ body.page-template-page-about {
 	max-width: 100%;
 	column-count: 3;
 	column-gap: 88px;
+	padding-right:0;
 }
 
 
+.content {
+	blockquote {
+		display: inline-block;
+		width:100%;
+	}
+}
 
+
+.sec_two_slideshow {
+	margin:80px auto 175px;
+}
 
 
 
@@ -67,6 +78,7 @@ body.page-template-page-about {
 	cursor: pointer;
 	padding-bottom:50px;
 	position: relative;
+	max-width:492px;
 	&:after {
 		content:"";
 		clear:both;
@@ -132,13 +144,44 @@ body.page-template-page-about {
 		line-height: 60px;
 		padding-left: 13px;
 		float:right;
+		margin-top:13px;
 		width:calc(100% - 93px);
 	}
 }
 
 
 
+@media screen and (max-width: 1775px) {
+	
+	
+	
+	
+	
+	body.page-template-page-about {
+		
+		
+		
+		.profile_content {
+			column-count: 2;
+			column-gap: 88px;
+		}
 
+		
+	
+	
+	} // End of body.page-template-page-about, for using Attorney Bio Page where I can
+	
+	
+	
+	.learn_more_play_wrapper {
+		margin-top:45px;
+	}
+	
+	
+	
+	
+	
+} /* Media Query */
 
 
 @media screen and (max-width: 1583px) {
@@ -217,6 +260,12 @@ body.page-template-page-about {
    }
  }
  
+ 
+ .sec_two_slideshow {
+		margin:40px auto 175px;
+	}
+	
+ 
 
 
 
@@ -249,8 +298,12 @@ body.page-template-page-about {
     
 	}
 
+
+
+
 	.profile_header_wrapper {
    	width:100%;
+   	margin-bottom:40px;
 	 	h1.bio_header {
 	   line-height: 150px;
    	}
@@ -276,6 +329,85 @@ body.page-template-page-about {
 
 	
 	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1250px) {
+	
+	
+body.page-template-page-about {
+	
+	.profile_content {
+		max-width: 100%;
+		column-count: 1;
+		column-gap: 0px;
+		padding-right:0;
+	}
+	
+	.content {
+		blockquote {
+			display: block;
+			width:100%;
+		}
+	}
+	
+	
+	
+
+
+
+} // End of body.page-template-page-about, for using Attorney Bio Page where I can
+
+
+.learn_more_play_wrapper {
+	max-width:100%;
+	.learn_play_title {
+		font-size:62px;
+		margin-top: 31px;
+	}
+}
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1060px) {
+	
+	
+	body.page-template-page-about {
+	
+		.sec_two_slideshow {
+			margin:0px auto 105px;
+		}
+	
+	} // End of body.page-template-page-about, for using Attorney Bio Page where I can
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 800px) {
+	
+	
+	
+	
+.learn_more_play_wrapper {
+	 max-width: 399px;
+	 margin-top: 27px;
+	 padding-bottom: 34px;
+	.learn_play_title {
+		font-size:55px;
+		line-height: 47px;
+		margin-top: 25px;
+	}
+}
 	
 	
 	
@@ -325,7 +457,30 @@ body.page-template-page-about {
 } // End of body.page-template-page-about, for using Attorney Bio Page where I can
 
 	
-	
+.learn_more_play_wrapper {
+	max-width: 330px;
+	.play_hack {
+		width: 75px;
+	}
+	.about_play_button {
+		width: 75px;
+		.about_play_button_inner {
+			 width: 59px;
+			 height: 100px;
+			 span.about_tri {
+			 	border-top: 12px solid transparent;
+			 	border-bottom: 12px solid transparent;
+			 	border-left: 13px solid #fff;
+			 }
+		}
+	}
+	.learn_play_title {
+		font-size:45px;
+		line-height: 42px;
+		margin-top: 13px;
+		width: calc(100% - 75px);
+	}
+}
 	
 	
 	
