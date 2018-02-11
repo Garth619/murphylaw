@@ -1,6 +1,9 @@
 .profile_top_wrapper {
 	width:100%;
 	position: relative;
+// 	margin-bottom:120px;
+	
+	// overflow-x: hidden;
 	&:after {
 		content:"";
 		width:100%;
@@ -15,12 +18,12 @@
 }
 
 .profile_inner {
-	max-width:1745px;
+	max-width:1805px;
 	margin-left:auto;
 	margin-right:auto;
 	padding-top:120px;
-	padding-left:70px;
-	padding-right:70px;
+	padding-left:100px;
+	padding-right:100px;
 	width:100%;
 	position: relative;
 	z-index: 5;
@@ -29,7 +32,8 @@
 }
 
 .profile_header_wrapper {
-
+	margin-right:40px;
+	margin-bottom: 269px;
 	h1.bio_header {
 		color:$brown;
 		font-family: $blanchlight;
@@ -57,7 +61,7 @@ span.bio_position {
 	font-size: 20px;
 	font-family: $proximaextrabold;
 	letter-spacing: 0.3em;
-	margin-left:195px;
+	text-align: right;
 	&:before {
 		content:url(#{$themePath}images/new-saints2.svg);
 		width:55px;
@@ -79,24 +83,28 @@ span.bio_position {
 
 
 .profile_container {
-	max-width:1745px;
+	max-width:1805px;
+	
 	margin-left:auto;
+	padding:0px 100px 80px;
 	margin-right:auto;
-	padding-top:110px;
-	padding-left:70px;
-	padding-right:70px;
+	
 	width:100%;
 	display: flex;
+	justify-content: space-between;
 }
 
 
 .profile_content {
 	flex-grow: 1;
+	max-width:855px;
 }
 
 .profile_sidebar {
-	flex-basis: 595px;
+	flex-basis: 598px;
 	flex-shrink: 0;
+	margin-top:4px;
+	padding-left:90px;
 	span.profile_sidebar_title {
 		text-transform: uppercase;
 		font-family: $proximaextrabold;
@@ -106,8 +114,10 @@ span.bio_position {
 		display: block;
 		margin-bottom: 33px;
 		color:#780c3d;
+		max-width: 415px;
 	}
 	ul {
+		max-width: 415px;
 		margin-bottom:57px;
 		li {
 			margin-bottom:25px;
@@ -117,6 +127,9 @@ span.bio_position {
 		}
 	}
 }
+
+
+
 
 
 
@@ -133,6 +146,156 @@ span.bio_position {
 	}
 }
 
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1880px) {
+	
+	
+	
+.profile_top_wrapper {
+	&:before {
+		content:"";
+		width:450px;
+		position: relative;
+		z-index: 1;
+		height:500px;
+		background: #fff;
+		display: block;
+		position: absolute;
+		top:0;
+		left:0;
+		height:830px;
+	}
+	&:after {
+		max-width:1415px;
+	}
+}
+
+
+
+
+
+	
+	
+	
+} /* Media Query */
+
+
+
+
+
+@media screen and (max-width: 1583px) {
+	
+
+
+
+
+.profile_top_wrapper {
+	&:before {
+		height:790px;
+		width: 470px;
+	}
+	&:after {
+		height:790px;
+	}
+}
+
+
+
+	
+	
+	.profile_image_wrapper {
+		margin-top:0px;
+		img {
+			max-height: 590px;
+		}
+	}
+	
+	
+	.profile_inner {
+		padding-top: 94px;
+		padding-right:0;
+	}
+	
+	
+	span.bio_position {
+		margin-top: -10px;
+	}
+	
+	 
+	 
+	 .profile_header_wrapper {
+   		margin-bottom: 207px;
+   	}
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1450px) {
+	
+	
+.profile_top_wrapper {
+	&:before {
+		
+	}
+	&:after {
+		
+	}
+}
+
+	
+	
+	
+	
+	
+	.profile_content {
+		max-width: 705px;
+		padding-right:100px;
+		
+	}
+	
+	
+	.profile_sidebar {
+		padding-left: 0px;
+		flex-basis: 436px;
+	}
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1395px) {
+	
+
+	
+	.profile_header_wrapper {
+		margin-bottom: 277px;
+		h1.bio_header {
+			font-size: 290px;
+			line-height: 230px;
+		}
+	} 
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1295px) {
+	
+	
+	
 	
 	
 	

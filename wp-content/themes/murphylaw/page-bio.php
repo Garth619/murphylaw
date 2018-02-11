@@ -48,8 +48,9 @@
 
 		<p>Murphy is a lifelong resident of Baton Rouge, Louisiana and is married to Jenny Murphy. After completing his undergraduate study at Louisiana State University in 1988, Peyton P. Murphy was immediately admitted to law school. He received his Juris Doctorate from Tulane Law School in 1991.</p>
 		
-		<p>Peyton P. Murphy was admitted to the Connecticut State Bar and the Louisiana State Bar in 1992 and 1993, respectively. 
-Mr. Murphy is also licensed in the Western, Middle and Eastern District of the Federal U.S. District Courts in Louisiana as well as the United States Supreme Court. Peyton P. Murphy is an active member of the Baton Rouge Bar Association and the Louisiana Trial Lawyers Association.</p>
+		<p>Peyton P. Murphy was admitted to the Connecticut State Bar and the Louisiana State Bar in 1992 and 1993, respectively.</p>
+
+<p>Mr. Murphy is also licensed in the Western, Middle and Eastern District of the Federal U.S. District Courts in Louisiana as well as the United States Supreme Court. Peyton P. Murphy is an active member of the Baton Rouge Bar Association and the Louisiana Trial Lawyers Association.</p>
 
 	<blockquote>Representing clients who have been injured in accidents, defective drugs, and dangerous products, in its 24 years of litigation.</blockquote>
 
