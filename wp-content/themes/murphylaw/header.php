@@ -41,19 +41,19 @@
 		
 </a><!-- logo -->
 		
-<header>
+<header id="sticky_header">
 	
 	<div class="header_left">
 		
-		<div class="menu_wrapper">
-			
-			<span class="menu_bars"></span><!-- menu_bars -->
-			<span class="menu_bars"></span><!-- menu_bars -->
-			<span class="menu_bars"></span><!-- menu_bars -->
-			
-			<span class="menu_title">Menu</span><!-- menu_title -->
-			
-		</div><!-- menu_wrapper -->
+	<div class="menu_wrapper">
+		
+		<span class="menu_bars"></span><!-- menu_bars -->
+		<span class="menu_bars"></span><!-- menu_bars -->
+		<span class="menu_bars"></span><!-- menu_bars -->
+		
+		<span class="menu_title">Menu</span><!-- menu_title -->
+		
+	</div><!-- menu_wrapper -->
 		
 		
 		
@@ -81,15 +81,34 @@
 		
 		<div class="email_wrapper">
 			
-			<?php echo file_get_contents("wp-content/themes/murphylaw/images/new-email.svg"); ?>
+			<a href="#scroll">
 			
-			<a class="free_consultation" href="#scroll">Free Consultation</a><!-- free_consultation -->
+				<?php echo file_get_contents("wp-content/themes/murphylaw/images/new-email.svg"); ?>
+			
+				<span class="free_consultation" href="#scroll">Free Consultation</span><!-- free_consultation -->
+			
+			</a>
 			
 		</div><!-- email_wrapper -->
 		
 	</div><!-- header_right -->
 	
 </header>
+
+<div id="sticky_mobile_header">
+	
+	<div class="menu_wrapper">
+			
+			<span class="menu_bars"></span><!-- menu_bars -->
+			<span class="menu_bars"></span><!-- menu_bars -->
+			<span class="menu_bars"></span><!-- menu_bars -->
+			
+			<span class="menu_title">Menu</span><!-- menu_title -->
+			
+		</div><!-- menu_wrapper -->
+	
+	
+</div><!-- mobile_header -->
 
 <div class="nav_wrapper">
 	
@@ -130,7 +149,7 @@
 		
 			<span class="large_header">Free Case Consultation</span><!-- large_header -->
 		
-			<?php gravity_form(1, false, false, false, '', true, 312); ?>
+			<?php gravity_form(2, false, false, false, '', true, 312); ?>
 			
 			<span class="nav_required">*Required</span><!-- nav_required -->
 		

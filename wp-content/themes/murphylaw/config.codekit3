@@ -1775,17 +1775,6 @@
 		"oAP": "\/page.php",
 		"oF": 0
 		},
-	"\/screenshot.png": {
-		"ft": 32768,
-		"iS": 57403,
-		"oA": 0,
-		"oAP": "\/screenshot.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
 	"\/search.php": {
 		"cB": 0,
 		"ft": 8192,

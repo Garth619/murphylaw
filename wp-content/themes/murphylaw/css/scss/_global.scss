@@ -1,3 +1,8 @@
+body {
+	margin-top:95px; // for gobal fixed header
+}
+
+
 .alignleft,
 img.alignleft {
 	display: inline;
@@ -243,6 +248,11 @@ h1.page_title, span.page_title  {
 
 
 @media screen and (max-width: 767px) {
+
+
+body {
+	margin-top:0;
+}
 	
 	
 .alignleft,

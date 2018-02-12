@@ -3,7 +3,10 @@ header {
 	align-items: center;
 	background: #fff;
 	box-shadow: 0px 7px 10px 0px rgba(10, 21, 42, 0.17);
-	position: relative;
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
 	z-index:100;
 }
 
@@ -46,8 +49,21 @@ header {
 }
 
 
+
+header#sticky_header.visible {
+
+
+	a.logo {
+		opacity: 0;
+		visibility: hidden;
+	}
+}
+
+
 a.logo {
-	
+	opacity: 1;
+	visibility: visible;
+	transition: all 300ms ease-in-out;
 	margin-left:28px;
 	img {
 		width:222px;
@@ -85,29 +101,40 @@ a.logo {
 
 
 .email_wrapper {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
 	border:2px solid $brown;
 	padding:5px 15px 5px 12px;
+	a {
+		display: block;
+		width:100%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		text-decoration: none;
+	}
 	svg {
 		width:52px;
 		display: block;
 		height: 46px;
 	}
-	a.free_consultation {
+	span.free_consultation {
 		color:$brown;
 		text-transform: lowercase;
 		font-family: $proximaextrabold;
 		font-size: 18px;
 		letter-spacing: 0.085em;
 		text-decoration: none;
+		display: block;
 	}
 }
 
 
 
 .mobile_logo {
+	display: none;
+}
+
+
+#sticky_mobile_header {
 	display: none;
 }
 
@@ -163,7 +190,30 @@ a.logo {
 
  @media screen and (max-width: 767px) {
 	 
+	 #sticky_mobile_header.visible {
+		 opacity: 1;
+		 visibility: visible;
+	 }
 	 
+	 
+	 #sticky_mobile_header {
+		 width:100%;
+		 height:100px;
+		 background:#471046;
+		 position: fixed;
+		 transform: translate3d(0,0,0);
+		 top:0;
+		 left:0;
+		 z-index:200;
+		 display: block;
+		 opacity: 0;
+		 visibility: hidden;
+		 transition: all .2s ease-in-out;
+	 }
+	 
+	 header {
+		 position: relative;
+	 }
 	 
 	 a.mobile_logo {
 	 	display: block;

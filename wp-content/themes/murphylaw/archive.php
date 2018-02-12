@@ -13,19 +13,32 @@
 		the_post();
 ?>
 
-			<h1 class="page-title">
+			
+
+
+
+
+<?php get_template_part( 'banner', 'internal' );?>
+
+<div class="main default_main">
+	
+	<?php get_sidebar('blog'); ?>
+	
+	<div class="page_container content">
+		
+		<h1 class="blog_title">
 <?php if ( is_day() ) : ?>
-				<?php printf( __( 'Daily Archives: <span>%s</span>', 'twentyten' ), get_the_date() ); ?>
+				<?php printf( __( '<span>%s</span>', 'twentyten' ), get_the_date() ); ?>
 <?php elseif ( is_month() ) : ?>
-				<?php printf( __( 'Monthly Archives: <span>%s</span>', 'twentyten' ), get_the_date( _x( 'F Y', 'monthly archives date format', 'twentyten' ) ) ); ?>
+				<?php printf( __( '<span>%s</span>', 'twentyten' ), get_the_date( _x( 'F Y', 'monthly archives date format', 'twentyten' ) ) ); ?>
 <?php elseif ( is_year() ) : ?>
-				<?php printf( __( 'Yearly Archives: <span>%s</span>', 'twentyten' ), get_the_date( _x( 'Y', 'yearly archives date format', 'twentyten' ) ) ); ?>
+				<?php printf( __( '<span>%s</span>', 'twentyten' ), get_the_date( _x( 'Y', 'yearly archives date format', 'twentyten' ) ) ); ?>
 <?php else : ?>
 				<?php _e( 'Blog Archives', 'twentyten' ); ?>
 <?php endif; ?>
 			</h1>
-
-<?php
+		
+		<?php
 	/*
 	 * Since we called the_post() above, we need to
 	 * rewind the loop back to the beginning that way
@@ -39,6 +52,11 @@
 ?>
 
 
+	</div><!-- page_container -->
+	
+	
+	
+</div><!-- main -->
 
-<?php // get_sidebar(); ?>
+
 <?php get_footer(); ?>
