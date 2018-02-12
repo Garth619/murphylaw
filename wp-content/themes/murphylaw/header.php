@@ -97,15 +97,37 @@
 
 <div id="sticky_mobile_header">
 	
-	<div class="menu_wrapper">
+	<div class="menu_wrapper sticky_menu">
 			
-			<span class="menu_bars"></span><!-- menu_bars -->
-			<span class="menu_bars"></span><!-- menu_bars -->
-			<span class="menu_bars"></span><!-- menu_bars -->
+		<span class="menu_bars"></span><!-- menu_bars -->
+		<span class="menu_bars"></span><!-- menu_bars -->
+		<span class="menu_bars"></span><!-- menu_bars -->
 			
-			<span class="menu_title">Menu</span><!-- menu_title -->
+		<span class="menu_title">Menu</span><!-- menu_title -->
 			
-		</div><!-- menu_wrapper -->
+	</div><!-- menu_wrapper -->
+	
+	
+	<div class="mobile_phone_wrapper">
+		
+		<a class="mobile_phone" href="tel:(225) 928-8800">
+			
+			<?php echo file_get_contents("wp-content/themes/murphylaw/images/new-phone2.svg"); ?>
+			
+		</a>
+		
+	</div><!-- mobile_phone -->
+	
+	
+	<div class="mobile_email_wrapper">
+		
+		<a class="" href="#footer_section">
+		
+			<?php echo file_get_contents("wp-content/themes/murphylaw/images/new-email.svg"); ?>
+		
+		</a>
+			
+	</div><!-- mobile_email_wrapper -->
 	
 	
 </div><!-- mobile_header -->
