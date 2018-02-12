@@ -1,16 +1,130 @@
 
-@media screen and (min-width: 1600px) {
+@media screen and (max-width: 1600px) {
 	
 	
 	
 	
+	
+} /* Media Query */
+
+
+
+
+
+
+@media screen and (min-width: 1330px) {
+	
+	
+	
+	
+	
+	.nav_col_one {
+		transform: translateY(-100%);
+	}
+	
+	
+	.nav_col_two {
+		transform: translateY(-100%);
+	}
+	
+	
+	.nav_col_three {
+		transform: translateY(100%);
+	}
+	
+
+	.nav_wrapper {
+		
+	}
+	
+	
+	.nav_wrapper.open {
+		.nav_col_one {
+			transform: translateY(0%);
+			transition: all 1000ms cubic-bezier(.17,.66,.34,.98);
+		}
+	}
 	
 	
 	
 
+	.nav_wrapper.open {
+		.nav_col_one {
+			animation-name: menu_move_down;
+			animation-duration: 1000ms;
+			animation-fill-mode: both;
+			animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+		}
+		.nav_col_two {
+			animation-name: menu_move_down;
+			animation-duration: 1000ms;
+			animation-fill-mode: both;
+			animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+		}
+		.nav_col_three {
+			animation-name: menu_move_up;
+			animation-duration: 1000ms;
+			animation-fill-mode: both;
+			animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+		}
+	}
 	
 	
+	ul#menu-menu-1 {
+		transform: translateY(-110px);
+		opacity: 0;
+	}
+	
+	.nav_wrapper.open {
+		ul#menu-menu-1 {
+			animation-name: fade, menu_col_move;
+			animation-duration: 500ms, 1300ms;
+			animation-fill-mode: both;
+			animation-delay:800ms;
+			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+		}
+	}
+	
+	
+	
+	
+		ul.sub-menu.open {
+			animation-name: fade, menu_col_move;
+			animation-duration: 500ms, 1300ms;
+			animation-fill-mode: both;
+			animation-delay:200ms;
+			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+		}
+	 
+	
+	
+	
+	
+	
+	.nav_wrapper.open.slideout {
+		.nav_col_one {
+			animation-name: menu_move_out;
+			animation-duration: 1000ms;
+			animation-fill-mode: both;
+			animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+		}
+		.nav_col_two {
+			animation-name: menu_move_out;
+			animation-duration: 1000ms;
+			animation-fill-mode: both;
+			animation-timing-function: cubic-bezier(.17,.66,.34,.98);
 
+		}
+		.nav_col_three {
+			animation-name: menu_move_out_two;
+			animation-duration: 1000ms;
+			animation-fill-mode: both;
+			animation-timing-function: cubic-bezier(.17,.66,.34,.98);
+		}
+	}
+	
+	
+	
 	
 	
 	

@@ -7,10 +7,12 @@
 	@keyframes fade {
 	  from {
 	    opacity: 0;
+	    visibility: hidden;
 	 	}
 	
 	  to {
 	    opacity: 1;
+	    visibility: visible;
 	   }
 	}
 	
@@ -48,3 +50,83 @@
 	   transform: translateY(-27px);
 	  }
 	}
+	
+	
+	
+	
+	
+	@keyframes menu_move_down {
+	  from {
+	    
+	 		transform: translateY(-100%);
+	  }
+	
+	  to {
+	    transform: translateY(0%);
+	    
+	  }
+	}
+	
+	
+	@keyframes menu_move_up {
+	  from {
+	    
+	 		transform: translateY(100%);
+	  }
+	
+	  to {
+	    transform: translateY(0%);
+	    
+	  }
+	}
+	
+	
+	
+	
+	@keyframes menu_move_out {
+	  from {
+	    
+	 		transform: translateY(0%);
+	  }
+	
+	  to {
+	    transform: translateY(-100%);
+	    
+	  }
+	}
+	
+	
+	
+		@keyframes menu_move_out_two {
+	  from {
+	    
+	 		transform: translateY(0%);
+	  }
+	
+	  to {
+	    transform: translateY(100%);
+	    
+	  }
+	}
+	
+	
+	
+	@keyframes menu_col_move {
+	  from {
+	    
+	 		transform: translateY(-110px);
+	  }
+	
+	  to {
+	    transform: translateY(0%);
+	    
+	  }
+	}
+	
+	
+	
+	
+	
+	
+	
+	

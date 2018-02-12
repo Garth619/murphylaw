@@ -58,6 +58,9 @@ jQuery(document).ready(function($){
 	
 	
 	createWaypoint("sticky_header", "#sticky_mobile_header", "visible", -110, null, true);
+	
+	
+	createWaypoint("sticky_header", ".nav_wrapper", "short_header", -110, null, true);
 
 
 	
@@ -74,10 +77,18 @@ jQuery(document).ready(function($){
 	
 	
 
-	$('.header_left').on('click', function(e) {
+	$('.header_left, .sticky_menu').on('click', function(e) {
 	  
 	
 		$('.nav_wrapper').addClass('open');
+		
+		
+		$('.close').fadeIn(200);
+		
+		
+		$('html, body').addClass('fixed');
+		
+		$('#sticky_mobile_header').addClass('menu_opened');
 	
 	
 	
@@ -87,7 +98,24 @@ jQuery(document).ready(function($){
 		$('.close').on('click', function(e) {
 	  
 	
-			$('.nav_wrapper').removeClass('open');
+			$('.nav_wrapper').addClass('slideout');
+			
+			
+			$('body').removeClass('fixed');
+			
+			$('#sticky_mobile_header').removeClass('menu_opened');
+			
+			
+			$(this).delay(900).fadeOut(200);
+			
+			
+			$('.nav_wrapper').delay(1500).queue(function(){
+     
+				$(this).removeClass('open slideout').dequeue();
+  
+			});
+			
+			
 	
 		});
 	
@@ -130,7 +158,6 @@ jQuery(document).ready(function($){
 		
 			 		$(this).next('ul.sub-menu').clone().appendTo('.sub_menu_container').addClass('open');
 		 
-			 		
 			 		$('.nav_wrapper ul#menu-menu-1 > li.menu-item-has-children > a').removeClass('active');
 			 		
 			 		$(this).addClass('active');
@@ -138,14 +165,9 @@ jQuery(document).ready(function($){
 				
 				});
 
-		   	
-		   	
-		   	
-	   	}   
+		 }   
 	    
-	    
-			
-	};
+	 };
 		
 	
 	checkWidth();
