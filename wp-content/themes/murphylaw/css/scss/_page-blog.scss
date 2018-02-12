@@ -1,0 +1,120 @@
+.sidebar.blog {
+	.sidebar_blog_inner {
+		max-width:395px;
+		width:100%;
+		margin:0 auto;
+		.widget {
+			
+			h3.hover {
+				.h3_inner {
+					
+					.dots_wrapper {
+						opacity: 0;
+					}
+				}
+				.h3_inner.active {
+					.dots_wrapper {
+						opacity: 1;
+					}
+				}
+			}
+		}
+
+
+		.widget.remove_border.prev-active {
+			border-bottom: 1px solid #a8874d;
+		}
+
+
+		
+		.widget.remove_border {
+			border-bottom: 1px solid transparent;
+		}
+		
+		.widget.active {
+			&:hover {
+				border-bottom:1px solid #a8874d;
+			}
+		}
+		.widget {
+			border-bottom:1px solid #a8874d;
+			&:hover {
+				border-bottom: 1px solid transparent;
+			}
+			h3 {
+				text-transform: uppercase;
+				position: relative;
+				.h3_inner.active {
+					color:$brown;
+					&:hover {
+						background: transparent;
+						color:$brown;
+						margin-left:0px;
+						padding-left:0px;
+						box-shadow: none;
+					}
+				}
+				.h3_inner {
+					text-decoration: none;
+					font-family: $proximaextrabold;
+					font-size: 16px;
+					letter-spacing: 0.15em;
+					color:#12414a;
+					padding:31px 50px 31px 0;
+					display: block;
+					cursor:pointer;
+					transition: all 350ms ease-in-out;
+					&:hover {
+						background: #471046;
+						box-shadow: 6px 7px 10px 0px rgba(10, 21, 42, 0.58);
+						width:107%;
+						margin-left:-25px;
+						padding-left:27px;
+						color:#fff;
+						
+					}
+				}
+			}	
+		
+			ul {
+				list-style: none;
+				margin-bottom:15px;
+				display: none;
+				>li:first-of-type {
+					margin-top:-15px;
+				}
+				li {
+					text-transform: none;
+					font-family: $proximabold;
+					a {
+						text-decoration: none;
+						color:#12414a;
+						letter-spacing: 0.05em;
+						font-size: 18px;
+						padding:15px 0;
+						display: block;
+						transition: all 350ms ease-in-out;
+						&:hover {
+							color:$brown;
+						}
+					}
+				}
+			}
+		}
+	}
+	.dots_wrapper {
+		position: absolute;
+		top:28px;
+		right:0;
+		opacity: 1;
+		transition: all .1s ease-in-out;
+		span {
+			width:4px;
+			height:4px;
+			border-radius: 50%;
+			background: $brown;
+			margin:0 4px;
+			display: inline-block;
+		}
+	}
+}

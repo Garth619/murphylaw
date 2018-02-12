@@ -170,7 +170,7 @@ jQuery(document).ready(function($){
 	
 	
 	
-	// sidebar 
+// Sidebar 
 	
 
 
@@ -208,6 +208,55 @@ $('.sidebar ul#menu-pa-sidebar > li > a').on('click', function(e) {
 	$(this).toggleClass('active');
 	
 	$(this).parent('li').prev().toggleClass('active');
+
+
+});
+	
+	
+
+
+// Sidebar Blog
+
+
+$('.sidebar .widget h3').wrapInner('<div class="h3_inner"></div>');
+
+
+$('.sidebar .widget h3 .h3_inner').append('<div class="dots_wrapper"><span></span><span></span><span></span></div>');
+
+	
+
+$(".sidebar .widget h3 .h3_inner").hover(
+	
+	function() {
+	
+		$(this).parent('h3').addClass('hover');
+		
+		$(this).parents('.widget').prev().addClass('remove_border');
+	
+	},
+	
+	function() {
+	
+		$(this).parent('h3').removeClass('hover');
+		
+		$(this).parents('.widget').prev().removeClass('remove_border');
+		
+	}
+
+);
+
+
+
+$('.sidebar .widget h3 .h3_inner').on('click', function(e) {
+  
+	
+	$(this).parent('h3').next('ul').slideToggle(200);
+	
+	$(this).toggleClass('active');
+	
+	$(this).parents('.widget').addClass('active');
+	
+	$(this).parents('.widget').prev().toggleClass('prev-active');
 
 
 });
