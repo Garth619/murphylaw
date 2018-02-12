@@ -78,7 +78,7 @@
 	.nav_wrapper.open {
 		ul#menu-menu-1 {
 			animation-name: fade, menu_col_move;
-			animation-duration: 500ms, 1300ms;
+			animation-duration: 500ms, 1400ms;
 			animation-fill-mode: both;
 			animation-delay:800ms;
 			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
@@ -86,18 +86,20 @@
 	}
 	
 	
-	
+	.nav_wrapper.open {
 	
 		ul.sub-menu.open {
 			animation-name: fade, menu_col_move;
-			animation-duration: 500ms, 1300ms;
+			animation-duration: 500ms, 1400ms;
 			animation-fill-mode: both;
-			animation-delay:200ms;
+			animation-delay:800ms;
 			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
 		}
-	 
+	}
+		
 	
 	
+
 	
 	
 	
@@ -123,6 +125,31 @@
 		}
 	}
 	
+	
+	
+	
+		.nav_col_three {
+			.form_inner {
+				opacity: 0;
+				visibility: hidden;
+				transform: translateY(110px);
+			}
+		}
+	
+	
+	
+	
+	.nav_wrapper.open {
+		.nav_col_three {
+			.form_inner {
+				animation-name: fade, menu_form_move;
+				animation-duration: 500ms, 1600ms;
+				animation-fill-mode: both;
+				animation-delay:800ms;
+				animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+			}
+		}
+	}
 	
 	
 	
