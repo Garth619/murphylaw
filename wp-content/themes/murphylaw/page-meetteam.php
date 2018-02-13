@@ -25,7 +25,7 @@
 				
 					<div class="att_image_wrapper">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/att-01.jpg"/>
+						<img src="<?php bloginfo('template_directory');?>/images/murphy.jpg"/>
 					
 						<div class="view_profile">View Profile</div><!-- view -->
 					
@@ -45,7 +45,7 @@
 				
 					<div class="att_image_wrapper">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/att-01.jpg"/>
+						<img src="<?php bloginfo('template_directory');?>/images/murphy.jpg"/>
 					
 						<div class="view_profile">View Profile</div><!-- view -->
 					
@@ -65,7 +65,7 @@
 				
 					<div class="att_image_wrapper">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/att-01.jpg"/>
+						<img src="<?php bloginfo('template_directory');?>/images/murphy.jpg"/>
 					
 						<div class="view_profile">View Profile</div><!-- view -->
 					
@@ -85,7 +85,7 @@
 				
 					<div class="att_image_wrapper">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/att-01.jpg"/>
+						<img src="<?php bloginfo('template_directory');?>/images/murphy.jpg"/>
 					
 						<div class="view_profile">View Profile</div><!-- view -->
 					
@@ -105,7 +105,7 @@
 				
 					<div class="att_image_wrapper">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/att-01.jpg"/>
+						<img src="<?php bloginfo('template_directory');?>/images/murphy.jpg"/>
 					
 						<div class="view_profile">View Profile</div><!-- view -->
 					
@@ -140,7 +140,7 @@
 				
 					<div class="att_image_wrapper">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/att-01.jpg"/>
+						<img src="<?php bloginfo('template_directory');?>/images/murphy.jpg"/>
 					
 						<div class="view_profile">View Profile</div><!-- view -->
 					
@@ -160,7 +160,7 @@
 				
 					<div class="att_image_wrapper">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/att-01.jpg"/>
+						<img src="<?php bloginfo('template_directory');?>/images/murphy.jpg"/>
 					
 						<div class="view_profile">View Profile</div><!-- view -->
 					
@@ -180,7 +180,7 @@
 				
 					<div class="att_image_wrapper">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/att-01.jpg"/>
+						<img src="<?php bloginfo('template_directory');?>/images/murphy.jpg"/>
 					
 						<div class="view_profile">View Profile</div><!-- view -->
 					
@@ -200,7 +200,7 @@
 				
 					<div class="att_image_wrapper">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/att-01.jpg"/>
+						<img src="<?php bloginfo('template_directory');?>/images/murphy.jpg"/>
 					
 						<div class="view_profile">View Profile</div><!-- view -->
 					
@@ -220,7 +220,7 @@
 				
 					<div class="att_image_wrapper">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/attorneys/att-01.jpg"/>
+						<img src="<?php bloginfo('template_directory');?>/images/murphy.jpg"/>
 					
 						<div class="view_profile">View Profile</div><!-- view -->
 					
