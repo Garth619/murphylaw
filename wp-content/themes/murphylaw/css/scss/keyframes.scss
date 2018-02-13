@@ -18,7 +18,43 @@
 	
 	
 	
+	@keyframes menu_wrapper_move {
+	  from {
+	    transform: translateY(-100px);
+	 	}
 	
+	  to {
+	    transform: translateY(0px);
+	   }
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	@keyframes title_move {
+	  from {
+	    transform: translateY(-45px);
+	 	}
+	
+	  to {
+	    transform: translateY(0px);
+	   }
+	}
+	
+	
+	@keyframes button_move {
+	  from {
+	    transform: translateY(-25px);
+	 	}
+	
+	  to {
+	    transform: translateY(0px);
+	   }
+	}
 	
 	
 	
@@ -135,6 +171,229 @@
 	    
 	  }
 	}
+	
+	
+	@keyframes sp_box_one_move {
+	  from {
+	    
+	 		transform: translateY(-30px);
+	  }
+	
+	  to {
+	    transform: translateY(0%);
+	    
+	  }
+	}
+	
+	
+	@keyframes sp_box_two_move {
+	  from {
+	    
+	 		transform: translateY(30px);
+	  }
+	
+	  to {
+	    transform: translateY(0%);
+	    
+	  }
+	}
+	
+	
+	@keyframes sp_box_three_move {
+	  from {
+	    
+	 		transform: translateY(-30px);
+	  }
+	
+	  to {
+	    transform: translateY(0%);
+	    
+	  }
+	}
+	
+	
+	
+	@keyframes saints_move {
+	  from {
+	    
+	 		transform: translateY(-30px);
+	  }
+	
+	  to {
+	    transform: translateY(0%);
+	    
+	  }
+	}
+	
+	
+	@keyframes pdf_button_move {
+	  from {
+	    
+	 		transform: translateY(30px);
+	  }
+	
+	  to {
+	    transform: translateY(0px);
+	    
+	  }
+	}
+	
+	
+	@keyframes cr_title_move {
+	  from {
+	    
+	 		transform: translateY(-40px);
+	  }
+	
+	  to {
+	    transform: translateY(0px);
+	    
+	  }
+	}
+	
+	
+	
+	@keyframes cr_svg_move {
+	  from {
+	    
+	 		transform: translateY(40px);
+	  }
+	
+	  to {
+	    transform: translateY(0px);
+	    
+	  }
+	}
+	
+	
+	@keyframes cr_type_move {
+	  from {
+	    
+	 		transform: translateY(40px);
+	  }
+	
+	  to {
+	    transform: translateY(0px);
+	    
+	  }
+	}
+	
+	
+	@keyframes read_more_bar_move {
+	  from {
+	    
+	 		transform: translateY(120px);
+	 		
+	  }
+	
+	  to {
+	    transform: translateY(0px);
+	    
+	  }
+	}
+	
+	
+	@keyframes read_more_title_move {
+	  from {
+	    
+	 		transform: translateY(20px);
+	 		
+	  }
+	
+	  to {
+	    transform: translateY(0px);
+	   
+	    
+	  }
+	}
+	
+	
+	@keyframes prev_button_move {
+	  from {
+	    
+	 		transform: translateX(-20px);
+	 		
+	  }
+	
+	  to {
+	    transform: translateX(0px);
+	   
+	    
+	  }
+	}
+	
+	
+	@keyframes prev_svg_move {
+	  from {
+	    
+	 		transform: translateX(60px);
+	 		
+	  }
+	
+	  to {
+	    transform: translateX(30px);
+	   
+	    
+	  }
+	}
+	
+	
+	@keyframes next_button_move {
+	  from {
+	    
+	 		transform: translateX(20px);
+	 		
+	  }
+	
+	  to {
+	    transform: translateX(0px);
+	   
+	    
+	  }
+	}
+	
+	
+	
+	@keyframes next_svg_move {
+	  from {
+	    
+	 		transform: translateX(-60px);
+	 		
+	  }
+	
+	  to {
+	    transform: translateX(-30px);
+	   
+	    
+	  }
+	}
+	
+	
+	
+
+
+
+
+
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+
+		
+	
+	
+	
+	
+	
 	
 	
 	

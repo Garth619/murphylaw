@@ -43,7 +43,9 @@
 		
 	</div><!-- sec_three_box -->
 	
-	<div class="sec_three_box pic_box" style="background: url(http://murphylaw.com/wp-content/themes/murphylaw/images/results-image-01-desktop.jpg) top center no-repeat;background-size:cover">
+	<div class="sec_three_box pic_box" >
+		
+		<div class="pic_box_inner" style="background: url(http://murphylaw.com/wp-content/themes/murphylaw/images/results-image-01-desktop.jpg) top center no-repeat;background-size:cover"></div><!-- pic_box_inner -->
 		
 		
 		
@@ -94,7 +96,9 @@
 		
 	</div><!-- sec_three_box -->
 	
-	<div class="sec_three_box pic_box" style="background: url(http://murphylaw.com/wp-content/themes/murphylaw/images/results-image-02-desktop.jpg) top center no-repeat;background-size:cover">
+	<div class="sec_three_box pic_box">
+		
+		<div class="pic_box_inner" style="background: url(http://murphylaw.com/wp-content/themes/murphylaw/images/results-image-02-desktop.jpg) top center no-repeat;background-size:cover"></div>
 		
 		
 		
@@ -144,9 +148,9 @@
 		
 	</div><!-- sec_three_box -->
 	
-	<div class="sec_three_box pic_box" style="background: url(http://murphylaw.com/wp-content/themes/murphylaw/images/results-image-03-desktop.jpg) top center no-repeat;background-size:cover">
+	<div class="sec_three_box pic_box">
 		
-		
+		<div class="pic_box_inner" style="background: url(http://murphylaw.com/wp-content/themes/murphylaw/images/results-image-03-desktop.jpg) top center no-repeat;background-size:cover"></div>
 		
 	</div><!-- sec_three_box -->
 	

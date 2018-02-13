@@ -1,11 +1,477 @@
 
-@media screen and (max-width: 1600px) {
+@media screen and (min-width: 1600px) {
 	
 	
 	
+	
+	
+	.header_left {
+		opacity: 0;
+		.menu_wrapper {
+			span.menu_bars {
+				opacity: 0;
+			}
+			span.menu_title {
+				opacity: 0;
+			}
+		} 
+	}
+	
+	
+
+	a.logo {
+		img {
+			opacity: 0;
+			transition: all 800ms ease-in-out;
+			transition-delay: 1200ms;
+		}
+	}
+
+	
+	
+	.phone {
+		opacity: 0;
+		transition: all 800ms ease-in-out;
+		transition-delay: 1200ms;
+	}
+	
+	.header_right {
+		opacity: 0;
+		transition: all 800ms ease-in-out;
+		transition-delay: 1200ms;
+	}
+	
+	
+	header.ready {
+		.header_left {
+			animation-name: fade, menu_wrapper_move;
+			animation-duration: 700ms, 1200ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+			animation-delay: 500ms;
+			.menu_wrapper {
+				span.menu_bars {
+					animation-name: fade, menu_wrapper_move;
+					animation-duration: 700ms, 1200ms;
+					animation-fill-mode: both;
+					animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+					&:nth-of-type(1) {
+						animation-delay: 900ms;
+					}
+					&:nth-of-type(2) {
+						animation-delay: 850ms;
+					}
+					&:nth-of-type(3) {
+						animation-delay: 800ms;
+					}
+				}
+				span.menu_title {
+					animation-name: fade, menu_wrapper_move;
+					animation-duration: 700ms, 1200ms;
+					animation-fill-mode: both;
+					animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+					animation-delay: 700ms;
+					&:nth-of-type(1) {
+						
+					}
+				}
+			}
+			
+		}
+
+		a.logo {
+			img {
+				opacity: 1;
+			}
+		}
+
+		.phone {
+			opacity: 1;
+		}
+		.header_right {
+			opacity: 1;
+		}
+	}
+	
+	
+	
+	.sec_one_inner {
+		span.large_header {
+			opacity: 0;
+		}
+	}
+	
+	
+	a.consultation_button {
+		opacity: 0;
+	}
+	
+	
+	.sec_one_sp_wrapper {
+		// opacity: 0;
+		
+	}
+	
+	
+	
+	
+	
+	.sp_box_one {
+		transform: translateX(60px);
+		span.sp_header {
+			opacity: 0;
+			&:after {
+				opacity: 0;
+			}
+		}
+		p {
+			opacity: 0;
+		}
+	}
+	
+	.sp_box_two {
+		position: relative;
+		z-index:5;
+		transform: translateY(-30px);
+		svg {
+			opacity: 0;
+		}
+		span.sp_small_title {
+			opacity: 0;
+		}
+	}
+	
+	.sp_box_three {
+		position: relative;
+		z-index:5;
+		transform: translateY(30px);
+		svg {
+			opacity: 0;
+		}
+		span.sp_small_title {
+			opacity: 0;
+		}
+	}
+	
+	
+	#section_one.ready {
+		.sec_one_inner {
+			span.large_header {
+				animation-name: fade, title_move;
+				animation-duration: 700ms, 1500ms;
+				animation-fill-mode: both;
+				animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+				animation-delay: 500ms;
+			}
+		}
+		a.consultation_button {
+			animation-name: fade, button_move;
+			animation-duration: 700ms, 1500ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+			animation-delay: 500ms;
+		}
+		.sp_box_one {
+			animation-name: fade, sp_box_one_move;
+			animation-duration: 700ms, 1500ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+			animation-delay: 500ms;
+			span.sp_header {
+				display: block;
+				animation-name: fade, sp_box_one_move;
+				animation-duration: 700ms, 1500ms;
+				animation-fill-mode: both;
+				animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+				animation-delay: 600ms;
+				&:after {
+					animation-name: fade, sp_box_one_move;
+					animation-duration: 700ms, 1500ms;
+					animation-fill-mode: both;
+					animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+					animation-delay: 600ms;
+				}
+			}
+			p {
+				animation-name: fade, sp_box_one_move;
+				animation-duration: 700ms, 1500ms;
+				animation-fill-mode: both;
+				animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+				animation-delay: 600ms;
+			}
+		}
+		.sp_box_two {
+			animation-name: fade, sp_box_two_move;
+			animation-duration: 700ms, 1500ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+			animation-delay: 500ms;
+			svg {
+				animation-name: fade, sp_box_two_move;
+				animation-duration: 700ms, 1500ms;
+				animation-fill-mode: both;
+				animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+				animation-delay: 600ms;
+			}
+			span.sp_small_title {
+				animation-name: fade, sp_box_two_move;
+				animation-duration: 700ms, 1500ms;
+				animation-fill-mode: both;
+				animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+				animation-delay: 600ms;
+			}
+		}
+		.sp_box_three {
+			animation-name: fade, sp_box_three_move;
+			animation-duration: 700ms, 1500ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+			animation-delay: 500ms;
+			svg {
+				animation-name: fade, sp_box_three_move;
+				animation-duration: 700ms, 1500ms;
+				animation-fill-mode: both;
+				animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+				animation-delay: 600ms;
+			}
+			span.sp_small_title {
+				animation-name: fade, sp_box_three_move;
+				animation-duration: 700ms, 1500ms;
+				animation-fill-mode: both;
+				animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+				animation-delay: 600ms;
+			}
+		}
+	}
+	
+	
+	
+	
+	
+	img.baton_rouge_svg {
+		opacity: 0;
+	}
+	
+	a.download_button {
+		opacity: 0;
+	}
+	
+	#sec_two_slide_fade {
+		opacity: 0;
+	}
+	
+	
+	
+	#section_two.visible {
+		img.baton_rouge_svg {
+			animation-name: fade, saints_move;
+			animation-duration: 500ms, 1400ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+		}
+		a.download_button {
+			animation-name: fade, pdf_button_move;
+			animation-duration: 500ms, 1400ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+		}
+		
+	}
+	
+
+	
+	
+	#sec_two_slide_fade.visible {
+		animation-name: fade, saints_move;
+		animation-duration: 500ms, 1400ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+	}
+	
+
+	
+	.hover_box {
+		.hover_inner {
+			.flex_center {
+				span.amount {
+					opacity: 0;
+				}
+				svg {
+					opacity: 0;
+				}
+				span.case_type {
+					opacity: 0;
+				}
+			}
+		}
+	} 
+	
+	
+	
+	.hover_read_more {
+
+		.read_more_title {
+			opacity: 0;
+		}
+		.red_dots_wrapper {
+			opacity: 0;
+		}
+	}
+	
+	
+	.pic_box {
+		overflow: hidden;
+		.pic_box_inner {
+			transform: scale(1.2);
+			transition: all 1800ms cubic-bezier(.17,.66,.34,.98);
+		}
+	}
+	
+	
+	 	
+	#section_three.visible {
+		.hover_box {
+			&:hover {
+				.flex_center {
+					span.case_type {
+						position: relative;
+						z-index:-4;
+					} 
+					svg {
+						position: relative;
+						z-index:-5;
+					}
+				}
+			}
+		.hover_inner {
+			.flex_center {
+				span.amount {
+					animation-name: fade, cr_title_move;
+					animation-duration: 500ms, 1400ms;
+					animation-fill-mode: both;
+					animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+				}
+				svg {
+					animation-name: fade, cr_svg_move;
+					animation-duration: 500ms, 1400ms;
+					animation-fill-mode: both;
+					animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+				}
+				span.case_type {
+					animation-name: fade, cr_type_move;
+					animation-duration: 500ms, 1400ms;
+					animation-fill-mode: both;
+					animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+
+				}
+			}
+		}
+	}
+	.hover_read_more {
+
+		.read_more_title {
+			animation-name: fade;
+			animation-duration: 500ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear;
+			animation-delay: 900ms;
+		}
+		.red_dots_wrapper {
+			animation-name: fade;
+			animation-duration: 500ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear;
+			animation-delay: 900ms;
+		}
+	}
+	.pic_box {
+		overflow: hidden;
+		.pic_box_inner {
+			transform: scale(1);
+		}
+	}
+}
+
+
+
+
+
+.prev_next_wrapper.prev, .prev_next_wrapper.next {
+	.flex_mobile {
+		.prev_next_square {
+			opacity: 0;
+		}
+		svg {
+			opacity: 0;
+		}
+	}
+}  
+	
+
+
+#section_four.visible {
+	.prev_next_wrapper.prev, .prev_next_wrapper.next {
+		&:hover {
+			.flex_mobile {
+				.prev_next_square {
+					background: #fff;
+				}
+				svg {
+					z-index:5;
+				}
+			}
+		}
+		.flex_mobile {
+			.prev_next_square {
+				animation-name: fade, prev_button_move;
+				animation-duration: 500ms, 1400ms;
+				animation-fill-mode: both;
+				animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+				animation-delay: 500ms;
+				background: transparent;
+				transition: all .2s ease-in-out;
+			}
+			svg {
+				animation-name: fade, prev_svg_move;
+				animation-duration: 500ms, 1400ms;
+				animation-fill-mode: both;
+				animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+				animation-delay: 500ms;
+			}
+		}
+	}
+	.prev_next_wrapper.next {
+		.flex_mobile {
+			.prev_next_square {
+				animation-name: fade, next_button_move;
+				animation-duration: 500ms, 1400ms;
+				animation-fill-mode: both;
+				animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+				animation-delay: 500ms;
+			}
+			svg {
+				animation-name: fade, next_svg_move;
+				animation-duration: 500ms, 1400ms;
+				animation-fill-mode: both;
+				animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+				animation-delay: 500ms;
+			}
+		}
+	}
+}
+
 	
 	
 } /* Media Query */
+
+
+
+
+
+
+
+
+
 
 
 

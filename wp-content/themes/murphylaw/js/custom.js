@@ -54,6 +54,11 @@ jQuery(document).ready(function($){
             //Example -> createWaypoint("section-2", null, null, null, test, true);
 
 
+	
+	$('header, #section_one').addClass('ready');
+	
+	
+	
 	createWaypoint("sticky_header", "#sticky_header", "visible", -110, null, true);
 	
 	

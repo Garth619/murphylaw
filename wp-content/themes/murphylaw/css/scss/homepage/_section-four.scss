@@ -82,12 +82,13 @@
 .prev_next_wrapper {
 	width:65px;
 	margin-top:268px;
+	cursor: pointer;
 	.flex_mobile {
 		position: relative;
 		.prev_next_square {
 			width:65px;
 			height:63px;
-			border:1.5px solid #fff;
+			border:1px solid #fff;
 			position: relative;
 			z-index:1;
 		}

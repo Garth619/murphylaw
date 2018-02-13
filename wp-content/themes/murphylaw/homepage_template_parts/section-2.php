@@ -109,7 +109,7 @@ Etiam in nibh mollis, suscipit elit quis.</p>
 
 		</div><!-- sec_two_content -->
 		
-		<div class="sec_two_slideshow">
+		<div id="sec_two_slide_fade" class="sec_two_slideshow">
 				
 				<div class="sec_two_single_slide">
 					
