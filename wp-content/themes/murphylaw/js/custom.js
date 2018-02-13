@@ -66,6 +66,9 @@ jQuery(document).ready(function($){
 	
 	
 	createWaypoint("sticky_header", ".nav_wrapper", "short_header", -110, null, true);
+	
+	
+	createWaypoint("footer_section", "#footer_section", "visible", 310, null, false);
 
 
 	
@@ -92,6 +95,9 @@ jQuery(document).ready(function($){
 		
 		
 		// $('html, body').addClass('fixed');
+		
+		$('.close').removeClass('fade_close');
+		
 		
 		$('#sticky_mobile_header').addClass('menu_opened');
 	
@@ -121,6 +127,9 @@ jQuery(document).ready(function($){
 						$('.nav_wrapper ul.sub-menu').show();
 						
 						
+						$('.close').addClass('fade_close');
+						
+						
 						$('.nav_wrapper ul#menu-menu-1 > li.menu-item-has-children > a').removeClass('active');
 			 		
 						$(this).addClass('active');
@@ -129,6 +138,11 @@ jQuery(document).ready(function($){
 			 		
 				
 				});
+				
+				
+				
+				
+				
 				
 				
 				
@@ -143,14 +157,24 @@ jQuery(document).ready(function($){
 					// $('body').removeClass('fixed');
 			
 					$('#sticky_mobile_header').removeClass('menu_opened');
+					
+					
+					$(this).addClass('fade_close');
 			
 			
 					// $(this).delay(900).fadeOut(200);
+					
+					
+					$('.nav_wrapper').delay(1300).queue(function(){
+     
+						$(this).removeClass('open').dequeue();
+  
+					});
 			
 			
 					
      
-					$('.nav_wrapper').removeClass('open');
+					// $('.nav_wrapper').removeClass('open');
   
 			
 			
@@ -197,6 +221,8 @@ jQuery(document).ready(function($){
 					// $('body').removeClass('fixed');
 			
 					$('#sticky_mobile_header').removeClass('menu_opened');
+					
+					$(this).addClass('fade_close');
 			
 			
 					// $(this).delay(900).fadeOut(200);
@@ -204,9 +230,9 @@ jQuery(document).ready(function($){
 			
 					$('.nav_wrapper').delay(1300).queue(function(){
      
-					$(this).removeClass('open slideout').dequeue();
+						$(this).removeClass('open slideout').dequeue();
   
-				});
+					});
 			
 			
 	

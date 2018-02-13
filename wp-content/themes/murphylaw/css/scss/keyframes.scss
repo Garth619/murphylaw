@@ -371,22 +371,119 @@
 	
 	
 
+@keyframes comm_svg_move {
+	  from {
+	    
+	 		transform: translateX(100px) rotate(30deg);
+	 		
+	  }
+	
+	  to {
+	    transform: translateX(0px) rotate(0);
+	   
+	    
+	  }
+}
+
+
+
+@keyframes comm_logo_move {
+	  from {
+	    
+	 		transform: translateY(-30px);
+	 		
+	  }
+	
+	  to {
+	    transform: translateX(0px);
+	   
+	    
+	  }
+}
+	
+	
+	
+
+@keyframes comm_read_more_move {
+	  from {
+	    
+	 		transform: translateY(30px);
+	 		
+	  }
+	
+	  to {
+	    transform: translateX(0px);
+	   
+	    
+	  }
+}
+
+
+@keyframes comm_slick_buttons_move {
+	  from {
+	    
+	 		transform: translateX(70px);
+	 		
+	  }
+	
+	  to {
+	    transform: translateX(0px);
+	   
+	    
+	  }
+}
+	
+	
+	
+	@keyframes about_slideshow {
+	  from {
+	    
+	 		transform: translateY(70px);
+	 		
+	  }
+	
+	  to {
+	    transform: translateY(0px);
+	   
+	    
+	  }
+	
+	}
+	
+	
+	
+	@keyframes profile_image_move {
+	  from {
+	    
+	 		transform: translateY(110px);
+	 		
+	  }
+	
+	  to {
+	    transform: translateY(0px);
+	   
+	    
+	  }
+	
+	}
+	
+	
+	
+	@keyframes profile_scale {
+	  
+		to {
+	    transform: scale(1);
+	   
+	  }
+	
+	}
 
 
 
 
-	
-	
-	
 
-	
-	
-	
-	
-	
-	
-	
-	
+
+
 
 		
 	

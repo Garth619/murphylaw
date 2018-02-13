@@ -1,3 +1,51 @@
+.close {
+	transition: all 500ms ease-in-out;
+	.close_inner {
+		span.close_left {
+			transform: rotate(0deg);
+			transition: all 1000ms cubic-bezier(.17,.66,.34,.98);
+		}
+	}
+}
+
+
+.close {
+	.close_inner {
+		span.close_right {
+			transform: rotate(0deg);
+			transition: all 1000ms cubic-bezier(.17,.66,.34,.98);
+		}
+	}
+}  
+
+.nav_wrapper.open {
+	.close {
+		.close_inner {
+			span.close_left {
+				transform: rotate(-45deg);
+				transition-delay: 100ms;
+			}
+		}
+	}
+	.close {
+		.close_inner {
+			span.close_right {
+				transform: rotate(45deg);
+				transition-delay: 100ms;
+			}
+		}
+	}
+}
+
+
+
+.close.fade_close {
+	opacity: 0;
+	transition-delay: 1000ms;
+}
+
+
+
 
 @media screen and (min-width: 1600px) {
 	
@@ -227,6 +275,7 @@
 			animation-fill-mode: both;
 			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
 			animation-delay: 500ms;
+			
 			svg {
 				animation-name: fade, sp_box_two_move;
 				animation-duration: 700ms, 1500ms;
@@ -460,21 +509,169 @@
 	}
 }
 
+
+
+
+
+.sec_five_intro_wrapper {
+	svg {
+		opacity: 0;
+	}
+} 
+
+
+
+#section_five.visible {
+	.sec_five_intro_wrapper {
+		svg {
+			animation-name: fade, comm_svg_move, comm_svg_rotate;
+			animation-duration: 500ms, 1400ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+			animation-delay: 500ms;
+		}
+	}
+}
+
+
+.single_comm {
+	.comm_logo_wrapper {
+		img {
+			opacity: 0;
+		}
+	}
+} 
+
+
+.sec_five_content {
+	a.read_more {
+		opacity: 0;
+	}
+} 
+
+
+
+.comm_buttons {
+	opacity: 0;
+}
+
+
+
+#section_five.visible {
+	.sec_five_content {
+		a.read_more {
+			animation-name: fade, comm_read_more_move;
+			animation-duration: 500ms, 2500ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+			animation-delay: 500ms;
+		}
+	}
+	.single_comm {
+		.comm_logo_wrapper {
+			img {
+				animation-name: fade, comm_logo_move;
+				animation-duration: 500ms, 2500ms;
+				animation-fill-mode: both;
+				animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+				animation-delay: 500ms;
+			}
+		}
+	}	
+	.comm_buttons {
+		animation-name: fade, comm_slick_buttons_move;
+		animation-duration: 500ms, 2500ms;
+		animation-fill-mode: both;
+		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+		animation-delay: 500ms;
+	} 
+}
+
+
+
+
+.footer_pic_wrapper {
+	transform: translateY(-150px);
+	transition: all 1800ms cubic-bezier(.17,.66,.34,.98);
+}
+
+
+#footer_section.visible {
+	.footer_pic_wrapper {
+		transform: translateY(0px);
+	}
+}
+
+#about_slideshow {
+	opacity: 0;
+}
+
+
+#about_slideshow.visible {
+	animation-name: fade, about_slideshow;
+	animation-duration: 500ms, 1100ms;
+	animation-fill-mode: both;
+	animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+	animation-delay: 500ms;
+}
+
+
+	
+	.profile_image_wrapper {
+		opacity: 0;
+		overflow: hidden;
+		img {
+			transform: scale(1.2);
+		}
+	}
+	
+	
+	.main.ready {
+		.profile_image_wrapper {
+			animation-name: fade, profile_image_move;
+			animation-duration: 500ms, 1400ms;
+			animation-fill-mode: both;
+			animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+			animation-delay: 800ms;
+			img {
+				animation-name: profile_scale;
+				animation-duration: 1400ms;
+				animation-fill-mode: both;
+				animation-timing-function: cubic-bezier(.17,.66,.34,.98);;
+				animation-delay: 800ms;
+			}
+		}
+	}
+	
+	
+	
 	
 	
 } /* Media Query */
 
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (min-width: 1450px) {
+	
+	
+	
+	.single_case_results_page {
+		&:hover {
+			&:after {
+				height:590px;
+				top:0px;
+				
+				animation-name: fade, cr_grow;
+				animation-duration: 400ms, 800ms;
+				animation-fill-mode: both;
+				animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+			}
+		}
+	}
+	
+	
+	
+	
+	
+} /* Media Query */
 
 
 
@@ -625,29 +822,7 @@
 } /* Media Query */
 
 
-@media screen and (min-width: 1450px) {
-	
-	
-	
-	.single_case_results_page {
-		&:hover {
-			&:after {
-				height:590px;
-				top:0px;
-				
-				animation-name: fade, cr_grow;
-				animation-duration: 300ms, 700ms;
-				animation-fill-mode: both;
-				animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
-			}
-		}
-	}
-	
-	
-	
-	
-	
-} /* Media Query */
+
 
 
 

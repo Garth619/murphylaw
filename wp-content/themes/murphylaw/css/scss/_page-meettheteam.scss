@@ -10,13 +10,13 @@
 		background: url(#{$themePath}images/bg-pattern-01.jpg) top left repeat;
 		display: block;
 		position: absolute;
-		top:-141px;
+		top:0px;
 		left:0;
 	}
 	.page_title {
 		position: relative;
 		z-index:5;
-		margin: 141px 0 76px;
+		margin: 0px 0 76px;
 		text-align: center;
 		display: block;
 	}
@@ -191,11 +191,11 @@
 .meet_the_team_wrapper {
 	
 	&:after {
-		top: -113px;
+		top: 0px;
 		height: 545px;
 	}
 	.page_title {
-		margin: 113px 0 76px;
+		margin: 0px 0 76px;
 	}
 	&:not(:first-of-type) {
 		margin: 96px 0 30px;
@@ -219,10 +219,10 @@
 .meet_the_team_wrapper {
 	
 	&:after {
-		top: -73px;
+		top: 0px;
 	}
 	.page_title {
-		margin: 70px 0 76px;
+		margin: 0px 0 76px;
 	}
 	&:not(:first-of-type) {
 	
@@ -324,11 +324,11 @@
 	padding-right:45px;
 */
 	&:after {
-		top: -55px;
+		top: 0px;
 		height: 445px;
 	}
 	.page_title {
-		margin: 55px 0 54px;
+		margin: 0px 0 54px;
 		padding-left:10px;
 		padding-right:10px;
 	}

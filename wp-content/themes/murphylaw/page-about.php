@@ -6,6 +6,7 @@
 	
 	get_header(); ?>
 
+<span id="about_flag" style="display: none"></span>
 
 <div class="main">
 	
@@ -97,7 +98,7 @@ Maecenas placerat, lorem at volutpat viverra, libero enim commodo augue, eu soll
 </div><!-- profile_container -->
 		
 		
-		<div class="sec_two_slideshow">
+		<div id="about_slideshow" class="sec_two_slideshow">
 				
 				<div class="sec_two_single_slide">
 					

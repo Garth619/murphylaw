@@ -51,8 +51,9 @@
 			
 			createWaypoint("section_three", "#section_three", "visible", 350, null, false);
 			
-			
 			createWaypoint("section_four", "#section_four", "visible", 350, null, false);
+			
+			createWaypoint("section_five", "#section_five", "visible", 350, null, false);
 	
 	
 	
