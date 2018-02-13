@@ -682,181 +682,361 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/attorneys\/att-01.jpg": {
+	"\/images\/attorneys\/att-01-desktop.jpg": {
 		"ft": 16384,
 		"iS": 0,
 		"oA": 0,
-		"oAP": "\/images\/attorneys\/att-01.jpg",
+		"oAP": "\/images\/attorneys\/att-01-desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/attorneys\/att-02.jpg": {
+	"\/images\/attorneys\/att-01-tablet.jpg": {
 		"ft": 16384,
-		"iS": 23604,
+		"iS": 20874,
 		"oA": 0,
-		"oAP": "\/images\/attorneys\/att-02.jpg",
+		"oAP": "\/images\/attorneys\/att-01-tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/attorneys\/att-03.jpg": {
+	"\/images\/attorneys\/att-010-desktop.jpg": {
 		"ft": 16384,
-		"iS": 26772,
+		"iS": 0,
 		"oA": 0,
-		"oAP": "\/images\/attorneys\/att-03.jpg",
+		"oAP": "\/images\/attorneys\/att-010-desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/attorneys\/att-04.jpg": {
+	"\/images\/attorneys\/att-010-tablet.jpg": {
 		"ft": 16384,
-		"iS": 27055,
+		"iS": 27562,
 		"oA": 0,
-		"oAP": "\/images\/attorneys\/att-04.jpg",
+		"oAP": "\/images\/attorneys\/att-010-tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/attorneys\/att-05.jpg": {
+	"\/images\/attorneys\/att-011-desktop.jpg": {
 		"ft": 16384,
-		"iS": 25389,
+		"iS": 0,
 		"oA": 0,
-		"oAP": "\/images\/attorneys\/att-05.jpg",
+		"oAP": "\/images\/attorneys\/att-011-desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/attorneys\/staff-01.jpg": {
+	"\/images\/attorneys\/att-011-tablet.jpg": {
 		"ft": 16384,
-		"iS": 33975,
+		"iS": 25309,
 		"oA": 0,
-		"oAP": "\/images\/attorneys\/staff-01.jpg",
+		"oAP": "\/images\/attorneys\/att-011-tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/attorneys\/staff-02.jpg": {
+	"\/images\/attorneys\/att-012-desktop.jpg": {
 		"ft": 16384,
-		"iS": 21230,
+		"iS": 78310,
 		"oA": 0,
-		"oAP": "\/images\/attorneys\/staff-02.jpg",
+		"oAP": "\/images\/attorneys\/att-012-desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/attorneys\/staff-03.jpg": {
+	"\/images\/attorneys\/att-012-tablet.jpg": {
 		"ft": 16384,
-		"iS": 29578,
+		"iS": 19959,
 		"oA": 0,
-		"oAP": "\/images\/attorneys\/staff-03.jpg",
+		"oAP": "\/images\/attorneys\/att-012-tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/attorneys\/staff-04.jpg": {
+	"\/images\/attorneys\/att-013-desktop.jpg": {
 		"ft": 16384,
-		"iS": 32232,
+		"iS": 91594,
 		"oA": 0,
-		"oAP": "\/images\/attorneys\/staff-04.jpg",
+		"oAP": "\/images\/attorneys\/att-013-desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/attorneys\/staff-05.jpg": {
+	"\/images\/attorneys\/att-013-tablet.jpg": {
 		"ft": 16384,
-		"iS": 27701,
+		"iS": 21076,
 		"oA": 0,
-		"oAP": "\/images\/attorneys\/staff-05.jpg",
+		"oAP": "\/images\/attorneys\/att-013-tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/attorneys\/staff-06.jpg": {
+	"\/images\/attorneys\/att-014-desktop.jpg": {
 		"ft": 16384,
-		"iS": 28921,
+		"iS": 0,
 		"oA": 0,
-		"oAP": "\/images\/attorneys\/staff-06.jpg",
+		"oAP": "\/images\/attorneys\/att-014-desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/attorneys\/staff-07.jpg": {
+	"\/images\/attorneys\/att-014-tablet.jpg": {
 		"ft": 16384,
-		"iS": 26734,
+		"iS": 17798,
 		"oA": 0,
-		"oAP": "\/images\/attorneys\/staff-07.jpg",
+		"oAP": "\/images\/attorneys\/att-014-tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/attorneys\/staff-08.jpg": {
+	"\/images\/attorneys\/att-015-desktop.jpg": {
 		"ft": 16384,
-		"iS": 36321,
+		"iS": 106817,
 		"oA": 0,
-		"oAP": "\/images\/attorneys\/staff-08.jpg",
+		"oAP": "\/images\/attorneys\/att-015-desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/attorneys\/staff-09.jpg": {
+	"\/images\/attorneys\/att-015-tablet.jpg": {
 		"ft": 16384,
-		"iS": 45642,
+		"iS": 27171,
 		"oA": 0,
-		"oAP": "\/images\/attorneys\/staff-09.jpg",
+		"oAP": "\/images\/attorneys\/att-015-tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/attorneys\/staff-10.jpg": {
+	"\/images\/attorneys\/att-016-desktop.jpg": {
 		"ft": 16384,
-		"iS": 33746,
+		"iS": 89903,
 		"oA": 0,
-		"oAP": "\/images\/attorneys\/staff-10.jpg",
+		"oAP": "\/images\/attorneys\/att-016-desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/attorneys\/staff-11.jpg": {
+	"\/images\/attorneys\/att-016-tablet.jpg": {
 		"ft": 16384,
-		"iS": 31933,
+		"iS": 0,
 		"oA": 0,
-		"oAP": "\/images\/attorneys\/staff-11.jpg",
+		"oAP": "\/images\/attorneys\/att-016-tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/attorneys\/staff-12.jpg": {
+	"\/images\/attorneys\/att-017-desktop.jpg": {
 		"ft": 16384,
-		"iS": 51218,
+		"iS": 0,
 		"oA": 0,
-		"oAP": "\/images\/attorneys\/staff-12.jpg",
+		"oAP": "\/images\/attorneys\/att-017-desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/attorneys\/staff-13.jpg": {
+	"\/images\/attorneys\/att-017-tablet.jpg": {
 		"ft": 16384,
-		"iS": 29494,
+		"iS": 18742,
 		"oA": 0,
-		"oAP": "\/images\/attorneys\/staff-13.jpg",
+		"oAP": "\/images\/attorneys\/att-017-tablet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/att-018-desktop.jpg": {
+		"ft": 16384,
+		"iS": 86269,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/att-018-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/att-018-tablet.jpg": {
+		"ft": 16384,
+		"iS": 21731,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/att-018-tablet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/att-02-desktop.jpg": {
+		"ft": 16384,
+		"iS": 158975,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/att-02-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/att-02-tablet.jpg": {
+		"ft": 16384,
+		"iS": 36087,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/att-02-tablet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/att-03-desktop.jpg": {
+		"ft": 16384,
+		"iS": 99656,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/att-03-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/att-03-tablet.jpg": {
+		"ft": 16384,
+		"iS": 23976,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/att-03-tablet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/att-04-desktop.jpg": {
+		"ft": 16384,
+		"iS": 141548,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/att-04-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/att-04-tablet.jpg": {
+		"ft": 16384,
+		"iS": 35136,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/att-04-tablet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/att-05-desktop.jpg": {
+		"ft": 16384,
+		"iS": 92245,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/att-05-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/att-05-tablet.jpg": {
+		"ft": 16384,
+		"iS": 22923,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/att-05-tablet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/att-06-desktop.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/att-06-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/attorneys\/att-06-tablet.jpg": {
+		"ft": 16384,
+		"iS": 22507,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/att-06-tablet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/att-07-desktop.jpg": {
+		"ft": 16384,
+		"iS": 100376,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/att-07-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/att-07-tablet.jpg": {
+		"ft": 16384,
+		"iS": 25987,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/att-07-tablet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/att-08-desktop.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/att-08-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/attorneys\/att-08-tablet.jpg": {
+		"ft": 16384,
+		"iS": 21789,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/att-08-tablet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/att-09-desktop.jpg": {
+		"ft": 16384,
+		"iS": 119250,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/att-09-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/attorneys\/att-09-tablet.jpg": {
+		"ft": 16384,
+		"iS": 24668,
+		"oA": 0,
+		"oAP": "\/images\/attorneys\/att-09-tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
