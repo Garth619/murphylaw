@@ -45,15 +45,15 @@
 	
 	
 	
-			createWaypoint("section_two", "#section_two", "visible", 210, null, false);
+			createWaypoint("section_two", "#section_two", "visible", 350, null, false);
 			
-			createWaypoint("sec_two_slide_fade", "#sec_two_slide_fade", "visible", 350, null, false);
+			createWaypoint("sec_two_slide_fade", "#sec_two_slide_fade", "visible", 550, null, false);
 			
 			createWaypoint("section_three", "#section_three", "visible", 350, null, false);
 			
 			createWaypoint("section_four", "#section_four", "visible", 350, null, false);
 			
-			createWaypoint("section_five", "#section_five", "visible", 350, null, false);
+			createWaypoint("section_five", "#section_five", "visible", 450, null, false);
 	
 	
 	

@@ -117,6 +117,9 @@ jQuery(document).ready(function($){
 		function checkWidth() {
 	    
 	    if (windowWidth < 1330) {
+		    
+		    
+		    
 	        
 	      $('.nav_wrapper ul#menu-menu-1 > li.menu-item-has-children > a').on('click', function(e) {
 	  
@@ -127,7 +130,7 @@ jQuery(document).ready(function($){
 						$('.nav_wrapper ul.sub-menu').show();
 						
 						
-						$('.close').addClass('fade_close');
+// 						$('.close').addClass('fade_close');
 						
 						
 						$('.nav_wrapper ul#menu-menu-1 > li.menu-item-has-children > a').removeClass('active');
@@ -165,11 +168,10 @@ jQuery(document).ready(function($){
 					// $(this).delay(900).fadeOut(200);
 					
 					
-					$('.nav_wrapper').delay(1300).queue(function(){
-     
-						$(this).removeClass('open').dequeue();
+					$('.nav_wrapper').removeClass('open');
+						
   
-					});
+				
 			
 			
 					

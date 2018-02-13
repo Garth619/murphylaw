@@ -46,7 +46,7 @@
 	
 			if($("#about_flag").length > 0) {
 
-				createWaypoint("about_slideshow", "#about_slideshow", "visible", 610, null, true);
+				createWaypoint("about_slideshow", "#about_slideshow", "visible", 710, null, false);
 			
 			}
 			
