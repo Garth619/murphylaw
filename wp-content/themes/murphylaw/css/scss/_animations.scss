@@ -166,6 +166,7 @@
 	
 	.sp_box_one {
 		transform: translateX(60px);
+		opacity: 0;
 		span.sp_header {
 			opacity: 0;
 			&:after {
@@ -180,6 +181,7 @@
 	.sp_box_two {
 		position: relative;
 		z-index:5;
+		opacity: 0;
 		// transform: translateY(-30px);
 		svg {
 			opacity: 0;
@@ -192,6 +194,7 @@
 	.sp_box_three {
 		position: relative;
 		z-index:5;
+		opacity: 0;
 		// transform: translateY(30px);
 		svg {
 			opacity: 0;
