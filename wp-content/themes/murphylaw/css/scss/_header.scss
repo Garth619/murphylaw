@@ -197,6 +197,19 @@ a.logo {
 
  @media screen and (max-width: 767px) {
 	 
+	 
+	 
+	 .header_left {
+	    flex-basis: auto;
+	    width:97px;
+	    padding: 23px 20px 20px;
+    }
+	 
+	 
+	 
+	 
+	 
+	 
 	 #sticky_mobile_header.visible {
 		 opacity: 1;
 		 visibility: visible;
@@ -235,7 +248,7 @@ a.logo {
 		 display: flex;
 		 box-shadow: 0px 3px 10px 0px rgba(10, 21, 42, 0.17);
 		 .sticky_menu {
-			 width: 93px;
+			 width: 97px;
 			 padding:21px;
 			 background:#471046;
 			 ;
