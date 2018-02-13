@@ -85,6 +85,7 @@ img.aligncenter {
 		letter-spacing: 0.05em;
 		color:$brown;
 		margin-bottom:18px;
+		padding-top: 13px;
 	}
 	h1, h2, h3, h4 {
 		font-weight: 300;
@@ -106,7 +107,7 @@ img.aligncenter {
 			counter-increment: item;
 			margin-bottom: 17px;
 			position: relative;
-			padding-left:30px;
+			padding-left:28px;
  		}
  		> li:before {
  				margin-right: 10px;

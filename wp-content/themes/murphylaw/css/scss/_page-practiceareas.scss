@@ -168,8 +168,8 @@
 			
 		}
 		> li {
-				flex-basis: 100%;
-				margin:0;
+				// flex-basis: 100%;
+				// margin:0;
 				&:hover {
 					border-bottom:1px solid $brown;
 				}
@@ -236,7 +236,8 @@
 			
 		}
 		> li {
-				
+				flex-basis: 100%;
+				margin:0;
 				> a {
 						height: 68px;
 						font-size: 15px;

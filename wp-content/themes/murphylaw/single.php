@@ -1,12 +1,29 @@
+
+		
+
 <?php get_header(); ?>
 
+
+<?php get_template_part( 'banner', 'internal' );?>
+
+<div class="main default_main">
 	
+	<?php get_sidebar('blog'); ?>
+	
+	<div class="page_container content">
+		
+		<h1 class="intro_header"><?php the_title();?></h1><!-- intro_header -->
+		
+		
+		<?php get_template_part( 'loop', 'single' ); ?>
 
-<?php get_template_part( 'loop', 'index' ); ?>
+		
+		
+	</div><!-- page_container -->
+	
+	
+	
+</div><!-- main -->
 
-<?php // use get_template_part( 'loop', 'single' ) if needed ?>
 
-
-
-<?php // get_sidebar(); ?>
-<?php get_footer(); ?>
+<?php get_footer(); ?>>
