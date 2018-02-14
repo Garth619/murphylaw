@@ -285,15 +285,15 @@ a.internal_free_case_button {
 	}
 	ul#menu-pa-sidebar {
 		>li.remove_border {
-			
+			border-bottom:1px solid $brown;
 		}
 		>li.remove_border.active {
-			
+			border-bottom:1px solid $brown;
 		}
 		>li.hover {
 			>a {
 				.dots_wrapper {
-					
+					opacity: 1;
 				}
 			}
 			>a.active {
@@ -317,8 +317,12 @@ a.internal_free_case_button {
 				
 				
 				&:hover {
-					margin-left: -24px;
-					width:104%;
+					margin-left: 0px;
+					width:100%;
+					padding-left:0;
+					background: transparent;
+					box-shadow: none;
+					color:#12414a;
 				}
 			}
 		}
@@ -447,7 +451,7 @@ a.internal_free_case_button {
 				&:hover {
 					margin-left: 0px;
 					width:100%;
-					padding-left: 12px;
+					padding-left: 0px;
 				}
 			}
 		}
