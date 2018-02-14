@@ -18,125 +18,37 @@
 		<div class="testimonials_page_wrapper">
 			
 			
-			<div class="single_testi">
+			<?php if(get_field('testimonials_page')): ?>
+			 
+				<?php while(has_sub_field('testimonials_page')): ?>
+			 
+					<div class="single_testi">
 				
 				
-				<div class="rating_wrapper">
+						<div class="rating_wrapper">
 					
-					<span class="rating">
+						<span class="rating">
 					
-						<span class="bold_rating">4.7</span><!-- bold_rating -->
+							<span class="bold_rating"><?php the_sub_field( 'review_rating' ); ?></span><!-- bold_rating -->
 					
-					 / 5</span><!-- rating -->
+							/ 5</span><!-- rating -->
 					
-				</div><!-- rating_wrapper -->
+					</div><!-- rating_wrapper -->
 				
-				<span class="testi_type">google reviews</span><!-- testi_type -->
-				
-				
-				<span class="testi_description">My experience with Murphy Law Firm was an overall success!  Peyton himself called to check on me periodically through the entire process.  I was extremely happy with the outcome. Thanks Peyton!!”</span><!-- testi_description -->
+					<span class="testi_type"><?php the_sub_field( 'review_type' ); ?></span><!-- testi_type -->
 				
 				
-				<span class="testi_name">Terrell M.</span><!-- testi_name -->
+					<span class="testi_description"><?php the_sub_field( 'review_description' ); ?></span><!-- testi_description -->
+				
+				
+					<span class="testi_name"><?php the_sub_field( 'review_name' ); ?></span><!-- testi_name -->
 				
 				
 			</div><!-- single_testi -->
-			
-			<div class="single_testi">
-				
-				
-				<div class="rating_wrapper">
-					
-					<span class="rating">
-					
-						<span class="bold_rating">4.7</span><!-- bold_rating -->
-					
-					 / 5</span><!-- rating -->
-					
-				</div><!-- rating_wrapper -->
-				
-				<span class="testi_type">google reviews</span><!-- testi_type -->
-				
-				
-				<span class="testi_description">My experience with Murphy Law Firm was an overall success!  Peyton himself called to check on me periodically through the entire process.  I was extremely happy with the outcome. Thanks Peyton!!”</span><!-- testi_description -->
-				
-				
-				<span class="testi_name">Terrell M.</span><!-- testi_name -->
-				
-				
-			</div><!-- single_testi -->
-			
-			<div class="single_testi">
-				
-				
-				<div class="rating_wrapper">
-					
-					<span class="rating">
-					
-						<span class="bold_rating">4.7</span><!-- bold_rating -->
-					
-					 / 5</span><!-- rating -->
-					
-				</div><!-- rating_wrapper -->
-				
-				<span class="testi_type">google reviews</span><!-- testi_type -->
-				
-				
-				<span class="testi_description">My experience with Murphy Law Firm was an overall success!  Peyton himself called to check on me periodically through the entire process.  I was extremely happy with the outcome. Thanks Peyton!!”</span><!-- testi_description -->
-				
-				
-				<span class="testi_name">Terrell M.</span><!-- testi_name -->
-				
-				
-			</div><!-- single_testi -->
-			
-			<div class="single_testi">
-				
-				
-				<div class="rating_wrapper">
-					
-					<span class="rating">
-					
-						<span class="bold_rating">4.7</span><!-- bold_rating -->
-					
-					 / 5</span><!-- rating -->
-					
-				</div><!-- rating_wrapper -->
-				
-				<span class="testi_type">google reviews</span><!-- testi_type -->
-				
-				
-				<span class="testi_description">My experience with Murphy Law Firm was an overall success!  Peyton himself called to check on me periodically through the entire process.  I was extremely happy with the outcome. Thanks Peyton!!”</span><!-- testi_description -->
-				
-				
-				<span class="testi_name">Terrell M.</span><!-- testi_name -->
-				
-				
-			</div><!-- single_testi -->
-			
-			<div class="single_testi">
-				
-				
-				<div class="rating_wrapper">
-					
-					<span class="rating">
-					
-						<span class="bold_rating">4.7</span><!-- bold_rating -->
-					
-					 / 5</span><!-- rating -->
-					
-				</div><!-- rating_wrapper -->
-				
-				<span class="testi_type">google reviews</span><!-- testi_type -->
-				
-				
-				<span class="testi_description">My experience with Murphy Law Firm was an overall success!  Peyton himself called to check on me periodically through the entire process.  I was extremely happy with the outcome. Thanks Peyton!!”</span><!-- testi_description -->
-				
-				
-				<span class="testi_name">Terrell M.</span><!-- testi_name -->
-				
-				
-			</div><!-- single_testi -->
+			    
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
 			
 			
 			

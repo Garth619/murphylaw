@@ -16,252 +16,40 @@
 		<div class="case_results_page_wrapper">
 			
 			
-			<div class="single_case_results_page">
+			<?php if(get_field('case_results_page')): ?>
+				 
+					<?php while(has_sub_field('case_results_page')): ?>
+				 
+							
+							<div class="single_case_results_page">
 				
 				
-				<div class="cr_inner">
+								<div class="cr_inner">
 				
-					<span class="cr_amount">$3.8m</span><!-- cr_amount -->
+									<span class="cr_amount"><?php the_sub_field( 'case_result_amount' ); ?></span><!-- cr_amount -->
 				
 				
-					<?php echo file_get_contents("wp-content/themes/murphylaw/images/new-saints.svg"); ?>
+									<?php echo file_get_contents("wp-content/themes/murphylaw/images/new-saints.svg"); ?>
 				
-					<span class="cf_type">18 - Wheeler Accident</span><!-- cf_type -->
+									<span class="cf_type"><?php the_sub_field( 'case_result_type' ); ?></span><!-- cf_type -->
 				
 				
-					<span class="cr_description">When two 18-wheelers crashed head-on into each other in Crowley, Louisiana, a family lost their husband and father. Just 19 days before trial, our team secured a $3.8 million settlement for the grieving family.</span><!-- cr_description -->
+									<span class="cr_description"><?php the_sub_field( 'case_results_description' ); ?></span><!-- cr_description -->
 				
-				</div><!-- cr_inner -->
+							</div><!-- cr_inner -->
 				
 				
-			</div><!-- single_case_results_page -->
-			
-			
-			<div class="single_case_results_page">
-				
-				
-				<div class="cr_inner">
-				
-					<span class="cr_amount">$3.8m</span><!-- cr_amount -->
-				
-				
-					<?php echo file_get_contents("wp-content/themes/murphylaw/images/new-saints.svg"); ?>
-				
-					<span class="cf_type">18 - Wheeler Accident</span><!-- cf_type -->
-				
-				
-					<span class="cr_description">When two 18-wheelers crashed head-on into each other in Crowley, Louisiana, a family lost their husband and father. Just 19 days before trial, our team secured a $3.8 million settlement for the grieving family.</span><!-- cr_description -->
-				
-				</div><!-- cr_inner -->
-				
-				
-			</div><!-- single_case_results_page -->
-			
-			<div class="single_case_results_page">
-				
-				
-				<div class="cr_inner">
-				
-					<span class="cr_amount">$3.8m</span><!-- cr_amount -->
-				
-				
-					<?php echo file_get_contents("wp-content/themes/murphylaw/images/new-saints.svg"); ?>
-				
-					<span class="cf_type">18 - Wheeler Accident</span><!-- cf_type -->
-				
-				
-					<span class="cr_description">When two 18-wheelers crashed head-on into each other in Crowley, Louisiana, a family lost their husband and father. Just 19 days before trial, our team secured a $3.8 million settlement for the grieving family.</span><!-- cr_description -->
-				
-				</div><!-- cr_inner -->
-				
-				
-			</div><!-- single_case_results_page -->
-			
-			<div class="single_case_results_page">
-				
-				
-				<div class="cr_inner">
-				
-					<span class="cr_amount">$3.8m</span><!-- cr_amount -->
-				
-				
-					<?php echo file_get_contents("wp-content/themes/murphylaw/images/new-saints.svg"); ?>
-				
-					<span class="cf_type">18 - Wheeler Accident</span><!-- cf_type -->
-				
-				
-					<span class="cr_description">When two 18-wheelers crashed head-on into each other in Crowley, Louisiana, a family lost their husband and father. Just 19 days before trial, our team secured a $3.8 million settlement for the grieving family.</span><!-- cr_description -->
-				
-				</div><!-- cr_inner -->
-				
-				
-			</div><!-- single_case_results_page -->
-			
-			<div class="single_case_results_page">
-				
-				
-				<div class="cr_inner">
-				
-					<span class="cr_amount">$3.8m</span><!-- cr_amount -->
-				
-				
-					<?php echo file_get_contents("wp-content/themes/murphylaw/images/new-saints.svg"); ?>
-				
-					<span class="cf_type">18 - Wheeler Accident</span><!-- cf_type -->
-				
-				
-					<span class="cr_description">When two 18-wheelers crashed head-on into each other in Crowley, Louisiana, a family lost their husband and father. Just 19 days before trial, our team secured a $3.8 million settlement for the grieving family.</span><!-- cr_description -->
-				
-				</div><!-- cr_inner -->
-				
-				
-			</div><!-- single_case_results_page -->
-			
-			<div class="single_case_results_page">
-				
-				
-				<div class="cr_inner">
-				
-					<span class="cr_amount">$3.8m</span><!-- cr_amount -->
-				
-				
-					<?php echo file_get_contents("wp-content/themes/murphylaw/images/new-saints.svg"); ?>
-				
-					<span class="cf_type">18 - Wheeler Accident</span><!-- cf_type -->
-				
-				
-					<span class="cr_description">When two 18-wheelers crashed head-on into each other in Crowley, Louisiana, a family lost their husband and father. Just 19 days before trial, our team secured a $3.8 million settlement for the grieving family.</span><!-- cr_description -->
-				
-				</div><!-- cr_inner -->
-				
-				
-			</div><!-- single_case_results_page -->
-			
-			<div class="single_case_results_page">
-				
-				
-				<div class="cr_inner">
-				
-					<span class="cr_amount">$3.8m</span><!-- cr_amount -->
-				
-				
-					<?php echo file_get_contents("wp-content/themes/murphylaw/images/new-saints.svg"); ?>
-				
-					<span class="cf_type">18 - Wheeler Accident</span><!-- cf_type -->
-				
-				
-					<span class="cr_description">When two 18-wheelers crashed head-on into each other in Crowley, Louisiana, a family lost their husband and father. Just 19 days before trial, our team secured a $3.8 million settlement for the grieving family.</span><!-- cr_description -->
-				
-				</div><!-- cr_inner -->
-				
-				
-			</div><!-- single_case_results_page -->
-			
-			<div class="single_case_results_page">
-				
-				
-				<div class="cr_inner">
-				
-					<span class="cr_amount">$3.8m</span><!-- cr_amount -->
-				
-				
-					<?php echo file_get_contents("wp-content/themes/murphylaw/images/new-saints.svg"); ?>
-				
-					<span class="cf_type">18 - Wheeler Accident</span><!-- cf_type -->
-				
-				
-					<span class="cr_description">When two 18-wheelers crashed head-on into each other in Crowley, Louisiana, a family lost their husband and father. Just 19 days before trial, our team secured a $3.8 million settlement for the grieving family.</span><!-- cr_description -->
-				
-				</div><!-- cr_inner -->
-				
-				
-			</div><!-- single_case_results_page -->
-			
-			<div class="single_case_results_page">
-				
-				
-				<div class="cr_inner">
-				
-					<span class="cr_amount">$3.8m</span><!-- cr_amount -->
-				
-				
-					<?php echo file_get_contents("wp-content/themes/murphylaw/images/new-saints.svg"); ?>
-				
-					<span class="cf_type">18 - Wheeler Accident</span><!-- cf_type -->
-				
-				
-					<span class="cr_description">When two 18-wheelers crashed head-on into each other in Crowley, Louisiana, a family lost their husband and father. Just 19 days before trial, our team secured a $3.8 million settlement for the grieving family.</span><!-- cr_description -->
-				
-				</div><!-- cr_inner -->
-				
-				
-			</div><!-- single_case_results_page -->
-			
-			<div class="single_case_results_page">
-				
-				
-				<div class="cr_inner">
-				
-					<span class="cr_amount">$3.8m</span><!-- cr_amount -->
-				
-				
-					<?php echo file_get_contents("wp-content/themes/murphylaw/images/new-saints.svg"); ?>
-				
-					<span class="cf_type">18 - Wheeler Accident</span><!-- cf_type -->
-				
-				
-					<span class="cr_description">When two 18-wheelers crashed head-on into each other in Crowley, Louisiana, a family lost their husband and father. Just 19 days before trial, our team secured a $3.8 million settlement for the grieving family.</span><!-- cr_description -->
-				
-				</div><!-- cr_inner -->
-				
-				
-			</div><!-- single_case_results_page -->
-			
-			<div class="single_case_results_page">
-				
-				
-				<div class="cr_inner">
-				
-					<span class="cr_amount">$3.8m</span><!-- cr_amount -->
-				
-				
-					<?php echo file_get_contents("wp-content/themes/murphylaw/images/new-saints.svg"); ?>
-				
-					<span class="cf_type">18 - Wheeler Accident</span><!-- cf_type -->
-				
-				
-					<span class="cr_description">When two 18-wheelers crashed head-on into each other in Crowley, Louisiana, a family lost their husband and father. Just 19 days before trial, our team secured a $3.8 million settlement for the grieving family.</span><!-- cr_description -->
-				
-				</div><!-- cr_inner -->
-				
-				
-			</div><!-- single_case_results_page -->
-			
-			<div class="single_case_results_page">
-				
-				
-				<div class="cr_inner">
-				
-					<span class="cr_amount">$3.8m</span><!-- cr_amount -->
-				
-				
-					<?php echo file_get_contents("wp-content/themes/murphylaw/images/new-saints.svg"); ?>
-				
-					<span class="cf_type">18 - Wheeler Accident</span><!-- cf_type -->
-				
-				
-					<span class="cr_description">When two 18-wheelers crashed head-on into each other in Crowley, Louisiana, a family lost their husband and father. Just 19 days before trial, our team secured a $3.8 million settlement for the grieving family.</span><!-- cr_description -->
-				
-				</div><!-- cr_inner -->
-				
-				
-			</div><!-- single_case_results_page -->
-			
-			
+						</div><!-- single_case_results_page -->
 						
+				    
+					<?php endwhile; ?>
+				 
+				<?php endif; ?>
+				
+				
+
 			
-			
-	</div><!-- case_results_wrapper -->
+		</div><!-- case_results_wrapper -->
 		
 	</div><!-- container -->
 		
