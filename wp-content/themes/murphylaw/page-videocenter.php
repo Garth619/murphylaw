@@ -41,7 +41,7 @@
 				</div><!-- vc_play_overlay -->
 			
 			
-				<div class="single_video_thumbnail wistia_embed wistia_async_waichudc62 popover=true popoverContent=thumbnail"></div><!-- single_video_thumbnail -->
+				<div class="single_video_thumbnail wistia_embed wistia_async_ckq03sz94w popover=true popoverContent=thumbnail"></div><!-- single_video_thumbnail -->
 				
 				<div class="video_title wistia_embed wistia_async_waichudc62 popover=true popoverContent=html">Baton Rouge Injury Lawyers That Will Fight for the Money You Deserve</div><!-- video_title -->
 			

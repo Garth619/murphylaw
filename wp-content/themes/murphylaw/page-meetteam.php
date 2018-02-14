@@ -19,107 +19,53 @@
 		
 		<div class="att_inner_wrapper">
 			
-			<div class="single_att">
-				
-				<a href="<?php bloginfo('url');?>/peyton-murphy">
-				
-					<div class="att_image_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/murphy.jpg"/>
-					
-						<div class="view_profile">View Profile</div><!-- view -->
-					
-					</div><!-- att_image_wrapper -->
-					
-					<span class="att_name">Attorney Name</span><!-- att_name -->
-					
-					<span class="att_position">Founder</span><!-- att_position -->
-				
-				</a>
-				
-			</div><!-- single_att -->
+			<?php $posts = get_field('attorneys_meet');
 			
-			<div class="single_att">
+			if( $posts ): ?>
+			   
+			    <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
+			        <?php setup_postdata($post); ?>
+			        
+			        
+			        
+			        	<div class="single_att">
 				
-				<a href="<?php bloginfo('url');?>/peyton-murphy">
+									<a href="<?php the_permalink();?>">
 				
-					<div class="att_image_wrapper">
+										<div class="att_image_wrapper">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/murphy.jpg"/>
-					
-						<div class="view_profile">View Profile</div><!-- view -->
-					
-					</div><!-- att_image_wrapper -->
-					
-					<span class="att_name">Attorney Name</span><!-- att_name -->
-					
-					<span class="att_position">Founder</span><!-- att_position -->
-				
-				</a>
-				
-			</div><!-- single_att -->
+											<?php $attorney_image = get_field( 'attorney_image' ); ?>
+											
+											<?php if ( $attorney_image ) : ?>
 			
-			<div class="single_att">
+												<img src="<?php echo $attorney_image['url']; ?>" alt="<?php echo $attorney_image['alt']; ?>" />
+											
+											<?php else : ?>
+											
+												<img src="<?php bloginfo('template_directory');?>/images/placeholder.png"/>
+											
+											<?php endif;?>
+					
+										<div class="view_profile">View Profile</div><!-- view -->
+					
+									</div><!-- att_image_wrapper -->
+					
+								<span class="att_name"><?php the_title();?></span><!-- att_name -->
+					
+								<span class="att_position"><?php the_field( 'position' ); ?></span><!-- att_position -->
 				
-				<a href="<?php bloginfo('url');?>/peyton-murphy">
+								</a>
 				
-					<div class="att_image_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/murphy.jpg"/>
-					
-						<div class="view_profile">View Profile</div><!-- view -->
-					
-					</div><!-- att_image_wrapper -->
-					
-					<span class="att_name">Attorney Name</span><!-- att_name -->
-					
-					<span class="att_position">Founder</span><!-- att_position -->
-				
-				</a>
-				
-			</div><!-- single_att -->
+								</div><!-- single_att -->
+			        
+			        
+			        
+			    <?php endforeach; ?>
+			   
+			    <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+			<?php endif; ?>
 			
-			<div class="single_att">
-				
-				<a href="<?php bloginfo('url');?>/peyton-murphy">
-				
-					<div class="att_image_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/murphy.jpg"/>
-					
-						<div class="view_profile">View Profile</div><!-- view -->
-					
-					</div><!-- att_image_wrapper -->
-					
-					<span class="att_name">Attorney Name</span><!-- att_name -->
-					
-					<span class="att_position">Founder</span><!-- att_position -->
-				
-				</a>
-				
-			</div><!-- single_att -->
-			
-			<div class="single_att">
-				
-				<a href="<?php bloginfo('url');?>/peyton-murphy">
-				
-					<div class="att_image_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/murphy.jpg"/>
-					
-						<div class="view_profile">View Profile</div><!-- view -->
-					
-					</div><!-- att_image_wrapper -->
-					
-					<span class="att_name">Attorney Name</span><!-- att_name -->
-					
-					<span class="att_position">Founder</span><!-- att_position -->
-				
-				</a>
-				
-			</div><!-- single_att -->
-			
-			
+
 			
 		</div><!-- att_inner_wrapper -->
 		
@@ -130,111 +76,48 @@
 		
 		<div class="meet_the_team_wrapper">
 	
-		<span class="page_title">Staff</span><!-- page_title -->
+		<span class="page_title"><?php the_field( 'staff_title' ); ?></span><!-- page_title -->
 		
 		<div class="att_inner_wrapper">
 			
-			<div class="single_att">
-				
-				<a href="<?php bloginfo('url');?>/peyton-murphy">
-				
-					<div class="att_image_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/murphy.jpg"/>
-					
-						<div class="view_profile">View Profile</div><!-- view -->
-					
-					</div><!-- att_image_wrapper -->
-					
-					<span class="att_name">Attorney Name</span><!-- att_name -->
-					
-					<span class="att_position">Founder</span><!-- att_position -->
-				
-				</a>
-				
-			</div><!-- single_att -->
+			<?php $posts = get_field('staff_meet');
 			
-			<div class="single_att">
+			if( $posts ): ?>
+			   
+			    <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
+			        <?php setup_postdata($post); ?>
+			        
+			        
+			        
+			        	<div class="single_att">
 				
-				<a href="<?php bloginfo('url');?>/peyton-murphy">
+									<a href="<?php the_permalink();?>">
 				
-					<div class="att_image_wrapper">
+										<div class="att_image_wrapper">
 					
-						<img src="<?php bloginfo('template_directory');?>/images/murphy.jpg"/>
-					
-						<div class="view_profile">View Profile</div><!-- view -->
-					
-					</div><!-- att_image_wrapper -->
-					
-					<span class="att_name">Attorney Name</span><!-- att_name -->
-					
-					<span class="att_position">Founder</span><!-- att_position -->
-				
-				</a>
-				
-			</div><!-- single_att -->
+											<?php $attorney_image = get_field( 'attorney_image' ); ?>
 			
-			<div class="single_att">
+											<img src="<?php echo $attorney_image['url']; ?>" alt="<?php echo $attorney_image['alt']; ?>" />
+					
+										<div class="view_profile">View Profile</div><!-- view -->
+					
+									</div><!-- att_image_wrapper -->
+					
+								<span class="att_name"><?php the_title();?></span><!-- att_name -->
+					
+								<span class="att_position"><?php the_field( 'position' ); ?></span><!-- att_position -->
 				
-				<a href="<?php bloginfo('url');?>/peyton-murphy">
+								</a>
 				
-					<div class="att_image_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/murphy.jpg"/>
-					
-						<div class="view_profile">View Profile</div><!-- view -->
-					
-					</div><!-- att_image_wrapper -->
-					
-					<span class="att_name">Attorney Name</span><!-- att_name -->
-					
-					<span class="att_position">Founder</span><!-- att_position -->
-				
-				</a>
-				
-			</div><!-- single_att -->
-			
-			<div class="single_att">
-				
-				<a href="<?php bloginfo('url');?>/peyton-murphy">
-				
-					<div class="att_image_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/murphy.jpg"/>
-					
-						<div class="view_profile">View Profile</div><!-- view -->
-					
-					</div><!-- att_image_wrapper -->
-					
-					<span class="att_name">Attorney Name</span><!-- att_name -->
-					
-					<span class="att_position">Founder</span><!-- att_position -->
-				
-				</a>
-				
-			</div><!-- single_att -->
-			
-			<div class="single_att">
-				
-				<a href="<?php bloginfo('url');?>/peyton-murphy">
-				
-					<div class="att_image_wrapper">
-					
-						<img src="<?php bloginfo('template_directory');?>/images/murphy.jpg"/>
-					
-						<div class="view_profile">View Profile</div><!-- view -->
-					
-					</div><!-- att_image_wrapper -->
-					
-					<span class="att_name">Attorney Name</span><!-- att_name -->
-					
-					<span class="att_position">Founder</span><!-- att_position -->
-				
-				</a>
-				
-			</div><!-- single_att -->
-			
-			
+								</div><!-- single_att -->
+			        
+			        
+			        
+			    <?php endforeach; ?>
+			   
+			    <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+			<?php endif; ?>
+						
 			
 		</div><!-- att_inner_wrapper -->
 		
@@ -242,10 +125,6 @@
 		</div><!-- meet_the_team_wrapper -->
 		
 		
-		
-		
-				
-				
 	</div><!-- container -->
 		
 		
