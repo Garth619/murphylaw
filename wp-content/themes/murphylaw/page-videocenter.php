@@ -21,162 +21,41 @@
 		<div class="video_center_page_wrapper">
 			
 			
-			<div class="single_video">
+			<?php if(get_field('video')): ?>
+			 
+				<?php while(has_sub_field('video')): ?>
+			 
+					<div class="single_video">
 			
-				<div class="vc_play_overlay">
+						<div class="vc_play_overlay">
 				
-					<div class="play_button">
+							<div class="play_button">
 										
-							<div class="play_button_inner">
+								<div class="play_button_inner">
 										
-								<span class="tri"></span><!-- tri -->
+									<span class="tri"></span><!-- tri -->
 								
-							</div><!-- play_button_inner -->
+								</div><!-- play_button_inner -->
 							
 							<span class="white_square"></span><!-- white_square -->
 										
-						</div><!-- play_button -->
+					</div><!-- play_button -->
 
 				
 				</div><!-- vc_play_overlay -->
 			
 			
-				<div class="single_video_thumbnail wistia_embed wistia_async_ckq03sz94w popover=true popoverContent=thumbnail"></div><!-- single_video_thumbnail -->
+				<div class="single_video_thumbnail wistia_embed wistia_async_<?php the_sub_field( 'wisita_id' ); ?> popover=true popoverContent=thumbnail"></div><!-- single_video_thumbnail -->
 				
-				<div class="video_title wistia_embed wistia_async_waichudc62 popover=true popoverContent=html">Baton Rouge Injury Lawyers That Will Fight for the Money You Deserve</div><!-- video_title -->
+				<div class="video_title wistia_embed wistia_async_waichudc62 popover=true popoverContent=html"><?php the_sub_field( 'video_title' ); ?></div><!-- video_title -->
 			
 			</div><!-- single_video -->
+			    
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
 			
-			
-			<div class="single_video">
-			
-				<div class="vc_play_overlay">
-				
-					<div class="play_button">
-										
-							<div class="play_button_inner">
-										
-								<span class="tri"></span><!-- tri -->
-								
-							</div><!-- play_button_inner -->
-							
-							<span class="white_square"></span><!-- white_square -->
-										
-						</div><!-- play_button -->
 
-				
-				</div><!-- vc_play_overlay -->
-			
-			
-				<div class="single_video_thumbnail wistia_embed wistia_async_waichudc62 popover=true popoverContent=thumbnail"></div><!-- single_video_thumbnail -->
-				
-				<div class="video_title wistia_embed wistia_async_waichudc62 popover=true popoverContent=html">Baton Rouge Injury Lawyers That Will Fight for the Money You Deserve</div><!-- video_title -->
-			
-			</div><!-- single_video -->
-			
-			<div class="single_video">
-			
-				<div class="vc_play_overlay">
-				
-					<div class="play_button">
-										
-							<div class="play_button_inner">
-										
-								<span class="tri"></span><!-- tri -->
-								
-							</div><!-- play_button_inner -->
-							
-							<span class="white_square"></span><!-- white_square -->
-										
-						</div><!-- play_button -->
-
-				
-				</div><!-- vc_play_overlay -->
-			
-			
-				<div class="single_video_thumbnail wistia_embed wistia_async_waichudc62 popover=true popoverContent=thumbnail"></div><!-- single_video_thumbnail -->
-				
-				<div class="video_title wistia_embed wistia_async_waichudc62 popover=true popoverContent=html">Baton Rouge Injury Lawyers That Will Fight for the Money You Deserve</div><!-- video_title -->
-			
-			</div><!-- single_video -->
-			
-			<div class="single_video">
-			
-				<div class="vc_play_overlay">
-				
-					<div class="play_button">
-										
-							<div class="play_button_inner">
-										
-								<span class="tri"></span><!-- tri -->
-								
-							</div><!-- play_button_inner -->
-							
-							<span class="white_square"></span><!-- white_square -->
-										
-						</div><!-- play_button -->
-
-				
-				</div><!-- vc_play_overlay -->
-			
-			
-				<div class="single_video_thumbnail wistia_embed wistia_async_waichudc62 popover=true popoverContent=thumbnail"></div><!-- single_video_thumbnail -->
-				
-				<div class="video_title wistia_embed wistia_async_waichudc62 popover=true popoverContent=html">Baton Rouge Injury Lawyers That Will Fight for the Money You Deserve</div><!-- video_title -->
-			
-			</div><!-- single_video -->
-			
-			<div class="single_video">
-			
-				<div class="vc_play_overlay">
-				
-					<div class="play_button">
-										
-							<div class="play_button_inner">
-										
-								<span class="tri"></span><!-- tri -->
-								
-							</div><!-- play_button_inner -->
-							
-							<span class="white_square"></span><!-- white_square -->
-										
-						</div><!-- play_button -->
-
-				
-				</div><!-- vc_play_overlay -->
-			
-			
-				<div class="single_video_thumbnail wistia_embed wistia_async_waichudc62 popover=true popoverContent=thumbnail"></div><!-- single_video_thumbnail -->
-				
-				<div class="video_title wistia_embed wistia_async_waichudc62 popover=true popoverContent=html">Baton Rouge Injury Lawyers That Will Fight for the Money You Deserve</div><!-- video_title -->
-			
-			</div><!-- single_video -->
-			
-			<div class="single_video">
-			
-				<div class="vc_play_overlay">
-				
-					<div class="play_button">
-										
-							<div class="play_button_inner">
-										
-								<span class="tri"></span><!-- tri -->
-								
-							</div><!-- play_button_inner -->
-							
-							<span class="white_square"></span><!-- white_square -->
-										
-						</div><!-- play_button -->
-
-				
-				</div><!-- vc_play_overlay -->
-			
-			
-				<div class="single_video_thumbnail wistia_embed wistia_async_waichudc62 popover=true popoverContent=thumbnail"></div><!-- single_video_thumbnail -->
-				
-				<div class="video_title wistia_embed wistia_async_waichudc62 popover=true popoverContent=html">Baton Rouge Injury Lawyers That Will Fight for the Money You Deserve</div><!-- video_title -->
-			
-			</div><!-- single_video -->
 			
 			
 		</div><!-- video_center_wrapper -->

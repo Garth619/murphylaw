@@ -13,6 +13,7 @@
 		width:30.5%;
 		float:left;
 		margin:0 4.25% 120px 0;
+		height:390px;
 		&:nth-of-type(3n + 3) {
 			margin-right:0;
 		}
@@ -140,6 +141,7 @@
 		width:100%;
 		margin-bottom:75px;
 		margin-right:0;
+		height:auto;
 		&:nth-of-type(3n + 3) {
 			margin-right:0;
 		}

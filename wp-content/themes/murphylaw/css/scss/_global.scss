@@ -67,6 +67,12 @@ img.aligncenter {
 		font-style: normal;
 		line-height: 38px;
 		margin-bottom: 13px;
+/*
+		margin-top:45px;
+		&:first-child {
+			margin-top:0;
+		}
+*/
 	}
 	h3 {
 		font-family: $proximaextrabold;
