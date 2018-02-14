@@ -48,11 +48,11 @@
 				
 				<span class="footer_title">Follow Us</span>
 				
-				<a class="social_link" href="">Facebook</a><!-- social_link -->
-				<a class="social_link" href="">google+</a><!-- social_link -->
-				<a class="social_link" href="">Twitter</a><!-- social_link -->
-				<a class="social_link" href="">Youtube</a><!-- social_link -->
-				<a class="social_link" href="">LinkedIn</a><!-- social_link -->
+				<a class="social_link" href="https://www.facebook.com/BatonRougeInjuryAccidentAttorney" target="_blank">Facebook</a><!-- social_link -->
+				<a class="social_link" href="https://plus.google.com/+MurphyLawFirmBatonRouge" target="_blank">google+</a><!-- social_link -->
+				<a class="social_link" href="https://twitter.com/murphylawfirm" target="_blank">Twitter</a><!-- social_link -->
+				<a class="social_link" href="https://www.youtube.com/channel/UClX-RDngdrWwanob3jiFPiQ" target="_blank">Youtube</a><!-- social_link -->
+				<a class="social_link" href="https://www.linkedin.com/company/murphy-law-firm-llc" target="_blank">LinkedIn</a><!-- social_link -->
 				
 			</div><!-- social_media_wrapper -->
 			
@@ -72,8 +72,8 @@
 			
 				<ul>
 					<li>&copy;2018 Murphy Law Firm, LLC.<br/> All Rights Reserved.</li>
-					<li><a href="">Disclaimer</a></li><br/>
-					<li><a href="">Privacy Policy</a></li>
+					<li><a href="<?php bloginfo('url');?>/disclaimer/">Disclaimer</a></li><br/>
+					<li><a href="<?php bloginfo('url');?>/privacy-policy">Privacy Policy</a></li>
 				</ul>
 				
 				<a href="//ilawyermarketing.com" target="_blank">

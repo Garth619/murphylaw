@@ -2,7 +2,7 @@
 	
 	<div class="sec_three_box hover_box">
 		
-		<a class="" href="">
+		<a class="" href="<?php bloginfo('url');?>/case-results">
 		
 			<div class="hover_inner">
 			
@@ -54,7 +54,7 @@
 	<div class="sec_three_box hover_box">
 		
 		
-		<a class="" href="">
+		<a class="" href="<?php bloginfo('url');?>/case-results">
 		
 			<div class="hover_inner">
 			
@@ -107,7 +107,7 @@
 	<div class="sec_three_box hover_box">
 		
 		
-		<a class="" href="">
+		<a class="" href="<?php bloginfo('url');?>/case-results">
 		
 			<div class="hover_inner">
 			
@@ -161,7 +161,7 @@
 
 <div class="sec_three_view">
 		
-		<a href="">
+		<a class="" href="<?php bloginfo('url');?>/case-results">
 			
 			
 			<span class="view">View More</span><!-- view -->

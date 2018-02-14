@@ -21,7 +21,7 @@
 			
 			<div class="single_att">
 				
-				<a href="">
+				<a href="<?php bloginfo('url');?>/peyton-murphy">
 				
 					<div class="att_image_wrapper">
 					
@@ -41,7 +41,7 @@
 			
 			<div class="single_att">
 				
-				<a href="">
+				<a href="<?php bloginfo('url');?>/peyton-murphy">
 				
 					<div class="att_image_wrapper">
 					
@@ -61,7 +61,7 @@
 			
 			<div class="single_att">
 				
-				<a href="">
+				<a href="<?php bloginfo('url');?>/peyton-murphy">
 				
 					<div class="att_image_wrapper">
 					
@@ -81,7 +81,7 @@
 			
 			<div class="single_att">
 				
-				<a href="">
+				<a href="<?php bloginfo('url');?>/peyton-murphy">
 				
 					<div class="att_image_wrapper">
 					
@@ -101,7 +101,7 @@
 			
 			<div class="single_att">
 				
-				<a href="">
+				<a href="<?php bloginfo('url');?>/peyton-murphy">
 				
 					<div class="att_image_wrapper">
 					
@@ -136,7 +136,7 @@
 			
 			<div class="single_att">
 				
-				<a href="">
+				<a href="<?php bloginfo('url');?>/peyton-murphy">
 				
 					<div class="att_image_wrapper">
 					
@@ -156,7 +156,7 @@
 			
 			<div class="single_att">
 				
-				<a href="">
+				<a href="<?php bloginfo('url');?>/peyton-murphy">
 				
 					<div class="att_image_wrapper">
 					
@@ -176,7 +176,7 @@
 			
 			<div class="single_att">
 				
-				<a href="">
+				<a href="<?php bloginfo('url');?>/peyton-murphy">
 				
 					<div class="att_image_wrapper">
 					
@@ -196,7 +196,7 @@
 			
 			<div class="single_att">
 				
-				<a href="">
+				<a href="<?php bloginfo('url');?>/peyton-murphy">
 				
 					<div class="att_image_wrapper">
 					
@@ -216,7 +216,7 @@
 			
 			<div class="single_att">
 				
-				<a href="">
+				<a href="<?php bloginfo('url');?>/peyton-murphy">
 				
 					<div class="att_image_wrapper">
 					

@@ -684,7 +684,7 @@
 		},
 	"\/images\/attorneys\/att-01-desktop.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 87425,
 		"oA": 0,
 		"oAP": "\/images\/attorneys\/att-01-desktop.jpg",
 		"oF": 0,
@@ -704,7 +704,7 @@
 		},
 	"\/images\/attorneys\/att-010-desktop.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 110857,
 		"oA": 0,
 		"oAP": "\/images\/attorneys\/att-010-desktop.jpg",
 		"oF": 0,
@@ -724,7 +724,7 @@
 		},
 	"\/images\/attorneys\/att-011-desktop.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 114064,
 		"oA": 0,
 		"oAP": "\/images\/attorneys\/att-011-desktop.jpg",
 		"oF": 0,
@@ -774,7 +774,7 @@
 		},
 	"\/images\/attorneys\/att-013-tablet.jpg": {
 		"ft": 16384,
-		"iS": 21076,
+		"iS": 20117,
 		"oA": 0,
 		"oAP": "\/images\/attorneys\/att-013-tablet.jpg",
 		"oF": 0,
@@ -784,7 +784,7 @@
 		},
 	"\/images\/attorneys\/att-014-desktop.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 69389,
 		"oA": 0,
 		"oAP": "\/images\/attorneys\/att-014-desktop.jpg",
 		"oF": 0,
@@ -834,7 +834,7 @@
 		},
 	"\/images\/attorneys\/att-016-tablet.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 19371,
 		"oA": 0,
 		"oAP": "\/images\/attorneys\/att-016-tablet.jpg",
 		"oF": 0,
@@ -844,7 +844,7 @@
 		},
 	"\/images\/attorneys\/att-017-desktop.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 72626,
 		"oA": 0,
 		"oAP": "\/images\/attorneys\/att-017-desktop.jpg",
 		"oF": 0,
@@ -964,12 +964,12 @@
 		},
 	"\/images\/attorneys\/att-06-desktop.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 89977,
 		"oA": 0,
 		"oAP": "\/images\/attorneys\/att-06-desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/attorneys\/att-06-tablet.jpg": {
@@ -1004,12 +1004,12 @@
 		},
 	"\/images\/attorneys\/att-08-desktop.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 85239,
 		"oA": 0,
 		"oAP": "\/images\/attorneys\/att-08-desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/attorneys\/att-08-tablet.jpg": {
@@ -1995,6 +1995,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-meetteam.php",
+		"oF": 0
+		},
+	"\/page-meetteamnew.phpnew": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-meetteamnew.phpnew",
 		"oF": 0
 		},
 	"\/page-practiceareas.php": {
