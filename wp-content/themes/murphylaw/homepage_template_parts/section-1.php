@@ -2,9 +2,9 @@
 	
 	<div class="sec_one_inner">
 		
-		<span class="large_header">Don't Be<br/> A Victim Twice</span><!-- large_header -->
+		<span class="large_header"><?php the_field( 'banner_title' ); ?></span><!-- large_header -->
 		
-		<a class="consultation_button" href="#scroll">Free Case Consultation</a><!-- consultation_button -->
+		<a class="consultation_button" href="#scroll"><?php the_field( 'free_case_consultation_verbiage' ); ?></a><!-- consultation_button -->
 		
 		<div class="sec_one_sp_wrapper">
 			
@@ -12,9 +12,9 @@
 				
 				<?php echo file_get_contents("wp-content/themes/murphylaw/images/sword.svg"); ?>
 				
-				<span class="sp_header">We Will Fight For You</span><!-- sp_header -->
+				<span class="sp_header"><?php the_field( 'intro_header' ); ?></span><!-- sp_header -->
 				
-				<p>When facing Murphy Law Firm, LLC insurance companies know they have to make a fair offer that fully compensates you for all damages, or they will have to fight a battle-tested trial lawyer.</p>
+				<p><?php the_field( 'intro_content' ); ?></p>
 				
 			</div><!-- sp_box_one -->
 			
@@ -22,7 +22,7 @@
 				
 				<?php echo file_get_contents("wp-content/themes/murphylaw/images/sword.svg"); ?>
 				
-				<span class="sp_small_title">record results</span><!-- sp_small_title -->
+				<span class="sp_small_title"><?php the_field( 'intro_box_one_title' ); ?></span><!-- sp_small_title -->
 				
 				<div class="green_dots">
 				
@@ -38,7 +38,7 @@
 				
 				<?php echo file_get_contents("wp-content/themes/murphylaw/images/shield.svg"); ?>
 				
-				<span class="sp_small_title">Decades of Experience</span><!-- sp_small_title -->
+				<span class="sp_small_title"><?php the_field( 'intro_box_two_title' ); ?></span><!-- sp_small_title -->
 				
 				<div class="green_dots">
 				

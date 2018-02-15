@@ -44,10 +44,21 @@ body.page-template-page-about {
 
 
 
+/*
 .profile_content {
 	max-width: 100%;
 	column-count: 3;
 	column-gap: 88px;
+	padding-right:0;
+}
+*/
+
+
+.profile_content {
+	max-width: 1300px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:45px;
 	padding-right:0;
 }
 
@@ -162,8 +173,11 @@ body.page-template-page-about {
 		
 		
 		.profile_content {
+			margin-top:65px;
+/*
 			column-count: 2;
 			column-gap: 88px;
+*/
 		}
 
 		
@@ -343,8 +357,10 @@ body.page-template-page-about {
 	
 	.profile_content {
 		max-width: 100%;
+/*
 		column-count: 1;
 		column-gap: 0px;
+*/
 		padding-right:0;
 	}
 	

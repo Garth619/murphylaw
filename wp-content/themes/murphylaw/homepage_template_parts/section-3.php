@@ -1,167 +1,90 @@
 <section id="section_three">
 	
-	<div class="sec_three_box hover_box">
+	
+	
+	<?php if(get_field('case_results_grid')): ?>
+	 
+		<?php while(has_sub_field('case_results_grid')): ?>
+	 
+			
+	    	<?php if( get_sub_field('content_or_image_box') == 'Content Box' ): ?>
+	    	
+	    	
+	    				
+	    				<div class="sec_three_box hover_box">
 		
-		<a class="" href="<?php bloginfo('url');?>/case-results">
+								<a class="<?php the_field( 'case_results_link' ); ?>" href="<?php bloginfo('url');?>/case-results">
 		
-			<div class="hover_inner">
+								<div class="hover_inner">
 			
-				<div class="flex_center">
+									<div class="flex_center">
 			
-					<span class="amount">$3.8M</span><!-- amount -->
+										<span class="amount"><?php the_sub_field( 'case_results_amount' ); ?></span><!-- amount -->
 			
-					<span class="case_type">18-wheeler Accident</span><!-- case_type -->
+										<span class="case_type"><?php the_sub_field( 'case_results_type' ); ?></span><!-- case_type -->
 			
-					<?php echo file_get_contents("wp-content/themes/murphylaw/images/new-saints.svg"); ?>
+										<?php echo file_get_contents("wp-content/themes/murphylaw/images/new-saints.svg"); ?>
 			
-				</div><!-- flex_center -->
+								</div><!-- flex_center -->
 			
-			</div><!-- hover_inner -->
+							</div><!-- hover_inner -->
 		
-			<div class="hover_read_more">
+							<div class="hover_read_more">
 			
-				<span class="read_more_title">Read More</span><!-- read_more_title -->
+								<span class="read_more_title">Read More</span><!-- read_more_title -->
 			
-				<div class="red_dots_wrapper">
+								<div class="red_dots_wrapper">
 				
-					<span class="red_dots"></span>
-					<span class="red_dots"></span>
-					<span class="red_dots"></span>
+									<span class="red_dots"></span>
+									<span class="red_dots"></span>
+									<span class="red_dots"></span>
 				
-				</div><!-- red_dots -->
+							</div><!-- red_dots -->
 			
-			</div><!-- hover_read_more -->
+						</div><!-- hover_read_more -->
 		
-			<div class="hover_excerpt">
+						<div class="hover_excerpt">
 			
-				<span class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </span>
+							<span class=""><?php the_sub_field( 'case_results_description' ); ?></span>
 			
 			
-			</div><!-- hover_excerpt -->
+						</div><!-- hover_excerpt -->
 		
-		</a>
+					</a>
 		
-	</div><!-- sec_three_box -->
+				</div><!-- sec_three_box -->
 	
-	<div class="sec_three_box pic_box" >
-		
-		<div class="pic_box_inner" style="background: url(/wp-content/themes/murphylaw/images/results-image-01-desktop.jpg) top center no-repeat;background-size:cover"></div><!-- pic_box_inner -->
-		
-		
-		
-	</div><!-- sec_three_box -->
-	
-	<div class="sec_three_box hover_box">
-		
-		
-		<a class="" href="<?php bloginfo('url');?>/case-results">
-		
-			<div class="hover_inner">
-			
-				<div class="flex_center">
-			
-					<span class="amount">$2.26M</span><!-- amount -->
-			
-					<span class="case_type">Truck Accident</span><!-- case_type -->
-			
-					<?php echo file_get_contents("wp-content/themes/murphylaw/images/new-saints.svg"); ?>
-			
-				</div><!-- flex_center -->
-			
-			</div><!-- hover_inner -->
-		
-			<div class="hover_read_more">
-			
-				<span class="read_more_title">Read More</span><!-- read_more_title -->
-			
-				<div class="red_dots_wrapper">
+					
+
+					
+				<?php endif; ?>
 				
-					<span class="red_dots"></span>
-					<span class="red_dots"></span>
-					<span class="red_dots"></span>
 				
-				</div><!-- red_dots -->
-			
-			</div><!-- hover_read_more -->
-		
-			<div class="hover_excerpt">
-			
-				<span class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </span>
-			
-			
-			</div><!-- hover_excerpt -->
-		
-		</a>
-		
-		
-	</div><!-- sec_three_box -->
+				<?php if( get_sub_field('content_or_image_box') == 'Image Box' ): ?>
 	
-	<div class="sec_three_box pic_box">
+					<div class="sec_three_box pic_box" >
 		
-		<div class="pic_box_inner" style="background: url(/wp-content/themes/murphylaw/images/results-image-02-desktop.jpg) top center no-repeat;background-size:cover"></div>
+						<div class="pic_box_inner" style="background: url(<?php the_sub_field( 'case_results_background_image' ); ?>) top center no-repeat;background-size:cover"></div><!-- pic_box_inner -->
 		
 		
+					</div><!-- sec_three_box -->
+
+					
+				<?php endif; ?>
+	    
+			
 		
-	</div><!-- sec_three_box -->
+		
+		<?php endwhile; ?>
+	 
+	<?php endif; ?>
 	
-	<div class="sec_three_box hover_box">
-		
-		
-		<a class="" href="<?php bloginfo('url');?>/case-results">
-		
-			<div class="hover_inner">
-			
-				<div class="flex_center">
-			
-					<span class="amount">$2M</span><!-- amount -->
-			
-					<span class="case_type">Wrongful Death</span><!-- case_type -->
-			
-					<?php echo file_get_contents("wp-content/themes/murphylaw/images/new-saints.svg"); ?>
-			
-				</div><!-- flex_center -->
-			
-			</div><!-- hover_inner -->
-		
-			<div class="hover_read_more">
-			
-				<span class="read_more_title">Read More</span><!-- read_more_title -->
-			
-				<div class="red_dots_wrapper">
-				
-					<span class="red_dots"></span>
-					<span class="red_dots"></span>
-					<span class="red_dots"></span>
-				
-				</div><!-- red_dots -->
-			
-			</div><!-- hover_read_more -->
-		
-			<div class="hover_excerpt">
-			
-				<span class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  </span>
-			
-			
-			</div><!-- hover_excerpt -->
-		
-		</a>
-		
-	</div><!-- sec_three_box -->
-	
-	<div class="sec_three_box pic_box">
-		
-		<div class="pic_box_inner" style="background: url(/wp-content/themes/murphylaw/images/results-image-03-desktop.jpg) top center no-repeat;background-size:cover"></div>
-		
-	</div><!-- sec_three_box -->
-	
-	
-		
 	
 </section><!-- section_three -->
 
 <div class="sec_three_view">
 		
-		<a class="" href="<?php bloginfo('url');?>/case-results">
+		<a href="<?php the_field( 'case_results_link' ); ?>">
 			
 			
 			<span class="view">View More</span><!-- view -->
