@@ -659,7 +659,7 @@
 	.single_case_results_page {
 		&:hover {
 			&:after {
-				height:590px;
+				// height:590px;
 				top:0px;
 				
 				animation-name: fade, cr_grow;

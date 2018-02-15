@@ -28,7 +28,6 @@
 				
 									<span class="cr_amount"><?php the_sub_field( 'case_result_amount' ); ?></span><!-- cr_amount -->
 				
-				
 									<?php echo file_get_contents("wp-content/themes/murphylaw/images/new-saints.svg"); ?>
 				
 									<span class="cf_type"><?php the_sub_field( 'case_result_type' ); ?></span><!-- cf_type -->
