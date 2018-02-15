@@ -163,7 +163,7 @@ body.page-template-page-about {
 
 
 
-@media screen and (max-width: 1775px) {
+@media screen and (max-width: 1780px) {
 	
 	
 	
@@ -179,6 +179,16 @@ body.page-template-page-about {
 			column-count: 2;
 			column-gap: 88px;
 */
+		}
+		
+		
+		
+		.profile_inner {
+			justify-content: space-between;
+		}
+		
+		.profile_header_wrapper {
+			width: 100%;
 		}
 
 		
@@ -238,6 +248,16 @@ body.page-template-page-about {
 .profile_inner {
 	padding-top: 142px;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -351,17 +371,52 @@ body.page-template-page-about {
 
 
 
+
+
+@media screen and (max-width: 1295px) {
+	
+	
+	body.page-template-page-about {
+	
+		.profile_header_wrapper {
+			h1.bio_header {
+    		font-size: 211px;
+				line-height: 167px;
+				}
+		} 
+	
+	
+	 	.profile_top_wrapper {
+			&:before {
+				height: 533px;
+			}
+			&:after {
+				height: 533px;
+				right:0;
+			}
+		}
+	
+	
+	} // End of body.page-template-page-about, for using Attorney Bio Page where I can
+	
+	    
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+
 @media screen and (max-width: 1250px) {
 	
 	
 body.page-template-page-about {
 	
+/*
 	.profile_content {
 		max-width: 100%;
-/*
-		column-count: 1;
-		column-gap: 0px;
-*/
 		padding-right:0;
 	}
 	
@@ -374,6 +429,7 @@ body.page-template-page-about {
 	
 	
 	
+*/
 
 
 

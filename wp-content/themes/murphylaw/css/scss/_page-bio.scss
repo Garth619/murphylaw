@@ -306,7 +306,7 @@ span.bio_position {
 
 	
 	.profile_header_wrapper {
-		margin-bottom: 277px;
+		margin-bottom: 145px;
 		h1.bio_header {
 			font-size: 290px;
 			line-height: 230px;
@@ -416,8 +416,7 @@ span.bio_position {
 }
 
 .profile_header_wrapper {
-	flex-grow:1;
-	// max-width: 315px;
+	flex-shrink: 0;
 	h1.bio_header {
 		font-size:140px;
 		line-height: 115px;
@@ -457,8 +456,8 @@ span.bio_position {
 	
 	.profile_container {
 		margin:60px 0 0;
-		padding-left:75px;
-		padding-right:75px;
+		padding-left:50px;
+		padding-right:50px;
 		display: block;
 		
     padding-bottom: 63px;
@@ -494,19 +493,27 @@ span.bio_position {
 	
 	
 	
+	
+	
 	.profile_top_wrapper {
 		&:after {
-		height:600px;
-	}
+			height:600px;
+			max-width: 100%;
+		}
 	}
 	
 	.profile_inner {
 		padding-left:25px;
 		padding-right:25px;
+		display: block;
+		text-align: center;
 	}
 	
 	
 	.profile_header_wrapper {
+		margin-right:0;
+		margin-bottom: 61px;
+		
 		 h1.bio_header {
 			 font-size:100px;
 			 line-height: 90px;
@@ -517,8 +524,23 @@ span.bio_position {
 	span.bio_position {
 		font-size: 18px;
 		letter-spacing: 0.15em;
+		text-align: center;
+		margin-top: -21px;
+		&:before {
+			margin-left:auto;
+			margin-right:auto;
+			display: block;
+			top: 37px;
+			width:58px;
+			z-index: -1;
+		}
 	}
 	
+	
+	
+	
+	
+
 	
 	.profile_container {
 		padding-left:25px;
@@ -530,6 +552,13 @@ span.bio_position {
 	
 	.profile_sidebar {
 		margin: 57px 0 0;
+	}
+	
+	
+	
+	.profile_image_wrapper {
+		float:none;
+		margin-right:0;
 	}
 	
 	
