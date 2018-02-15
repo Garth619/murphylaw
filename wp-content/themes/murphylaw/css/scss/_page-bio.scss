@@ -7,7 +7,7 @@
 	&:after {
 		content:"";
 		width:100%;
-		max-width:1412px;
+		max-width: 1306px;
 		height:830px;
 		position: absolute;
 		top:0;
@@ -61,7 +61,7 @@ span.bio_position {
 	font-size: 20px;
 	font-family: $proximaextrabold;
 	letter-spacing: 0.3em;
-	text-align: right;
+	text-align: left;
 	&:before {
 		content:url(#{$themePath}images/new-saints2.svg);
 		width:55px;
@@ -75,9 +75,11 @@ span.bio_position {
 
 
 .profile_image_wrapper {
+
 	img {
 		max-width: 100%;
 		height:auto;
+		
 	}
 }
 
@@ -186,7 +188,24 @@ span.bio_position {
 } /* Media Query */
 
 
+@media screen and (max-width: 1780px) {
+	
+	
+	
+	.profile_header_wrapper {
+		margin-right:10%;
+	}
+	
+	
+	
+	.profile_inner {
+		justify-content: flex-start;
+	}
+	
+	
 
+	
+} /* Media Query */
 
 
 @media screen and (max-width: 1583px) {
@@ -198,7 +217,7 @@ span.bio_position {
 .profile_top_wrapper {
 	&:before {
 		height:790px;
-		width: 470px;
+		width: 555px;
 	}
 	&:after {
 		height:790px;
@@ -206,21 +225,30 @@ span.bio_position {
 }
 
 
-
-	
-	
-	.profile_image_wrapper {
-		margin-top:0px;
-		img {
-			max-height: 590px;
-		}
-	}
-	
 	
 	.profile_inner {
 		padding-top: 94px;
 		padding-right:0;
+		//justify-content: flex-start;
 	}
+
+
+
+ .profile_header_wrapper {
+   margin-bottom: 207px;
+//   flex-grow: 1;
+   }
+	
+	
+	.profile_image_wrapper {
+		margin-top:0px;
+		margin-right:65px;
+		img {
+			max-width: 485px;
+		}
+	}
+	
+
 	
 	
 	span.bio_position {
@@ -229,9 +257,7 @@ span.bio_position {
 	
 	 
 	 
-	 .profile_header_wrapper {
-   		margin-bottom: 207px;
-   	}
+	
 	
 	
 	
@@ -288,13 +314,30 @@ span.bio_position {
 	} 
 	
 	
+	
+		
+	.profile_header_wrapper {
+		margin-right:60px;
+	}
+	
+	
+	
+/*
+	.profile_inner {
+		justify-content: flex-start;
+	}
+	
+*/
+	
+	
 } /* Media Query */
 
 
 
-@media screen and (max-width: 1295px) {
+@media screen and (max-width: 1280px) {
 	
 	
+/*
 .profile_top_wrapper {
 	&:before {
 		display: none;
@@ -348,6 +391,69 @@ span.bio_position {
 	    margin-right:auto;
     }
 	}
+*/
+
+
+
+
+.profile_top_wrapper {
+	&:before {
+		display: none;
+		
+	}
+	&:after {
+		left:0;
+		max-width:605px;
+		height: 462px;
+	}
+}
+
+.profile_inner {
+  padding-top: 53px;
+  padding-left: 43px;
+  padding-right: 43px;
+  justify-content: flex-start;
+}
+
+.profile_header_wrapper {
+	flex-grow:1;
+	// max-width: 315px;
+	h1.bio_header {
+		font-size:140px;
+		line-height: 115px;
+	}
+} 
+
+
+.profile_image_wrapper {
+    float:left;
+    margin-top: 6px;
+//     width: 100%;
+    img {
+	    display: block;
+	    max-width:270px;
+	    margin-left:auto;
+	    margin-right:auto;
+    }
+	}
+
+
+span.bio_position {
+	font-size:18px;
+	letter-spacing: 0.15em;
+	&:before {
+		content: url(/wp-content/themes/murphylaw/images/new-saints3.svg);
+		width: 45px;
+    // height: 71px;
+	}
+}
+
+
+/* */
+
+
+
+
 	
 	.profile_container {
 		margin:60px 0 0;
@@ -379,6 +485,8 @@ span.bio_position {
 	
 	
 } /* Media Query */
+
+
 
 
 
