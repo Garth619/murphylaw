@@ -77,12 +77,12 @@
 		
 	@keyframes cr_grow {
 	  from {
-	    height:590px;
+	    height:100%;
 	    transform: translateY(0);
 	 	}
 	
 	  to {
-	   height:644px;
+	   height:calc(100% + 54px);
 	   transform: translateY(-27px);
 	  }
 	}
