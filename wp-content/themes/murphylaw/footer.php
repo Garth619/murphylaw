@@ -71,7 +71,7 @@
 			<div class="copyright_inner">
 			
 				<ul>
-					<li>&copy;2018 Murphy Law Firm, LLC.<br/> All Rights Reserved.</li>
+					<li>&copy;<?php echo date("Y"); ?> Murphy Law Firm, LLC.<br/> All Rights Reserved.</li>
 					<li><a href="<?php bloginfo('url');?>/disclaimer/">Disclaimer</a></li><br/>
 					<li><a href="<?php bloginfo('url');?>/privacy-policy">Privacy Policy</a></li>
 				</ul>
