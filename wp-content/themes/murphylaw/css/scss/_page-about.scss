@@ -14,9 +14,10 @@ body.page-template-page-about {
 
 
 .profile_header_wrapper {
-   margin-right: 0px;
-   width: 725px;
-   margin-bottom: 358px;
+   margin-right: 40px;
+//    width: 725px;
+   margin-bottom: 298px;
+   flex-shrink: 0;
    h1.bio_header {
 	   line-height: 250px;
 	   
@@ -27,7 +28,7 @@ body.page-template-page-about {
  
  
  .profile_image_wrapper {
-	 width:calc(100% - 697px);
+	 // width:calc(100% - 697px);
 	 img {
 		 float:right;
 	 }
@@ -188,7 +189,7 @@ body.page-template-page-about {
 		}
 		
 		.profile_header_wrapper {
-			width: 100%;
+// 			width: 100%;
 		}
 
 		
@@ -225,7 +226,7 @@ body.page-template-page-about {
 
 
 .profile_header_wrapper {
-     margin-bottom: 257px;
+     margin-bottom: 197px;
    h1.bio_header {
 	   
    }
@@ -237,7 +238,7 @@ body.page-template-page-about {
  .profile_image_wrapper {
 	 
 	 img {
-		
+		max-width: 100%;
 	 }
  }
 
@@ -272,6 +273,49 @@ body.page-template-page-about {
 
 
 
+@media screen and (max-width: 1526px) {
+	
+	
+	
+	
+	body.page-template-page-about {
+	
+	
+	
+	.profile_top_wrapper {
+		&:after {
+			height: 737px;
+		}
+	}
+	
+	
+	
+	.profile_inner {
+    padding-left: 67px;
+  }
+  
+  
+  
+  .profile_header_wrapper {
+	  h1.bio_header {
+		  // line-height: 225px;
+	  }
+  } 
+	
+	
+	
+	
+	} // End of body.page-template-page-about, for using Attorney Bio Page where I can
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+
 @media screen and (max-width: 1390px) {
 	
 
@@ -292,6 +336,7 @@ body.page-template-page-about {
    
    h1.bio_header {
 	   line-height: 220px;
+	   
    }
  }
  
@@ -300,61 +345,11 @@ body.page-template-page-about {
 		margin:40px auto 175px;
 	}
 	
- 
-
-
-
-
-} // End of body.page-template-page-about, for using Attorney Bio Page where I can
-
 	
-	
-	
-	
-} /* Media Query */
-
-
-
-
-@media screen and (max-width: 1295px) {
-	
-	
-	
-	
-	
-	
-body.page-template-page-about {
-
-
-
-	.profile_top_wrapper:after {
-   
-    
-    
+	.profile_content {
+		margin-top: 42px;
 	}
-
-
-
-
-	.profile_header_wrapper {
-   	width:100%;
-   	margin-bottom:40px;
-	 	h1.bio_header {
-	   line-height: 150px;
-   	}
- 	}
- 
- 	.profile_image_wrapper {
-	 	width:100%;
-	 	img {
-		 	float:none;
-	 	}
- 	}
- 
- 
- 	.profile_inner {
-	 	padding-top:66px;
- 	}
+	
  
 
 
@@ -366,8 +361,9 @@ body.page-template-page-about {
 	
 	
 	
-	
 } /* Media Query */
+
+
 
 
 
@@ -379,25 +375,55 @@ body.page-template-page-about {
 	body.page-template-page-about {
 	
 		.profile_header_wrapper {
+			width:auto;
+			margin-bottom:40px;
+			margin-right:0;
 			h1.bio_header {
-    		font-size: 211px;
-				line-height: 167px;
-				}
+    		font-size: 150px;
+				line-height: 124px;
+				text-align: center;
+			}
 		} 
 	
 	
 	 	.profile_top_wrapper {
 			&:before {
-				height: 533px;
+				display: none;
 			}
 			&:after {
 				height: 533px;
 				right:0;
+				max-width: 100%;
 			}
 		}
+		
+		
+	.profile_image_wrapper {
+	 	width:100%;
+	 	img {
+		 	float:none;
+		 	display: block;
+		 	margin-left:auto;
+		 	margin-right:auto;
+	 	}
+ 	}
+ 
+ 
+ 	.profile_inner {
+	 	padding-top:66px;
+	 	display: block;
+	 	padding-left:45px;
+	 	padding-right:45px;
+ 	}
+ 	
+ 	
+ 	.profile_container {
+	 	clear: both;
+	 	padding-top:40px;
+ 	}
 	
 	
-	} // End of body.page-template-page-about, for using Attorney Bio Page where I can
+} // End of body.page-template-page-about, for using Attorney Bio Page where I can
 	
 	    
 	
@@ -405,6 +431,9 @@ body.page-template-page-about {
 	
 	
 } /* Media Query */
+
+
+
 
 
 
@@ -554,6 +583,46 @@ body.page-template-page-about {
 		width: calc(100% - 75px);
 	}
 }
+	
+	
+	
+} /* Media Query */
+
+
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+	body.page-template-page-about {
+		
+		.profile_header_wrapper {
+   		h1.bio_header {
+	 			line-height: 90px;
+	 			font-size: 100px;
+	 		}
+ 		}
+ 		
+ 		
+ 		.profile_inner {
+	 		padding-top: 58px;
+ 		}
+ 		
+ 		
+ 		.profile_container {
+	 		 padding-top: 0px;
+ 		}
+ 		
+ 		   
+		
+		
+		
+	} // End of body.page-template-page-about, for using Attorney Bio Page where I can
+	
+	
+	
 	
 	
 	
