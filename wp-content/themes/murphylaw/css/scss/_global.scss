@@ -51,6 +51,10 @@ img.aligncenter {
 	font-size: 18px;
 	line-height: 34px;
 	color:#031517;
+	strong {
+		color:$brown;
+		font-family: $proximabold;
+	}
 	h1.intro_header {
 		color:$brown;
 		font-family: $blanchlight;

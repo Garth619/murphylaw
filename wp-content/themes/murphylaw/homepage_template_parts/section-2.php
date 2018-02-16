@@ -37,7 +37,8 @@
 			
 				
 			<?php the_field( 'section_two_content' ); ?>
-				
+		
+							
 				
 <!--
 				<div class="video_wrapper">

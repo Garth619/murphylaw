@@ -205,3 +205,47 @@ function cc_mime_types($mimes)
 
 add_filter('upload_mimes', 'cc_mime_types');
 
+
+
+
+
+
+
+// Shortcode Internal Video
+
+function internal_video( $atts, $content = null ) { 
+	
+	$atts = shortcode_atts( array(
+       'wistia' => '',
+   ), $atts );
+	
+	
+	ob_start();?><div class="video_wrapper">
+					
+		<div class="video_inner_wrapper">
+						
+			<div class="play_button">
+										
+				<div class="play_button_inner">
+										
+					<span class="tri"></span>
+								
+				</div>
+							
+				<span class="white_square"></span>
+										
+			</div>
+					
+			<div class="video_wistia_wrapper wistia_embed wistia_async_<?php echo $atts['wistia']; ?> popover=true popoverContent=thumbnail"></div>
+						
+		</div>
+					
+		<span class="video_caption wistia_embed wistia_async_waichudc62 popover=true popoverContent=html">// Hear From Clients</span>
+					
+	</div><?php return ob_get_clean(); }
+
+
+
+add_shortcode( 'internalvideo', 'internal_video' );
+
+

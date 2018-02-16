@@ -309,7 +309,7 @@
 	}
 	
 	#sec_two_slide_fade {
-		opacity: 0;
+		// opacity: 0;
 	}
 	
 	
@@ -334,10 +334,12 @@
 	
 	
 	#sec_two_slide_fade.visible {
+/*
 		animation-name: fade, saints_move;
 		animation-duration: 500ms, 1400ms;
 		animation-fill-mode: both;
 		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
+*/
 	}
 	
 
