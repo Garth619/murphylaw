@@ -207,10 +207,6 @@ add_filter('upload_mimes', 'cc_mime_types');
 
 
 
-
-
-
-
 // Shortcode Internal Video
 
 function internal_video( $atts, $content = null ) { 
