@@ -540,7 +540,7 @@
 .single_comm {
 	.comm_logo_wrapper {
 		img {
-			opacity: 0;
+			// opacity: 0;
 		}
 	}
 } 
@@ -555,7 +555,7 @@
 
 
 .comm_buttons {
-	opacity: 0;
+	// opacity: 0;
 }
 
 
@@ -572,6 +572,7 @@
 	}
 	.single_comm {
 		.comm_logo_wrapper {
+/*
 			img {
 				animation-name: fade, comm_logo_move;
 				animation-duration: 500ms, 2500ms;
@@ -579,14 +580,17 @@
 				animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
 				animation-delay: 500ms;
 			}
+*/
 		}
 	}	
 	.comm_buttons {
+/*
 		animation-name: fade, comm_slick_buttons_move;
 		animation-duration: 500ms, 2500ms;
 		animation-fill-mode: both;
 		animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
 		animation-delay: 500ms;
+*/
 	} 
 }
 
@@ -606,16 +610,18 @@
 }
 
 #about_slideshow {
-	opacity: 0;
+	// opacity: 0;
 }
 
 
 #about_slideshow.visible {
+/*
 	animation-name: fade, about_slideshow;
 	animation-duration: 500ms, 1100ms;
 	animation-fill-mode: both;
 	animation-timing-function: linear, cubic-bezier(.17,.66,.34,.98);
 	animation-delay: 500ms;
+*/
 }
 
 
