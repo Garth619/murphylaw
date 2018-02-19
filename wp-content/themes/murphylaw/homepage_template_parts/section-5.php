@@ -5,6 +5,11 @@
 		
 		<?php echo file_get_contents("wp-content/themes/murphylaw/images/new-louis.svg"); ?>
 		
+		
+		
+		<?php the_field( 'section_five_title' ); ?>
+		
+<!--
 		<span class="sec_five_header">
 		
 			In The
@@ -13,16 +18,16 @@
 			
 				Community
 			
-			</span><!-- sec_five_lower_header -->
+			</span>
 		
-		</span><!-- sec_five_header -->
+		</span>
+-->
 		
 		<div class="sec_five_content">
 			
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultrices odio sit amet neque porttitor, eu semper lacus interdum. Morbi vel egestas enim. Nullam accumsan mauris eget fermentum varius.</p>
+			<p><?php the_field( 'section_five_intro' ); ?></p>
 			
-			
-			<a class="read_more" href="">Read More</a>
+			<a class="read_more" href="<?php the_field( 'read_more_page_link' ); ?>"><?php the_field( 'read_more_verbiage' ); ?></a>
 			
 		</div><!-- sec_five_content -->
 		
@@ -36,89 +41,43 @@
 		
 		<div class="comm_slideshow">
 			
-			<div class="single_comm">
-				
-				<div class="comm_logo_wrapper">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/logo-example.png"/>
-					
-				</div><!-- comm_logo_wrapper -->
-				
-				<div class="comm_content">
-					
-					<span class="comm_title">Organization Name</span>
-					
-					
-					<span class="comm_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultrices odio sit amet neque porttitor, eu semper lacus interdum. Morbi vel egestas enim. </span><!-- comm_content -->
-					
-					
-				</div><!-- comm_content -->
-				
-				
-			</div><!-- single_comm -->
 			
-			<div class="single_comm">
+			<?php if(get_field('community_excerpt')): ?>
+			 
+				<?php while(has_sub_field('community_excerpt')): ?>
+			 
+					
+					<div class="single_comm">
 				
-				<div class="comm_logo_wrapper">
+						<div class="comm_logo_wrapper">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/logo-example.png"/>
+							<?php $logo = get_sub_field( 'logo' ); ?>
+		
+							<?php if ( $logo ) { ?>
+								
+								<img src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>" />
+		
+							<?php } ?>
 					
-				</div><!-- comm_logo_wrapper -->
+						</div><!-- comm_logo_wrapper -->
 				
-				<div class="comm_content">
+						<div class="comm_content">
 					
-					<span class="comm_title">Organization Name Two</span>
+						<span class="comm_title"><?php the_sub_field( 'community_title' ); ?></span>
 					
+						<span class="comm_description"><?php the_sub_field( 'community_description' ); ?></span><!-- comm_content -->
 					
-					<span class="comm_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultrices odio sit amet neque porttitor, eu semper lacus interdum. Morbi vel egestas enim. </span><!-- comm_content -->
-					
-					
-				</div><!-- comm_content -->
+					</div><!-- comm_content -->
 				
-				
-			</div><!-- single_comm -->
+				</div><!-- single_comm -->
+					
+					
+			    
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
 			
-			<div class="single_comm">
-				
-				<div class="comm_logo_wrapper">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/logo-example.png"/>
-					
-				</div><!-- comm_logo_wrapper -->
-				
-				<div class="comm_content">
-					
-					<span class="comm_title">Organization Name Three</span>
-					
-					
-					<span class="comm_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultrices odio sit amet neque porttitor, eu semper lacus interdum. Morbi vel egestas enim. </span><!-- comm_content -->
-					
-					
-				</div><!-- comm_content -->
-				
-				
-			</div><!-- single_comm -->
-			
-			<div class="single_comm">
-				
-				<div class="comm_logo_wrapper">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/logo-example.png"/>
-					
-				</div><!-- comm_logo_wrapper -->
-				
-				<div class="comm_content">
-					
-					<span class="comm_title">Organization Name Four</span>
-					
-					
-					<span class="comm_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ultrices odio sit amet neque porttitor, eu semper lacus interdum. Morbi vel egestas enim. </span><!-- comm_content -->
-					
-					
-				</div><!-- comm_content -->
-				
-				
-			</div><!-- single_comm -->
+		
 			
 			<div class="comm_buttons">
 				
