@@ -7,7 +7,7 @@
 		"uuidString": "BCD99874-CA12-4633-9551-0D80470CAF0C"
 		}
 	],
-"creatorBuild": "26261",
+"creatorBuild": "26268",
 "files": {
 	"\/404.php": {
 		"cB": 0,
@@ -323,6 +323,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/homepage\/_section-two-b.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/homepage\/_section-two-b.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/homepage\/_section-two.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -586,6 +599,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/homepage_template_parts\/section-2.php",
+		"oF": 0
+		},
+	"\/homepage_template_parts\/section-2b.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/homepage_template_parts\/section-2b.php",
 		"oF": 0
 		},
 	"\/homepage_template_parts\/section-3.php": {
@@ -2112,6 +2132,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
