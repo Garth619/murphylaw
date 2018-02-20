@@ -6,20 +6,39 @@
 .contact_left {
 	flex-basis: 50%;
 	flex-shrink: 0;
-	padding:110px 70px 123px;
+	padding: 195px 70px 123px 5%;
 	.contact_left_inner {
 		width:100%;
-		float:right;
+		// float:right;
 		max-width:755px;
 		h1.contact_header {
 			font-weight: 300;
 			font-style: normal;
 			font-family: $blanchlight;
-			font-size: 185px;
+			font-size: 250px;
 			line-height: 160px;
 			color:$brown;
 			display: block;
-			margin-bottom:36px;
+			margin-bottom:43px;
+		}
+		span.firm_title {
+			display: block;
+			font-family: $proximaextrabold;
+			text-transform: uppercase;
+			color:#780c3d;
+			letter-spacing: 0.3em;
+			font-size: 20px;
+			margin-bottom:12px;
+			&:before {
+				content:"";
+				width:55px;
+				height:67px;
+				display: inline-block;
+				background: url(#{$themePath}images/new-saints2.svg) top left no-repeat;
+				position: relative;
+				top:13px;
+				margin-right:7px;
+			}
 		}
 		a.contact_page_address {
 			font-family:$proximareg;
@@ -30,18 +49,20 @@
 			text-decoration: none;
 			max-width: 334px;
 			transition: all .2s ease-in-out;
+			margin-left: 59px;
 			&:hover {
 				color:#471046;
 			}
 		}
 		a.contact_page_tel {
-			color:#2e6773;
+			color:#000;
 			display: block;
 			text-decoration: none;
 			font-size:37px;
 			font-family: $abhayabold;
 			display: block;
-			margin-top:32px;
+			margin-top: 21px;
+			margin-left: 59px;
 			transition: all .2s ease-in-out;
 			&:hover {
 				color:#471046;
@@ -50,16 +71,17 @@
 		a.contact_page_contact_button {
 			background: #471046;
 			color:#fff;
+			margin-left: 59px;
 			font-size: 17px;
 			letter-spacing: 0.15em;
 			text-decoration: none;
 			font-family: $proximablack;
 			text-transform: lowercase;
 			border-bottom:3px solid $brown;
-			padding:20px 45px;
+			padding:23px 45px;
 			display: inline-block;
 			box-shadow: 6px 7px 10px 0px rgba(10, 21, 42, 0.58);
-			margin-top:34px;
+			margin-top:25px;
 			transition: all .2s ease-in-out;
 			&:hover {
 				background: $brown;
@@ -71,6 +93,7 @@
 			margin-top:53px;
 			height:271px !important;
 			display: block;
+			margin-left: 59px;
 		}
 	}
 }
@@ -82,9 +105,70 @@
 .contact_right {
 	flex-basis: 50%;
 	flex-shrink: 0;
+/*
 	background: url(#{$themePath}images/int-contact-image.jpg) top right no-repeat;
 	background-size:cover;
+*/
 }
+
+
+
+@media screen and (max-width: 1690px) {
+	
+	
+	
+	
+	
+	.contact_left {
+		padding: 112px 70px 123px 5%;
+		.contact_left_inner {
+			h1.contact_header {
+				font-size: 196px;
+			}
+		}
+	} 
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1485px) {
+	
+	
+	
+	
+	.contact_left {
+		flex-basis: 53%;
+	}
+	
+	
+	.contact_right {
+		flex-basis: 47%;
+	}
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1370px) {
+	
+	.contact_left {
+		flex-basis: 57%;
+	}
+	
+	
+	.contact_right {
+		flex-basis: 43%;
+	}
+	
+	
+	
+} /* Media Query */
 
 
 @media screen and (max-width: 1300px) {
@@ -149,6 +233,25 @@
 } /* Media Query */
 
 
+
+@media screen and (max-width: 1195px) {
+	
+	
+	.contact_left {
+		flex-basis: 65%;
+	}
+	
+	
+	.contact_right {
+		flex-basis: 40%;
+	}
+	
+	
+	
+	
+} /* Media Query */
+
+
 @media screen and (max-width: 1060px) {
 	
 
@@ -161,13 +264,26 @@
 		max-width: 100%;
 		float:none;
 		text-align: center;
+		a.contact_page_tel, a.contact_page_address, a.contact_page_contact_button {
+			margin-left:0;
+		}
 		h1.contact_header {
 			line-height: 93px;
 			font-size: 110px;
+			margin-bottom: 7px;
 		}
 		iframe {
 			margin-left:auto;
 			margin-right:auto;
+		}
+		span.firm_title {
+			&:before {
+				margin-left:auto;
+				margin-right:auto;
+				display: block;
+				z-index:-1;
+				top:23px;
+			}
 		}
 	}
 }	
@@ -175,6 +291,8 @@
 .contact_right {
 	display: none;
 }
+
+
 
 
 } /* Media Query */

@@ -1,7 +1,9 @@
 #section_one {
 	width:100%;
+/*
 	background: url(#{$themePath}images/hero-desktop.jpg) top center no-repeat;
 	background-size: cover;
+*/
 	padding:185px 103px 200px;
 
 }
@@ -297,9 +299,11 @@ a.consultation_button {
 	
 	#section_one {
 		padding-bottom:0;
+/*
 		background: url(#{$themePath}images/hero-tablet.jpg) top right no-repeat;
 		background-size: 1060px auto;
 		background-position-y: -200px;
+*/
 	}
 	
 	
@@ -395,8 +399,10 @@ a.consultation_button {
 	
 	
 	#section_one {
+/*
 		background: url(#{$themePath}images/hero-mobile.jpg) top right no-repeat;
 		background-size:767px auto;
+*/
 		text-align: center;
 		padding: 77px 0px 0;
 		

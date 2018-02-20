@@ -30,6 +30,56 @@
 
 <?php wp_head(); ?>
 
+<style type="text/css">
+
+#section_one {
+	background: url(<?php the_field( 'sec_one_desktop_image' ); ?>) top center no-repeat;
+	background-size: cover;
+}
+
+
+.contact_right {
+	background: url(<?php the_field( 'contact_page_image' ); ?>) top right no-repeat;
+	background-size:cover;
+}
+
+
+.banner_wrapper {
+	background: url(<?php the_field( 'banner_background','option'); ?>) top center no-repeat;
+	background-size:cover;
+}
+
+
+@media screen and (max-width: 1060px) {
+	
+	
+	#section_one {
+		background: url(<?php the_field( 'sec_one_tablet_image' ); ?>) top right no-repeat;
+		background-size: 1060px auto;
+		background-position-y: -200px;
+	}
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 767px) {
+	
+
+
+#section_one {
+	background: url(<?php the_field( 'sec_one_mobile_image' ); ?>) top right no-repeat;
+	background-size:767px auto;
+}
+
+
+
+} /* Media Query */
+
+</style>
+
+
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -69,9 +119,9 @@
 		
 		<div class="phone">
 			
-			<a class="tel" href="tel:(225) 928-8800">(225) 928-8800</a><!-- tel -->
+			<a class="tel" href="tel:<?php the_field( 'phone',139); ?>"><?php the_field( 'phone',139); ?></a><!-- tel -->
 			
-			<span class="espanol">Se Habla Espanol</span><!-- espanol -->
+			<span class="espanol"><?php the_field( 'se_habla_espanol','option'); ?></span><!-- espanol -->
 			
 		</div><!-- phone -->
 			
