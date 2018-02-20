@@ -82,51 +82,31 @@
 		</div><!-- sec_two_content -->
 		
 		<div id="sec_two_slide_fade" class="sec_two_slideshow">
-				
-				<div class="sec_two_single_slide">
+			
+			
+			<?php if(get_field('about_logos',8)): ?>
+			 
+				<?php while(has_sub_field('about_logos',8)): ?>
+			 
+					<div class="sec_two_single_slide">
 					
-					<img src="<?php bloginfo('template_directory');?>/images/awards-01.png"/>
+						<?php $logo = get_sub_field( 'logo' ); ?>
+		
+						<?php if ( $logo ) { ?>
+			
+							<img src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>" />
+		
+						<?php } ?>
 					
-				</div><!-- sec_two_single_slide -->
-				
-				<div class="sec_two_single_slide">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/awards-02.png"/>
-					
-				</div><!-- sec_two_single_slide -->
-				
-				<div class="sec_two_single_slide">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/awards-03.png"/>
-					
-				</div><!-- sec_two_single_slide -->
-				
-				<div class="sec_two_single_slide">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/awards-04.png"/>
-					
-				</div><!-- sec_two_single_slide -->
-				
-				<div class="sec_two_single_slide">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/awards-05.png"/>
-					
-				</div><!-- sec_two_single_slide -->
-				
-				<div class="sec_two_single_slide">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/awards-06.png"/>
-					
-				</div><!-- sec_two_single_slide -->
-				
-				<div class="sec_two_single_slide">
-					
-					<img src="<?php bloginfo('template_directory');?>/images/awards-07.png"/>
-					
-				</div><!-- sec_two_single_slide -->
+					</div><!-- sec_two_single_slide -->
+			    
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
+			
 				
 				
-			</div><!-- sec_two_slideshow -->
+		</div><!-- sec_two_slideshow -->
 		
 		
 	</div><!-- sec_two_inner -->

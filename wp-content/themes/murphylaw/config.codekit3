@@ -671,7 +671,7 @@
 		},
 	"\/images\/attorney-bio-01-desktop-1400.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 43212,
 		"oA": 0,
 		"oAP": "\/images\/attorney-bio-01-desktop-1400.jpg",
 		"oF": 0,
@@ -681,7 +681,7 @@
 		},
 	"\/images\/attorney-bio-01-desktop.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 67923,
 		"oA": 0,
 		"oAP": "\/images\/attorney-bio-01-desktop.jpg",
 		"oF": 0,
@@ -691,7 +691,7 @@
 		},
 	"\/images\/attorney-bio-01-mobile.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 13685,
 		"oA": 0,
 		"oAP": "\/images\/attorney-bio-01-mobile.jpg",
 		"oF": 0,
@@ -701,7 +701,7 @@
 		},
 	"\/images\/attorney-bio-01-tablet.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 42085,
 		"oA": 0,
 		"oAP": "\/images\/attorney-bio-01-tablet.jpg",
 		"oF": 0,
@@ -801,7 +801,7 @@
 		},
 	"\/images\/attorneys\/att-013-tablet.jpg": {
 		"ft": 16384,
-		"iS": 21076,
+		"iS": 20117,
 		"oA": 0,
 		"oAP": "\/images\/attorneys\/att-013-tablet.jpg",
 		"oF": 0,
@@ -1071,7 +1071,7 @@
 		},
 	"\/images\/awards-01.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 4608,
 		"oA": 0,
 		"oAP": "\/images\/awards-01.png",
 		"oF": 0,
@@ -1082,7 +1082,7 @@
 		},
 	"\/images\/awards-02.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 7814,
 		"oA": 0,
 		"oAP": "\/images\/awards-02.png",
 		"oF": 0,
@@ -1093,7 +1093,7 @@
 		},
 	"\/images\/awards-03.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 17636,
 		"oA": 0,
 		"oAP": "\/images\/awards-03.png",
 		"oF": 0,
@@ -1104,7 +1104,7 @@
 		},
 	"\/images\/awards-04.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 12963,
 		"oA": 0,
 		"oAP": "\/images\/awards-04.png",
 		"oF": 0,
@@ -1115,7 +1115,7 @@
 		},
 	"\/images\/awards-05.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 12530,
 		"oA": 0,
 		"oAP": "\/images\/awards-05.png",
 		"oF": 0,
@@ -1126,7 +1126,7 @@
 		},
 	"\/images\/awards-06.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 10691,
 		"oA": 0,
 		"oAP": "\/images\/awards-06.png",
 		"oF": 0,
@@ -1137,7 +1137,7 @@
 		},
 	"\/images\/awards-07.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 7734,
 		"oA": 0,
 		"oAP": "\/images\/awards-07.png",
 		"oF": 0,
@@ -1148,7 +1148,7 @@
 		},
 	"\/images\/bg-pattern-01.jpg": {
 		"ft": 16384,
-		"iS": 44387,
+		"iS": 37175,
 		"oA": 0,
 		"oAP": "\/images\/bg-pattern-01.jpg",
 		"oF": 0,
@@ -1158,7 +1158,7 @@
 		},
 	"\/images\/bg-pattern-01.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 132102,
 		"oA": 0,
 		"oAP": "\/images\/bg-pattern-01.png",
 		"oF": 0,
@@ -1169,7 +1169,7 @@
 		},
 	"\/images\/bg-pattern-02.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 11408,
 		"oA": 0,
 		"oAP": "\/images\/bg-pattern-02.jpg",
 		"oF": 0,
@@ -1195,7 +1195,7 @@
 		"oAP": "\/images\/footer-image-desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/footer-image-mobile.jpg": {
@@ -1205,7 +1205,7 @@
 		"oAP": "\/images\/footer-image-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/footer-image-tablet.jpg": {
@@ -1215,7 +1215,7 @@
 		"oAP": "\/images\/footer-image-tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/hero-desktop.jpg": {
@@ -1235,7 +1235,7 @@
 		"oAP": "\/images\/hero-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/hero-tablet.jpg": {
@@ -1245,7 +1245,7 @@
 		"oAP": "\/images\/hero-tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/icon-baton-rouge.svg": {
@@ -1325,7 +1325,7 @@
 		"oAP": "\/images\/int-about-image-desktop-1400.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/int-about-image-desktop.jpg": {
@@ -1335,12 +1335,12 @@
 		"oAP": "\/images\/int-about-image-desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/int-about-image-mobile.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 20206,
 		"oA": 0,
 		"oAP": "\/images\/int-about-image-mobile.jpg",
 		"oF": 0,
@@ -1350,7 +1350,7 @@
 		},
 	"\/images\/int-about-image-tablet.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 55059,
 		"oA": 0,
 		"oAP": "\/images\/int-about-image-tablet.jpg",
 		"oF": 0,
@@ -1370,7 +1370,7 @@
 		},
 	"\/images\/int-hero-desktop.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 116699,
 		"oA": 0,
 		"oAP": "\/images\/int-hero-desktop.jpg",
 		"oF": 0,
@@ -1385,7 +1385,7 @@
 		"oAP": "\/images\/int-video-thumb-hover.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/int-video-thumb.jpg": {
@@ -1395,17 +1395,17 @@
 		"oAP": "\/images\/int-video-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/logo-example.png": {
 		"ft": 32768,
-		"iS": 5660,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/images\/logo-example.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1451,12 +1451,12 @@
 		},
 	"\/images\/new-att.jpg": {
 		"ft": 16384,
-		"iS": 84904,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/images\/new-att.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/new-email.svg": {
@@ -1481,12 +1481,12 @@
 		},
 	"\/images\/new-mobile.jpg": {
 		"ft": 16384,
-		"iS": 114127,
+		"iS": 0,
 		"oA": 0,
 		"oAP": "\/images\/new-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/new-phone2.svg": {
@@ -1552,7 +1552,7 @@
 		},
 	"\/images\/results-image-01-desktop.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 89172,
 		"oA": 0,
 		"oAP": "\/images\/results-image-01-desktop.jpg",
 		"oF": 0,
@@ -1562,7 +1562,7 @@
 		},
 	"\/images\/results-image-01-tablet.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 30000,
 		"oA": 0,
 		"oAP": "\/images\/results-image-01-tablet.jpg",
 		"oF": 0,
@@ -1572,7 +1572,7 @@
 		},
 	"\/images\/results-image-02-desktop.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 90000,
 		"oA": 0,
 		"oAP": "\/images\/results-image-02-desktop.jpg",
 		"oF": 0,
@@ -1582,7 +1582,7 @@
 		},
 	"\/images\/results-image-02-tablet.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 66257,
 		"oA": 0,
 		"oAP": "\/images\/results-image-02-tablet.jpg",
 		"oF": 0,
@@ -1592,7 +1592,7 @@
 		},
 	"\/images\/results-image-03-desktop.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 63299,
 		"oA": 0,
 		"oAP": "\/images\/results-image-03-desktop.jpg",
 		"oF": 0,
@@ -1647,7 +1647,7 @@
 		"oAP": "\/images\/video-thumb-tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/index.php": {
