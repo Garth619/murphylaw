@@ -54,6 +54,18 @@
 	<div class="profile_sidebar">
 		
 		
+		<div class="vcf_wrapper">
+			
+			<a class="" href="">
+			
+				<?php echo file_get_contents("wp-content/themes/murphylaw/images/vcf.svg"); ?>
+			
+				<span class="download_vcf">Download VCF</span><!-- downLoad_vcf -->
+			
+			</a>
+			
+		</div><!-- vcf_wrapper -->
+		
 		<?php if(get_field('sidebar')): ?>
 		 
 			<?php while(has_sub_field('sidebar')): ?>
@@ -66,7 +78,7 @@
 		 
 						<?php while(has_sub_field('sidebar_bullet')): ?>
 		 
-							<li><?php the_sub_field( 'bullet_title' ); ?></li>
+						<li><?php the_sub_field( 'bullet_title' ); ?></li>
 		    
 						<?php endwhile; ?>
 			
