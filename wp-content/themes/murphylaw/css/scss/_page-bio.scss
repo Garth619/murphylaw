@@ -132,6 +132,7 @@ span.bio_position {
 
 
 .vcf_wrapper {
+	display: inline-block;
 	&:hover {
 		a {
 			background: $brown;

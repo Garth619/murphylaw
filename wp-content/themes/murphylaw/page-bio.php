@@ -54,9 +54,11 @@
 	<div class="profile_sidebar">
 		
 		
+		<?php if ( get_field( 'vcf_upload' ) ) { ?>
+	
 		<div class="vcf_wrapper">
 			
-			<a class="" href="">
+			<a href="<?php the_field( 'vcf_upload' ); ?>">
 			
 				<?php echo file_get_contents("wp-content/themes/murphylaw/images/vcf.svg"); ?>
 			
@@ -65,6 +67,9 @@
 			</a>
 			
 		</div><!-- vcf_wrapper -->
+		
+		
+		<?php } ?>
 		
 		<?php if(get_field('sidebar')): ?>
 		 
