@@ -1,0 +1,35 @@
+.community_feed_intro {
+	color:$brown;
+	font-size:28px;
+	font-family: $proximareg;
+	line-height: 40px;
+	padding:10px 0 0;
+	display: block;
+}
+
+
+.communtiy_feed_wrapper {
+	margin:90px 0 0;
+}
+
+
+.community_feed_single {
+	border-bottom: 1px solid #eaeaea;
+	padding-bottom:80px;
+	&:not(:first-of-type) {
+		margin-top:35px;
+	}
+	h2.community_header {
+		font-size:16px;
+		font-family: $proximaextrabold;
+		text-transform: uppercase;
+		letter-spacing: 0.150em;
+		margin-top:30px;
+	}
+	span.community_excerpt {
+		font-size:18px;
+		font-family: $proximareg;
+		color:#031517;
+		line-height: 34px;
+	}
+}

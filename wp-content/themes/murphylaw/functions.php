@@ -264,3 +264,30 @@ function custom_upload_mimes ( $existing_mimes=array() ) {
 }
 
 
+
+// Community
+
+
+
+  add_action('init', 'community');    
+   	 
+	function community() {    
+    	$args = array(    
+        	'label' => __('Community'),    
+        	'singular_label' => __('Community Post'),    
+        	'public' => true,    
+        	'show_ui' => true,
+        	'has_archive' => false,	 
+        	'capability_type' => 'post',    
+        	'hierarchical' => false,    
+        	'rewrite' => true,    
+        	'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )    
+       	);    
+   	 
+    	register_post_type( 'community' , $args );    
+	}    
+
+
+
+
+

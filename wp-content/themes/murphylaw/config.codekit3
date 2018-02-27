@@ -167,6 +167,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/_page-community.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-community.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_page-contact.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1177,6 +1190,216 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/com-autism.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/com-autism.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/com-bella.jpg": {
+		"ft": 16384,
+		"iS": 27281,
+		"oA": 0,
+		"oAP": "\/images\/com-bella.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/com-bikers.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/com-bikers.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/com-cajun.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/com-cajun.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/com-cancer.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/com-cancer.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/com-cure.jpg": {
+		"ft": 16384,
+		"iS": 19055,
+		"oA": 0,
+		"oAP": "\/images\/com-cure.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/com-deer.jpg": {
+		"ft": 16384,
+		"iS": 17885,
+		"oA": 0,
+		"oAP": "\/images\/com-deer.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/com-dreams.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/com-dreams.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/com-ducks.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/com-ducks.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/com-emerge.jpg": {
+		"ft": 16384,
+		"iS": 13110,
+		"oA": 0,
+		"oAP": "\/images\/com-emerge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/com-episcopalo.jpg": {
+		"ft": 16384,
+		"iS": 16916,
+		"oA": 0,
+		"oAP": "\/images\/com-episcopalo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/com-firefighters.jpg": {
+		"ft": 16384,
+		"iS": 24726,
+		"oA": 0,
+		"oAP": "\/images\/com-firefighters.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/com-hope.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/images\/com-hope.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/com-hospital.jpg": {
+		"ft": 16384,
+		"iS": 31619,
+		"oA": 0,
+		"oAP": "\/images\/com-hospital.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/com-jacknjill.jpg": {
+		"ft": 16384,
+		"iS": 18477,
+		"oA": 0,
+		"oAP": "\/images\/com-jacknjill.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/com-marathon.jpg": {
+		"ft": 16384,
+		"iS": 14992,
+		"oA": 0,
+		"oAP": "\/images\/com-marathon.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/com-march.jpg": {
+		"ft": 16384,
+		"iS": 19365,
+		"oA": 0,
+		"oAP": "\/images\/com-march.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/com-relay.jpg": {
+		"ft": 16384,
+		"iS": 18165,
+		"oA": 0,
+		"oAP": "\/images\/com-relay.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/com-trackers.jpg": {
+		"ft": 16384,
+		"iS": 33178,
+		"oA": 0,
+		"oAP": "\/images\/com-trackers.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/com-youthoasis.jpg": {
+		"ft": 16384,
+		"iS": 34842,
+		"oA": 0,
+		"oAP": "\/images\/com-youthoasis.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/images\/com-zoo.jpg": {
+		"ft": 16384,
+		"iS": 19628,
+		"oA": 0,
+		"oAP": "\/images\/com-zoo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/images\/dots.png": {
 		"ft": 32768,
 		"iS": 999,
@@ -2034,6 +2257,13 @@
 		"oAP": "\/page-caseresults.php",
 		"oF": 0
 		},
+	"\/page-communityfeed.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-communityfeed.php",
+		"oF": 0
+		},
 	"\/page-contact.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -2102,6 +2332,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/sidebar-blog.php",
+		"oF": 0
+		},
+	"\/sidebar-community.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sidebar-community.php",
 		"oF": 0
 		},
 	"\/sidebar.php": {
