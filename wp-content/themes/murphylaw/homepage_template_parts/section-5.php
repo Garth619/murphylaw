@@ -27,7 +27,7 @@
 			
 			<p><?php the_field( 'section_five_intro' ); ?></p>
 			
-			<a class="read_more" href="<?php the_field( 'read_more_page_link' ); ?>"><?php the_field( 'read_more_verbiage' ); ?></a>
+			<a class="read_more" href="<?php echo get_post_type_archive_link( 'community_cpt' ); ?>"><?php the_field( 'read_more_verbiage' ); ?></a>
 			
 		</div><!-- sec_five_content -->
 		
@@ -42,16 +42,24 @@
 		<div class="comm_slideshow">
 			
 			
-			<?php if(get_field('community_excerpt')): ?>
-			 
-				<?php while(has_sub_field('community_excerpt')): ?>
-			 
-					
-					<div class="single_comm">
+			
+			
+			
+			<?php $posts = get_field('community_posts');
+			
+			if( $posts ): ?>
+			    
+			    
+			    
+			    <?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
+			        <?php setup_postdata($post); ?>
+			        
+			        
+			        <div class="single_comm">
 				
 						<div class="comm_logo_wrapper">
 					
-							<?php $logo = get_sub_field( 'logo' ); ?>
+							<?php $logo = get_field( 'logo' ); ?>
 		
 							<?php if ( $logo ) { ?>
 								
@@ -63,19 +71,24 @@
 				
 						<div class="comm_content">
 					
-						<span class="comm_title"><?php the_sub_field( 'community_title' ); ?></span>
+						<span class="comm_title"><?php the_title();?></span>
 					
-						<span class="comm_description"><?php the_sub_field( 'community_description' ); ?></span><!-- comm_content -->
+						<span class="comm_description"><?php the_content();?></span><!-- comm_content -->
 					
 					</div><!-- comm_content -->
 				
 				</div><!-- single_comm -->
-					
-					
+			   
+			   
+			    <?php endforeach; ?>
 			    
-				<?php endwhile; ?>
-			 
+			    
+			    
+			    
+			    
+			    <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
 			<?php endif; ?>
+
 			
 		
 			

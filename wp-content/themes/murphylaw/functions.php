@@ -269,23 +269,26 @@ function custom_upload_mimes ( $existing_mimes=array() ) {
 
 
 
-  add_action('init', 'community');    
+  add_action('init', 'community_cpt');    
    	 
-	function community() {    
+	function community_cpt() {    
     	$args = array(    
         	'label' => __('Community'),    
         	'singular_label' => __('Community Post'),    
         	'public' => true,    
         	'show_ui' => true,
-        	'has_archive' => false,	 
+        	'has_archive' => true,	 
         	'capability_type' => 'post',    
         	'hierarchical' => false,    
-        	'rewrite' => true,    
+        	'rewrite' => array('with_front' => false,'slug' => 'community'), 
         	'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )    
        	);    
    	 
-    	register_post_type( 'community' , $args );    
+    	register_post_type( 'community_cpt' , $args );    
 	}    
+
+
+
 
 
 

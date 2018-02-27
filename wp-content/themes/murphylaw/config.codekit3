@@ -16,6 +16,13 @@
 		"oAP": "\/404.php",
 		"oF": 0
 		},
+	"\/archive-community_cpt.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/archive-community_cpt.php",
+		"oF": 0
+		},
 	"\/archive.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -2257,13 +2264,6 @@
 		"oAP": "\/page-caseresults.php",
 		"oF": 0
 		},
-	"\/page-communityfeed.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/page-communityfeed.php",
-		"oF": 0
-		},
 	"\/page-contact.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -2346,6 +2346,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/sidebar.php",
+		"oF": 0
+		},
+	"\/single-community_cpt.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/single-community_cpt.php",
 		"oF": 0
 		},
 	"\/single.php": {
