@@ -71,7 +71,7 @@
 					
 									<span class="comm_title"><?php the_title();?></span>
 					
-									<span class="comm_description"><?php the_content();?></span><!-- comm_content -->
+									<span class="comm_description"><?php echo wp_trim_words( get_the_content(), 23, '...' );?></span><!-- comm_content -->
 					
 								</div><!-- comm_content -->
 				
