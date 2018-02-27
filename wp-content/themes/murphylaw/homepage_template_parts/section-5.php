@@ -41,9 +41,7 @@
 		
 		<div class="comm_slideshow">
 			
-			
-			
-			
+
 			
 			<?php $posts = get_field('community_posts');
 			
@@ -57,34 +55,30 @@
 			        
 			        <div class="single_comm">
 				
-						<div class="comm_logo_wrapper">
+								<div class="comm_logo_wrapper">
 					
-							<?php $logo = get_field( 'logo' ); ?>
-		
-							<?php if ( $logo ) { ?>
-								
-								<img src="<?php echo $logo['url']; ?>" alt="<?php echo $logo['alt']; ?>" />
-		
-							<?php } ?>
+									<?php $community_logo = get_field( 'community_logo' ); ?>
+
+									<?php if ( $community_logo ) { ?>
+	
+										<img src="<?php echo $community_logo['url']; ?>" alt="<?php echo $community_logo['alt']; ?>" />
+
+									<?php } ?>
 					
-						</div><!-- comm_logo_wrapper -->
+								</div><!-- comm_logo_wrapper -->
 				
-						<div class="comm_content">
+								<div class="comm_content">
 					
-						<span class="comm_title"><?php the_title();?></span>
+									<span class="comm_title"><?php the_title();?></span>
 					
-						<span class="comm_description"><?php the_content();?></span><!-- comm_content -->
+									<span class="comm_description"><?php the_content();?></span><!-- comm_content -->
 					
-					</div><!-- comm_content -->
+								</div><!-- comm_content -->
 				
-				</div><!-- single_comm -->
-			   
+							</div><!-- single_comm -->
 			   
 			    <?php endforeach; ?>
-			    
-			    
-			    
-			    
+
 			    
 			    <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
 			<?php endif; ?>
