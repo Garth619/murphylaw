@@ -2,6 +2,7 @@
 	overflow: hidden;
 	position: relative;
 	padding-bottom:170px;
+	min-height:1020px;
 	// display: flex;
 	&:after {
 		content:"";
@@ -252,6 +253,7 @@ span.sec_five_header {
 	
 	#section_five {
 		padding-bottom: 125px;
+		min-height: auto;
 	}
 	
 	

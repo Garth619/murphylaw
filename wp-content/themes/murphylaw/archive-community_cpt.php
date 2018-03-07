@@ -15,7 +15,7 @@
 
 			<h1 class="blog_title">In the Community</h1><!-- blog_title -->
 		
-			<span class="community_feed_intro">The following are community organizations and events that Murphy Law Firm has a history of supporting and participating with:</span>
+			<span class="community_feed_intro"><?php the_field( 'community_intro','option'); ?></span>
   
 			
 		<?php }?>
